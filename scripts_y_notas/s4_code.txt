@@ -1,0 +1,147 @@
+id="slide-4" data-topic="04 · Plantilla de Proceso">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <div>
+          <div class="breadcrumb-tag">04 &bull; Proceso de Soporte</div>
+          <h1 class="giant-title">Plantilla de Proceso</h1>
+          <p class="editorial-subtitle">
+            Proceso de Negocio: Gestionar incidentes y restauración de obras (Sección 2.3 del TPI)
+          </p>
+        </div>
+        <div style="opacity: 0.85; padding-top: 10px;">
+          {svg_rules_gear}
+        </div>
+      </div>
+
+      <div class="tpi-table-container reveal-item revealed">
+        <table class="tpi-table">
+          <thead>
+            <tr>
+              <th colspan="2" class="tpi-table-main-header">
+                Proceso de Negocio: Gestionar incidentes y restauración de obras
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tpi-col-label">Objetivo</td>
+              <td class="tpi-col-content">
+                Gestionar incidentes y restauración de obras mediante las rondas de vigilancia realizadas por el guardia, registrando los incidentes en el Módulo Web para que los supervisores tomen medidas en relación a la obra, envío a restauración, registro de baja de obra, etc.
+              </td>
+            </tr>
+            <tr>
+              <td class="tpi-col-label">Cliente del Proceso</td>
+              <td class="tpi-col-content">
+                Proceso: “Exponer obras de artes” (esencial).
+              </td>
+            </tr>
+            <tr>
+              <td class="tpi-col-label">Producto del Proceso</td>
+              <td class="tpi-col-content">
+                Informe generado con todos los incidentes ocurridos, y obra enviada a reparación.
+              </td>
+            </tr>
+            <tr>
+              <td class="tpi-col-label">Proveedores del proceso e insumos que brinda cada uno</td>
+              <td class="tpi-col-subtable-cell">
+                <table class="tpi-subtable">
+                  <thead>
+                    <tr>
+                      <th style="width: 50%;">Proveedor</th>
+                      <th style="width: 50%;">Insumo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Proceso: Gestionar ingreso de obras artísticas.</td>
+                      <td>Obra dañada</td>
+                    </tr>
+                    <tr>
+                      <td>&mdash;</td>
+                      <td>Obra registrada en Módulo Web</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="tpi-col-label">Recursos del proceso</td>
+              <td class="tpi-col-subtable-cell">
+                <table class="tpi-subtable">
+                  <thead>
+                    <tr>
+                      <th style="width: 50%;">Recursos Humanos</th>
+                      <th style="width: 50%;">Recursos Tecnológicos - Hardware</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Guardia del Museo</td>
+                      <td>Modulo Web de Soporte</td>
+                    </tr>
+                    <tr>
+                      <td>Supervisor</td>
+                      <td>PC</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="tpi-col-label">Formularios, registros e información del proceso</td>
+              <td class="tpi-col-subtable-cell">
+                <table class="tpi-subtable">
+                  <thead>
+                    <tr>
+                      <th style="width: 50%;">Formularios</th>
+                      <th style="width: 50%;">Registros e información</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Informe</td>
+                      <td>Incidente</td>
+                    </tr>
+                    <tr>
+                      <td>&mdash;</td>
+                      <td>Informe</td>
+                    </tr>
+                    <tr>
+                      <td>&mdash;</td>
+                      <td>Planificación de ronda de vigilancia</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="tpi-col-label">Reglas de Negocio</td>
+              <td class="tpi-col-subtable-cell">
+                <table class="tpi-subtable">
+                  <thead>
+                    <tr>
+                      <th style="width: 8%;">ID</th>
+                      <th style="width: 32%;">Regla de negocio</th>
+                      <th style="width: 60%;">Descripción</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="text-align: center; font-weight: 700; color: var(--blue-accent);">1.</td>
+                      <td style="font-weight: 600; color: #FFF;">Reingreso obligatorio a deposito</td>
+                      <td>Toda obra enviada a restauración, se haya podido reparar con exito o no, debe ingresar obligatoriamente al depósito del museo antes de definir su destino final o su baja</td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center; font-weight: 700; color: var(--blue-accent);">2.</td>
+                      <td style="font-weight: 600; color: #FFF;">Registro inmediato de incidente</td>
+                      <td>El guardia debe registrar el incidente de la obra de forma inmediata, indicando detalles del incidente.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+<!-- SLIDE 5: BPMN DESCRIPTIVO -->
+    <div class="slide" 

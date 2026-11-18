@@ -1,0 +1,275 @@
+=== ANALISIS DETALLADO DEL PDF: TPI ASI - Grupo 6 - 2K10.pdf ===
+
+--- PAGINA 1: CARATULA ---
+1 ========================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TPI ASI - Grupo 6 
+Caso: Museo de historia natural 
+ 
+ 
+Datos de la Universidad y Carrera: UTN - FRC - Ingenieria de sistemas de 
+información 
+Cátedra: Análisis de sistemas 
+Tema de la presentación:  
+Integrantes: 
+-Tarditti, Juan Sebastián - 400212 
+-Thomas Rapp, Francisco - 408990 
+-Abad, Francisco - 423269 
+-Molina, Tobias - 419749 
+-Moyano, Lucas Uriel - 410975 
+-Pereyra, Kevin - 418201 
+-Marcuzzi, Tomas - 403382 
+-Cufre, Agustín- 4191
+
+--- PAGINA 2: CONSIGNAS ---
+2 ========================================
+Consignas 
+1. Dominio bajo estudio  
+1.1 Nombre y objetivo general de la organización del dominio bajo estudio 
+2. Modelo de procesos de negocio 
+2.1 Identifique todos los procesos de negocio descritos en dominio bajo estudio y 
+objetivo de cada proceso  
+2.2 Realice la vista externa a través del Mapa de proceso de negocio 
+2.3 Describa para cada proceso esencial (del negocio) la Plantilla de Descripción de 
+Proceso.  
+2.4 Requerimientos funcionales y n
+
+--- PAGINA 3 Y 4: PROCESOS ---
+3 ========================================
+ 
+ 
+ 
+ 
+2.2. Mapa de procesos 
+ 
+ 
+2.3 Planilla de descripción del proceso de soporte Gestionar vigilancia 
+ 
+Proceso de Negocio: Gestionar incidentes y restauración de obras 
+Objetivo 
+Gestionar incidentes y restauración de obras mediante las rondas de 
+vi
+
+--- SECCION ACTORES ---
+Encontrado en Pagina 12:
+12 ========================================
+37.​Registrar modificación de guía: Modificar los datos personales, 
+disponibilidad horaria o especialidades de un guía existente en el sistema. 
+38.​Registrar baja de guía: Registrar la baja de un guía en el museo, asentando 
+la fecha y motivo. 
+39.​Consultar guía: Consultar la información, legajo y datos de un guía en 
+particular. 
+40.​Registrar estilo de obra: Registrar un nuevo estilo de obra en el sistema 
+para clasificar las obras de arte. 
+41.​Registrar baja estilo de obra: Registrar la baja de un estilo de obra en el 
+sistema. 
+42.​Consultar estilo de obra: Consultar los estilos de obra registrados en el 
+sistema. 
+Objetivos de Actores 
+1.​ Responsable de ingreso de obra: Personal encargado de registrar y 
+controlar el ingreso, catálogo y estado de las obras de arte del museo. 
+2.​ Administrador del museo: Personal encargado de planificar las 
+exposiciones, visitas guiadas y gestionar la baja de obras. 
+3.​ Responsable de atención al cliente: Personal encargado de la venta de 
+entradas al público y la contratación del servicio de guías. 
+4.​ Administrador web: Componente de software / temporizador del sistema 
+encargado de disparar la generación automática de la planificación diaria de 
+rondas. 
+5.​ Encargado de vigilancia: Personal encargado de consultar su planificación, 
+realizar las rondas de inspección en las salas y registrar los incidentes 
+detectados. 
+6.​ Encargado de supervisión: Personal encargado de generar y consultar los 
+informes diarios de vigilancia, patrones de incidentes, historial y el 
+seguimiento de resolución de obras dañadas. 
+7.​ Admin de sistema: Personal encargado de administrar los parámetros de 
+configuración y datos maestros del sistema (salas, materiales, tipos de 
+incidentes, guías y estilos). 
+8.​ Escuela: Actor externo (institución educativa) receptora de las invitaciones 
+emitidas por el museo para asistir a exposiciones y visitas planificadas. 
+9.​ Usuario: Personal habilitado encargado de autenticarse y gestionar el 
+acceso a su sesión en el sistema. 
+ 
+2.8. Plantilla de descripción de caso de uso y prototipo de interfaz del caso de uso 
+“Registrar incidente” 
+ 
+DESCRIPCIÓN DE CASO DE USO 
+ 
+
+
+
+--- SECCION OBJETIVOS DE CASOS DE USO ---
+Encontrado en Pagina 9:
+9 ========================================
+2.7 Diagrama de casos de uso
+ 
+ 
+Objetivos de los Casos de Uso 
+
+
+
+--- SECCION PLANTILLA / DESCRIPCION DE CASO DE USO ---
+Encontrado en Pagina 2 (resumen):
+  2 ========================================
+  Consignas 
+  1. Dominio bajo estudio  
+  1.1 Nombre y objetivo general de la organización del dominio bajo estudio 
+  2. Modelo de procesos de negocio 
+  2.1 Identifique todos los procesos de negocio descritos en dominio bajo estudio y 
+  objetivo de cada proceso  
+  2.2 Realice la vista externa a través del Mapa de proceso de negocio 
+  2.3 Describa para cada proceso esencial (del negocio) la Plantilla de Descripción de 
+  Proceso.  
+  2.4 Requerimientos funcionales y no funcionales  
+  2.5 Modele la vista interna a través del BPMN a Nivel descriptivo.  
+  2.6 Modele la vista interna a través del BPMN a Nivel operativo.  
+  2.7 Diagrama de casos de uso 
+  2.8 Plantilla de descripción de caso de uso y prototipo de interfaz del caso de uso 
+  “Registrar incidente” 
+  2.9 Diagrama de clases del caso de uso “Registrar incidente” 
+   
+  Respuestas 
+  1.1.  
+  Nombre de la organización: Museo De Historia Natural 
+  Objetivo: Exponer obras de artistas locales, nacionales e internacionales al público 
+  mediante el cobro de entradas, preservando las obras con un sistema de gestión de 
+  incidentes. 
+  2.1. 
+Encontrado en Pagina 6 (resumen):
+  6 ========================================
+  31.​Registrar venta de entrada 
+  32.​Registrar contratación de servicio adicional de guía 
+  33.​Consultar venta de entrada 
+  Gestionar Planificación y Rondas de Vigilancia 
+  34.​Generar planificación de rondas de vigilancia 
+  35.​Consultar planificación de rondas de vigilancia 
+  36.​Registrar revisión de sala 
+  Gestionar Incidentes 
+  37.​Registrar incidente 
+  38.​Consultar incidentes 
+  39.​Registrar seguimiento de resolución de incidente 
+  Generar Informes y Reportes 
+  40.​Generar informe diario de vigilancia 
+  41.​Generar reporte de patrones de incidentes 
+  42.​Consultar historial de incidentes 
+  Requerimientos No Funcionales 
+  1.​ Módulo Web de Soporte: El sistema deberá implementarse bajo una 
+  arquitectura web cliente-servidor accesible desde navegadores web 
+  modernos sin requerir instalación de software. 
+  2.​ Interfaz móvil para rondas: La aplicación deberá contar con una interfaz 
+  responsiva y táctil adaptada para tablets, permitiendo la visualización del 
+  plano interactivo de salas y el reporte inmediato durante las rondas de 
+  vigilancia. 
+   
+Encontrado en Pagina 10 (resumen):
+  10 ========================================
+  1.​ Registrar ingreso de obra: Registrar el ingreso de una nueva obra al 
+  museo, indicando autor, estilo, tipo de obra, dimensiones, material, valuación 
+  y empleado responsable. 
+  2.​ Registrar reingreso de obra: Registrar el reingreso de una obra al depósito 
+  del museo luego de ser restaurada. 
+  3.​ Consultar obra: Consultar la información, datos técnicos y estado de una 
+  obra en particular. 
+  4.​ Registrar baja de obra: Registrar la baja de una obra del catálogo del 
+  museo, especificando la fecha, motivo de baja y destino final. 
+  5.​ Registrar programación de exposiciones: Registrar el cronograma y 
+  detalle de una exposición, indicando las obras a exponer, salas asignadas y 
+  fechas de inicio y fin. 
+  6.​ Consultar programación de exposiciones: Consultar las exposiciones 
+  programadas en el museo, con su cronograma, salas asignadas y obras a 
+  exponer. 
+  7.​ Consultar planificación de visitas guiadas: Consultar las visitas guiadas 
+  planificadas para escuelas, visualizando fechas, horarios y estado de cada 
+  recorrido. 
+  8.​ Registrar planificación de visitas: Registrar la planificación de una visita 
+  guiada para escuelas, indicando fecha, horario, escuela participante y guías 
+  asignados. 
+  9.​ Generar invitaciones a escuelas: Generar y enviar las invitaciones a las 
+  escuelas para asistir a las exposiciones y visitas planificadas. 
+  10.​Registrar venta de entrada: Registrar la venta de una entrada al museo, 
+Encontrado en Pagina 12 (resumen):
+  12 ========================================
+  37.​Registrar modificación de guía: Modificar los datos personales, 
+  disponibilidad horaria o especialidades de un guía existente en el sistema. 
+  38.​Registrar baja de guía: Registrar la baja de un guía en el museo, asentando 
+  la fecha y motivo. 
+  39.​Consultar guía: Consultar la información, legajo y datos de un guía en 
+  particular. 
+  40.​Registrar estilo de obra: Registrar un nuevo estilo de obra en el sistema 
+  para clasificar las obras de arte. 
+  41.​Registrar baja estilo de obra: Registrar la baja de un estilo de obra en el 
+  sistema. 
+  42.​Consultar estilo de obra: Consultar los estilos de obra registrados en el 
+  sistema. 
+  Objetivos de Actores 
+  1.​ Responsable de ingreso de obra: Personal encargado de registrar y 
+  controlar el ingreso, catálogo y estado de las obras de arte del museo. 
+  2.​ Administrador del museo: Personal encargado de planificar las 
+  exposiciones, visitas guiadas y gestionar la baja de obras. 
+  3.​ Responsable de atención al cliente: Personal encargado de la venta de 
+  entradas al público y la contratación del servicio de guías. 
+  4.​ Administrador web: Componente de software / temporizador del sistema 
+  encargado de disparar la generación automática de la planificación diaria de 
+  rondas. 
+  5.​ Encargado de vigilancia: Personal encargado de consultar su planificación, 
+  realizar las rondas de inspección en las salas y registrar los incidentes 
+Encontrado en Pagina 13 (resumen):
+  13 ========================================
+  ID: 
+  Nombre Caso de Uso: Registrar incidente 
+  Actor Principal:  Encargado de vigilancia (EV) 
+  Actor Secundario: - 
+  Tipo de Caso de uso       x☐ Concreto                           ​
+  ☐ Abstracto 
+  Objetivo: Registrar incidente en un sala del museo, indicando la pieza involucrada y el tipo 
+  de incidente con la hora . 
+   
+  Pre-Condición: Usuario logueado en el Módulo Web de Soporte y sala seleccionada 
+   
+  Curso Normal 
+  1.​ El EV ingresa a la opción Reportar incidente 
+  2.​ El sistema solicita que ingrese el código del objeto 
+  3.​ El EV ingresa el código del objeto 
+  4.​ El sistema busca el código del objeto, y muestra sus datos 
+  5.​ El sistema solicita que se confirme que el objeto encontrado es el correcto 
+  6.​ El EV confirma el objeto encontrado 
+  7.​ El sistema solicita que se seleccione el tipo de incidente entre Deterioro natural, Deterioro 
+  provocado y Caida accidental. 
+  8.​ El EV selecciona el tipo de incidente 
+  9.​ El sistema muestra toda la información del incidente: hora, objeto involucrado, tipo de 
+  incidente 
+  10.​El sistema solicita que se confirme el registro del incidente 
+Encontrado en Pagina 15 (resumen):
+  15 ========================================
+  2.9 Diagrama de clases del caso de uso “Registrar incidente” 
+   
+   
+  https://app.diagrams.net/#G1TfviNKLgQjGiDRgWAmaD7ywTXa5W7xOT#%7B%22p
+  ageId%22%3A%22dcd_2k10%22%7D 
+   
+  
+
+--- BUSQUEDA DE DIAGRAMA DE CLASES EN EL PDF ---
+Mencion en Pagina 2:
+2 ========================================
+Consignas 
+1. Dominio bajo estudio  
+1.1 Nombre y objetivo general de la organización del dominio bajo estudio 
+2. Modelo de procesos de negocio 
+2.1 Identifique todos los procesos de negocio descritos en dominio bajo estudio y 
+objetivo de cada proceso  
+2.2 Realice la vista externa a través del Mapa de proceso de negocio 
+2.3 Describa para cada proceso 
+Mencion en Pagina 15:
+15 ========================================
+2.9 Diagrama de clases del caso de uso “Registrar incidente” 
+ 
+ 
+https://app.diagrams.net/#G1TfviNKLgQjGiDRgWAmaD7ywTXa5W7xOT#%7B%22p
+ageId%22%3A%22dcd_2k10%22%7D 
+ 

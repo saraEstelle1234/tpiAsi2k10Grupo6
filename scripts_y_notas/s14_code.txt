@@ -1,0 +1,1104 @@
+id="slide-14" data-topic="14 · Cierre y Agradecimiento">
+      <div class="card-dark" style="margin-bottom: 24px; position: relative; overflow: hidden; padding: 38px 44px; text-align: center;">
+        <div style="position: absolute; right: -40px; top: -40px; opacity: 0.08; pointer-events: none;">
+          <svg width="340" height="340" viewBox="0 0 200 200" fill="none">
+            <circle cx="100" cy="100" r="90" stroke="#2F6BFF" stroke-width="12"/>
+            <path d="M40 100 L85 145 L160 65" stroke="#2F6BFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="breadcrumb-tag" style="display: inline-flex; margin-bottom: 12px;">
+          {svg_check} Defensa Oral Finalizada &bull; Trabajo Práctico Integrador
+        </div>
+        <h1 class="giant-title" style="margin-bottom: 8px; font-size: 48px;">¡Muchas Gracias!</h1>
+        <p class="editorial-subtitle" style="max-width: 680px; margin: 0 auto 24px auto; font-size: 15px;">
+          Sistema de Gestión y Vigilancia Museológica &bull; Grupo 6 &bull; Curso 2K10 &bull; Cátedra de Análisis de Sistemas de Información &bull; UTN - FRC 2026
+        </p>
+
+        <div style="display: flex; justify-content: center; align-items: center; gap: 14px;">
+          <button class="btn-primary" onclick="goToSlide(1)" style="min-height: 48px; padding: 0 24px; font-size: 14px;">
+            Volver al inicio ↺
+          </button>
+          <button class="btn-secondary" onclick="openOverviewModal()" style="min-height: 48px; padding: 0 22px; font-size: 14px;">
+            {svg_grid} Ver los 14 slides
+          </button>
+        </div>
+      </div>
+
+      <!-- 9 Members Grid (Balanced 3x3) -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Abad, Francisco</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 423269</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Dominio bajo estudio y Objetivos organizacionales</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Cufre, Agustín</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 419166</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Procesos de Negocio y Mapa de Procesos</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Marcuzzi, Tomas</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 403382</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Plantilla de Proceso y Reglas de Negocio</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Jastrzebski, Emiliano</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 402760</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Modelado BPMN a Nivel Descriptivo y Operativo</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Molina, Tobias</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 419749</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Requerimientos Funcionales y No Funcionales</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Thomas Rapp, Francisco</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 408990</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Diagrama de Casos de Uso</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Moyano, Lucas Uriel</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 410975</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Plantilla de Caso de Uso CU-15 y Prototipo UI</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Tarditti, Juan Sebastián</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 400212</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Diagrama de Clases del Dominio</div>
+        </div>
+
+        <div class="card-dark" style="padding: 18px 20px;">
+          <div style="font-size: 15px; font-weight: 700; color: #FFF;">Pereyra, Kevin</div>
+          <div style="font-size: 12px; color: var(--text-light-secondary); font-family: monospace;">Legajo: 418201</div>
+          <div style="font-size: 12.5px; color: var(--text-light-secondary); margin-top: 6px;">Matriz de Trazabilidad Integral y Cierre</div>
+        </div>
+      </div>
+    </div>
+
+''')
+
+        # ========================================================
+        # macOS STYLE DOCK CONTAINER (SPRING + FISHEYE)
+        # ========================================================
+        out.write(f'''
+  <!-- Hotspot trigger zone at bottom (80px height) -->
+  <div class="dock-hotspot" id="dock-hotspot"></div>
+
+  <!-- Touch screen toggle handle -->
+  <button class="dock-touch-handle" id="dock-touch-handle" onclick="toggleDockTouch()" title="Abrir controles">
+    <span class="touch-bar"></span>
+  </button>
+
+  <!-- macOS Dock Container (Hidden by default, spring slide up) -->
+  <div class="mac-dock-container" id="mac-dock">
+    <div class="dock-item-wrapper">
+      <button class="dock-icon-btn" id="dock-btn-prev" onclick="handleDockClick(this, prevSlideAction)" aria-label="Slide anterior">
+        {svg_arrow_left}
+      </button>
+      <div class="dock-tooltip">Anterior (←)</div>
+    </div>
+
+    <div class="dock-counter-badge" id="dock-counter-text">01 / 14</div>
+
+    <div class="dock-item-wrapper">
+      <button class="dock-icon-btn btn-accent" id="dock-btn-next" onclick="handleDockClick(this, nextSlideAction)" aria-label="Avanzar">
+        {svg_arrow_right}
+      </button>
+      <div class="dock-tooltip">Siguiente (→ o Espacio)</div>
+    </div>
+
+    <div class="dock-divider-mac"></div>
+
+    <div class="dock-item-wrapper">
+      <button class="dock-icon-btn" onclick="handleDockClick(this, openOverviewModal)" aria-label="Vista general">
+        {svg_grid}
+      </button>
+      <div class="dock-tooltip">Vista general (O)</div>
+    </div>
+
+    <div class="dock-item-wrapper">
+      <button class="dock-icon-btn" onclick="handleDockClick(this, toggleFullscreen)" aria-label="Pantalla completa">
+        {svg_fullscreen}
+      </button>
+      <div class="dock-tooltip">Pantalla completa (F)</div>
+    </div>
+
+    <div class="dock-item-wrapper">
+      <button class="dock-icon-btn" onclick="handleDockClick(this, revealAllInCurrentSlide)" aria-label="Mostrar todo">
+        {svg_eye}
+      </button>
+      <div class="dock-tooltip">Mostrar todo (A)</div>
+    </div>
+
+    <div class="dock-item-wrapper">
+      <button class="dock-icon-btn" onclick="handleDockClick(this, openTutorialModal)" aria-label="Ayuda">
+        {svg_help}
+      </button>
+      <div class="dock-tooltip">Ayuda (?)</div>
+    </div>
+  </div>
+''')
+
+        # ========================================================
+        # MODALS: FULLSCREEN ZOOM, OVERVIEW GRID, TUTORIAL
+        # ========================================================
+        out.write(f'''
+  <!-- Fullscreen Zoom Modal with Pan & Wheel -->
+  <div class="zoom-fullscreen-modal" id="zoom-fullscreen-modal">
+    <div class="zoom-modal-top">
+      <div class="zoom-modal-title">
+        <span style="font-size: 11px; font-weight: 800; background: var(--blue-accent); color: #FFF; padding: 4px 10px; border-radius: 999px;">HD</span>
+        <span id="zoom-modal-title-text">Diagrama en Alta Resolución</span>
+      </div>
+      <button class="btn-secondary" onclick="closeZoomModal()" style="border-color: rgba(255,255,255,0.25);" title="Cerrar (Esc)">
+        Cerrar {svg_close}
+      </button>
+    </div>
+
+    <div class="zoom-viewport-stage" id="zoom-stage">
+      <div class="zoom-stage-content" id="zoom-stage-content">
+        <img id="zoom-modal-img" src="" alt="Diagrama">
+      </div>
+    </div>
+
+    <div class="zoom-controls-floating">
+      <button class="zoom-btn" onclick="modalZoomIn()" title="Acercar (+)">
+        {svg_plus} Acercar
+      </button>
+      <button class="zoom-btn" onclick="modalZoomOut()" title="Alejar (−)">
+        {svg_minus} Alejar
+      </button>
+      <span style="font-size: 13px; font-weight: 700; color: #FFF; min-width: 55px; text-align: center; font-family: monospace;" id="zoom-level-text">100%</span>
+      <button class="zoom-btn" onclick="modalResetZoom()" title="Ajustar a pantalla">
+        {svg_fit} Ajustar
+      </button>
+      <button class="zoom-btn" onclick="closeZoomModal()" style="background: rgba(255,255,255,0.18);" title="Cerrar (Esc)">
+        {svg_close} Cerrar
+      </button>
+    </div>
+  </div>
+
+  <!-- Overview Grid Modal (14 Slides) -->
+  <div class="overview-modal" id="overview-modal">
+    <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1400px; margin: 0 auto; width: 100%;">
+      <div>
+        <div class="breadcrumb-tag">Navegación Rápida</div>
+        <h2 style="font-size: 26px; font-weight: 800; color: #FFF;">Vista General de la Presentación &bull; 14 Slides</h2>
+      </div>
+      <button class="btn-primary" onclick="closeOverviewModal()">
+        Cerrar vista {svg_close}
+      </button>
+    </div>
+    <div class="overview-grid" id="overview-grid-container"></div>
+  </div>
+
+  <!-- Onboarding Mini-Tutorial Modal -->
+  <div class="tutorial-modal" id="tutorial-modal">
+    <div class="tutorial-card-body">
+      <div class="breadcrumb-tag">Instrucciones de Uso</div>
+      <h3 style="font-size: 24px; font-weight: 800; color: #FFF; margin-bottom: 14px;">Cómo Navegar la Presentación</h3>
+      <div style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 24px; font-size: 14px; line-height: 1.5; color: var(--text-light);">
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <div style="background: var(--blue-accent); color: #FFF; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0;">1</div>
+          <div><strong>Avanzar paso a paso:</strong> Usá las flechas del teclado (<code>&rarr;</code>, <code>&larr;</code>), la barra espaciadora o el botón flotante inferior. El botón <strong>Mostrar todo</strong> (o tecla <code>A</code>) revela todo el contenido del slide.</div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <div style="background: var(--blue-accent); color: #FFF; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0;">2</div>
+          <div><strong>Explorar diagramas:</strong> Hacé click en cualquier diagrama o en el botón <strong>Ampliar diagrama ↗</strong> para abrir el visor con zoom por rueda y arrastre con mouse.</div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start;">
+          <div style="background: var(--blue-accent); color: #FFF; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0;">3</div>
+          <div><strong>Dock estilo macOS:</strong> Mové el cursor hacia el borde inferior de la pantalla para desplegar la barra de controles flotante con efecto fisheye y resorte.</div>
+        </div>
+      </div>
+      <button class="btn-primary" style="width: 100%;" onclick="closeTutorialModal()">
+        Entendido {svg_check}
+      </button>
+    </div>
+  </div>
+''')
+
+        # ========================================================
+        # JAVASCRIPT SYSTEM
+        # ========================================================
+        out.write(f'''
+  </main>
+
+  <script>
+    // Embedded image assets dictionary
+    const diagramAssets = {{
+      b64_mapa: "{b64_mapa}",
+      b64_bpmn_desc: "{b64_bpmn_desc}",
+      b64_bpmn_oper: "{b64_bpmn_oper}",
+      b64_dcu: "{b64_dcu}",
+      b64_proto: "{b64_proto}",
+      b64_dcd: "{b64_dcd}"
+    }};
+
+    // Slide state (1 to 14)
+    let currentSlide = 1;
+    const totalSlides = 14;
+
+    const slideTitles = [
+      "01 · Portada y Equipo",
+      "02 · Dominio bajo Estudio",
+      "03 · Mapa de Procesos",
+      "04 · Plantilla de Proceso",
+      "05 · BPMN Nivel Descriptivo",
+      "06 · BPMN Nivel Operativo",
+      "07 · Requerimientos Funcionales",
+      "08 · Requerimientos No Funcionales",
+      "09 · Diagrama de Casos de Uso",
+      "10 · Plantilla de Caso de Uso",
+      "11 · Prototipo de Interfaz",
+      "12 · Diagrama de Clases",
+      "13 · Trazabilidad de Requerimientos",
+      "14 · Cierre y Agradecimiento"
+    ];
+
+    const headerCurNum = document.getElementById('header-cur-num');
+    const headerProgressLine = document.getElementById('header-progress-line');
+    const dockCounterText = document.getElementById('dock-counter-text');
+
+    function updateSlide() {{
+      for (let i = 1; i <= totalSlides; i++) {{
+        const el = document.getElementById('slide-' + i);
+        if (el) {{
+          if (i === currentSlide) {{
+            el.classList.add('active');
+          }} else {{
+            el.classList.remove('active');
+          }}
+        }}
+      }}
+
+      // Header and Dock Counter Formats
+      const numStr = (currentSlide < 10 ? '0' : '') + currentSlide;
+      if (headerCurNum) headerCurNum.textContent = numStr;
+      if (dockCounterText) dockCounterText.textContent = `${{numStr}} / ${{totalSlides}}`;
+
+      const progressPct = (currentSlide / totalSlides) * 100;
+      if (headerProgressLine) headerProgressLine.style.width = `${{progressPct}}%`;
+
+      window.scrollTo({{ top: 0, behavior: 'smooth' }});
+    }}
+
+    function nextSlide() {{
+      if (currentSlide < totalSlides) {{
+        currentSlide++;
+        renderTraceMatrixItems();
+    initExclusiveAccordion();
+    updateSlide();
+      }}
+    }}
+
+    function prevSlide() {{
+      if (currentSlide > 1) {{
+        currentSlide--;
+        renderTraceMatrixItems();
+    initExclusiveAccordion();
+    updateSlide();
+      }}
+    }}
+
+    function goToSlide(n) {{
+      if (n >= 1 && n <= totalSlides) {{
+        currentSlide = n;
+        renderTraceMatrixItems();
+    initExclusiveAccordion();
+    updateSlide();
+        closeOverviewModal();
+      }}
+    }}
+
+    // Progressive Reveal
+    function nextSlideAction() {{
+      const currentEl = document.getElementById('slide-' + currentSlide);
+      if (currentEl) {{
+        const unrevealed = currentEl.querySelectorAll('.reveal-item:not(.revealed)');
+        if (unrevealed.length > 0) {{
+          unrevealed[0].classList.add('revealed');
+          return;
+        }}
+      }}
+      nextSlide();
+    }}
+
+    function prevSlideAction() {{
+      const currentEl = document.getElementById('slide-' + currentSlide);
+      if (currentEl) {{
+        const revealed = currentEl.querySelectorAll('.reveal-item.revealed');
+        if (revealed.length > 0) {{
+          revealed[revealed.length - 1].classList.remove('revealed');
+          return;
+        }}
+      }}
+      prevSlide();
+    }}
+
+    function revealAllInCurrentSlide() {{
+      const currentEl = document.getElementById('slide-' + currentSlide);
+      if (currentEl) {{
+        currentEl.querySelectorAll('.reveal-item').forEach(el => el.classList.add('revealed'));
+      }}
+    }}
+
+    // Expandable cards toggle
+    function toggleExpandCard(cardEl) {{
+      const isExpanded = cardEl.classList.contains('expanded');
+      const siblings = cardEl.parentElement.querySelectorAll('.expandable-card');
+      siblings.forEach(s => s.classList.remove('expanded'));
+      if (!isExpanded) {{
+        cardEl.classList.add('expanded');
+      }}
+    }}
+
+    // Diagram Preset focus (DCU & DCD)
+    function setDiagramPreset(imgId, scale, tx, ty) {{
+      const img = document.getElementById(imgId);
+      if (img) {{
+        img.style.transform = `scale(${{scale}}) translate(${{tx}}%, ${{ty}}%)`;
+      }}
+      const btns = event.target.parentElement.querySelectorAll('.preset-btn');
+      btns.forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+    }}
+
+    // ========================================================
+    // macOS DOCK LOGIC (SPRING SLIDE + FISHEYE MAGNIFICATION)
+    // ========================================================
+    const macDock = document.getElementById('mac-dock');
+    const dockHotspot = document.getElementById('dock-hotspot');
+    const dockIcons = document.querySelectorAll('.dock-icon-btn');
+    let dockHideTimer = null;
+
+    function showMacDock() {{
+      if (dockHideTimer) clearTimeout(dockHideTimer);
+      macDock.classList.add('visible');
+    }}
+
+    function hideMacDockWithDelay() {{
+      if (dockHideTimer) clearTimeout(dockHideTimer);
+      dockHideTimer = setTimeout(() => {{
+        macDock.classList.remove('visible');
+      }}, 600);
+    }}
+
+    dockHotspot.addEventListener('mouseenter', showMacDock);
+    dockHotspot.addEventListener('mouseleave', hideMacDockWithDelay);
+    macDock.addEventListener('mouseenter', showMacDock);
+    macDock.addEventListener('mouseleave', hideMacDockWithDelay);
+
+    // Fisheye magnification on mousemove
+    macDock.addEventListener('mousemove', (e) => {{
+      const mouseX = e.clientX;
+      dockIcons.forEach(icon => {{
+        const rect = icon.getBoundingClientRect();
+        const iconCenterX = rect.left + rect.width / 2;
+        const dist = Math.abs(mouseX - iconCenterX);
+        const maxDist = 90;
+
+        if (dist < maxDist) {{
+          const factor = 1 - (dist / maxDist);
+          const scale = 1 + factor * 0.36; // Up to 1.36x
+          const translateY = -(factor * 6);
+          icon.style.transform = `scale(${{scale}}) translateY(${{translateY}}px)`;
+        }} else {{
+          icon.style.transform = 'scale(1) translateY(0)';
+        }}
+      }});
+    }});
+
+    macDock.addEventListener('mouseleave', () => {{
+      dockIcons.forEach(icon => {{
+        icon.style.transform = 'scale(1) translateY(0)';
+      }});
+    }});
+
+    // macOS click hop/bounce
+    function handleDockClick(btn, actionFn) {{
+      btn.classList.add('mac-jumping');
+      setTimeout(() => btn.classList.remove('mac-jumping'), 480);
+      if (actionFn) actionFn();
+    }}
+
+    function toggleDockTouch() {{
+      macDock.classList.toggle('visible');
+    }}
+
+    // ========================================================
+    // ZOOM MODAL WITH PAN & WHEEL
+    // ========================================================
+    const zoomModal = document.getElementById('zoom-fullscreen-modal');
+    const zoomModalImg = document.getElementById('zoom-modal-img');
+    const zoomModalTitle = document.getElementById('zoom-modal-title-text');
+    const zoomStage = document.getElementById('zoom-stage');
+    const zoomStageContent = document.getElementById('zoom-stage-content');
+    const zoomLevelText = document.getElementById('zoom-level-text');
+
+    let currentZoom = 1;
+    let panX = 0, panY = 0;
+    let isDragging = false;
+    let startX = 0, startY = 0;
+
+    function applyZoomTransform() {{
+      zoomStageContent.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{currentZoom}})`;
+      zoomLevelText.textContent = `${{Math.round(currentZoom * 100)}}%`;
+    }}
+
+    function openZoomModal(assetKey, title) {{
+      const assetSrc = diagramAssets[assetKey] || assetKey;
+      zoomModalImg.src = assetSrc;
+      zoomModalTitle.textContent = title;
+      currentZoom = 1;
+      panX = 0;
+      panY = 0;
+      applyZoomTransform();
+      zoomModal.classList.add('active');
+    }}
+
+    function closeZoomModal() {{
+      zoomModal.classList.remove('active');
+    }}
+
+    function modalZoomIn() {{
+      currentZoom = Math.min(currentZoom + 0.25, 4.0);
+      applyZoomTransform();
+    }}
+
+    function modalZoomOut() {{
+      currentZoom = Math.max(currentZoom - 0.25, 0.5);
+      applyZoomTransform();
+    }}
+
+    function modalResetZoom() {{
+      currentZoom = 1;
+      panX = 0;
+      panY = 0;
+      applyZoomTransform();
+    }}
+
+    zoomStage.addEventListener('wheel', (e) => {{
+      e.preventDefault();
+      const delta = e.deltaY * -0.0015;
+      currentZoom = Math.min(Math.max(0.5, currentZoom + delta), 4.0);
+      applyZoomTransform();
+    }}, {{ passive: false }});
+
+    zoomStage.addEventListener('mousedown', (e) => {{
+      isDragging = true;
+      startX = e.clientX - panX;
+      startY = e.clientY - panY;
+    }});
+
+    window.addEventListener('mousemove', (e) => {{
+      if (!isDragging) return;
+      panX = e.clientX - startX;
+      panY = e.clientY - startY;
+      applyZoomTransform();
+    }});
+
+    window.addEventListener('mouseup', () => {{
+      isDragging = false;
+    }});
+
+    zoomStage.addEventListener('dblclick', () => {{
+      if (currentZoom === 1) {{
+        currentZoom = 2.0;
+      }} else {{
+        modalResetZoom();
+      }}
+      applyZoomTransform();
+    }});
+
+    // ========================================================
+    // OVERVIEW GRID MODAL (14 SLIDES)
+    // ========================================================
+    const overviewModal = document.getElementById('overview-modal');
+    const overviewGrid = document.getElementById('overview-grid-container');
+
+    function buildOverviewGrid() {{
+      overviewGrid.innerHTML = '';
+      slideTitles.forEach((title, idx) => {{
+        const card = document.createElement('div');
+        const num = idx + 1;
+        card.className = 'overview-card-item' + (num === currentSlide ? ' current' : '');
+        card.innerHTML = `
+          <div style="font-size: 11px; font-weight: 700; color: var(--blue-accent);">SLIDE ${{String(num).padStart(2, '0')}}</div>
+          <div style="font-size: 14.5px; font-weight: 700; color: #FFF;">${{title.split(' · ')[1] || title}}</div>
+        `;
+        card.onclick = () => {{
+          goToSlide(num);
+          closeOverviewModal();
+        }};
+        overviewGrid.appendChild(card);
+      }});
+    }}
+
+    function openOverviewModal() {{
+      buildOverviewGrid();
+      overviewModal.classList.add('active');
+    }}
+
+    function closeOverviewModal() {{
+      overviewModal.classList.remove('active');
+    }}
+
+    // ========================================================
+    // ONBOARDING MINI-TUTORIAL MODAL
+    // ========================================================
+    const tutorialModal = document.getElementById('tutorial-modal');
+    function openTutorialModal() {{
+      tutorialModal.classList.add('active');
+    }}
+
+    function closeTutorialModal() {{
+      tutorialModal.classList.remove('active');
+    }}
+
+    // ========================================================
+    // FULLSCREEN TOGGLE
+    // ========================================================
+    function toggleFullscreen() {{
+      if (!document.fullscreenElement) {{
+        document.documentElement.requestFullscreen().catch(() => {{}});
+      }} else {{
+        if (document.exitFullscreen) {{
+          document.exitFullscreen();
+        }}
+      }}
+    }}
+
+    // ========================================================
+    // KEYBOARD NAVIGATION
+    // ========================================================
+    window.addEventListener('keydown', (e) => {{
+      if (zoomModal.classList.contains('active')) {{
+        if (e.key === 'Escape') closeZoomModal();
+        return;
+      }}
+      if (overviewModal.classList.contains('active')) {{
+        if (e.key === 'Escape' || e.key.toLowerCase() === 'o') closeOverviewModal();
+        return;
+      }}
+      if (tutorialModal.classList.contains('active')) {{
+        if (e.key === 'Escape') closeTutorialModal();
+        return;
+      }}
+
+      if (e.key === 'ArrowRight' || e.key === ' ') {{
+        e.preventDefault();
+        nextSlideAction();
+      }} else if (e.key === 'ArrowLeft') {{
+        e.preventDefault();
+        prevSlideAction();
+      }} else if (e.key.toLowerCase() === 'o') {{
+        openOverviewModal();
+      }} else if (e.key.toLowerCase() === 'f') {{
+        toggleFullscreen();
+      }} else if (e.key.toLowerCase() === 'a') {{
+        revealAllInCurrentSlide();
+      }} else if (e.key === '?' || e.key.toLowerCase() === 'h') {{
+        openTutorialModal();
+      }}
+    }});
+
+    // ========================================================
+    // TRACEABILITY MATRIX DATA INTERACTION (SLIDE 14)
+    // ========================================================
+    
+    // ========================================================
+    
+    // ========================================================
+    // COMPREHENSIVE TRACEABILITY MATRIX (RF <-> CU <-> DCD)
+    // ========================================================
+    const fullTraceData = [
+      {{
+        rf: 'RF-01',
+        name: 'Registrar ingreso de obra',
+        cat: 'OBRAS',
+        cu: 'CU-01 Registrar ingreso de obra',
+        actor: 'Responsable de ingreso de obra',
+        dcd: 'Obra, Autor, Estilo, Material, TipoObra, TipoIngreso',
+        methods: 'obra.crear(), autor.asociar(), estilo.vincular()',
+        rationale: 'Da de alta la obra en el inventario patrimonial. El CU-01 captura los datos y el DCD persiste la entidad Obra asociada a sus catálogos maestros de clasificación.'
+      }},
+      {{
+        rf: 'RF-02',
+        name: 'Consultar obra',
+        cat: 'OBRAS',
+        cu: 'CU-03 Consultar obra',
+        actor: 'Responsable de ingreso, Supervisor',
+        dcd: 'Obra, Estado, Sala, Exposicion',
+        methods: 'obra.getDatos(), obra.getEstadoActual()',
+        rationale: 'Permite consultar la ficha técnica y localización de cualquier obra. En el DCD se materializa mediante las asociaciones de Obra con Estado y Sala.'
+      }},
+      {{
+        rf: 'RF-03',
+        name: 'Registrar baja de obra',
+        cat: 'OBRAS',
+        cu: 'CU-42 Registrar baja de obra',
+        actor: 'Admin de sistema, Supervisor',
+        dcd: 'Obra, Estado',
+        methods: 'obra.darDeBaja(), estado.transicionar("Baja")',
+        rationale: 'Formaliza la salida del catálogo de una obra irrecuperable o dada de baja. Actualiza el puntero de Estado en el DCD para auditoría histórica.'
+      }},
+      {{
+        rf: 'RF-04',
+        name: 'Registrar tipo de obra',
+        cat: 'MAESTROS',
+        cu: 'CU-05 / Parámetros Maestros',
+        actor: 'Admin de sistema',
+        dcd: 'TipoObra',
+        methods: 'tipoObra.crear()',
+        rationale: 'Parametriza los tipos (escultura, pintura, objeto animado). En el DCD alimenta la clasificación consumida por la entidad Obra.'
+      }},
+      {{
+        rf: 'RF-07',
+        name: 'Registrar tipo de material',
+        cat: 'MAESTROS',
+        cu: 'CU-28 Registrar tipo de material',
+        actor: 'Admin de sistema',
+        dcd: 'Material',
+        methods: 'material.crear()',
+        rationale: 'Normaliza los materiales artísticos (óleo, lienzo, bronce). El DCD vincula Material con Obra para calibrar protocolos de conservación.'
+      }},
+      {{
+        rf: 'RF-10',
+        name: 'Registrar sala',
+        cat: 'MAESTROS',
+        cu: 'CU-24 Registrar sala nueva',
+        actor: 'Admin de sistema',
+        dcd: 'Sala',
+        methods: 'sala.crear()',
+        rationale: 'Da de alta espacios de exhibición física. En el DCD la Sala es el contenedor espacial de las Obras y el destino de las Rondas.'
+      }},
+      {{
+        rf: 'RF-11',
+        name: 'Consultar sala',
+        cat: 'MAESTROS',
+        cu: 'CU-27 Consultar salas',
+        actor: 'Admin de sistema, Supervisor',
+        dcd: 'Sala, Obra',
+        methods: 'sala.getObrasExpuestas()',
+        rationale: 'Permite inspeccionar la ocupación y obras activas en sala. En el DCD navega la relación Sala-Obra (1 a 1..*).'
+      }},
+      {{
+        rf: 'RF-12',
+        name: 'Modificar sala',
+        cat: 'MAESTROS',
+        cu: 'CU-25 Modificar sala',
+        actor: 'Admin de sistema',
+        dcd: 'Sala',
+        methods: 'sala.modificarDatos()',
+        rationale: 'Actualiza nombre, capacidad o aforo. Modifica los atributos de la entidad Sala en el DCD.'
+      }},
+      {{
+        rf: 'RF-13',
+        name: 'Registrar baja de sala',
+        cat: 'MAESTROS',
+        cu: 'CU-26 Registrar baja de sala',
+        actor: 'Admin de sistema',
+        dcd: 'Sala',
+        methods: 'sala.darDeBaja()',
+        rationale: 'Inhabilita una sala por reformas. Valida que no contenga obras activas antes de persistir la baja en el DCD.'
+      }},
+      {{
+        rf: 'RF-14',
+        name: 'Registrar guía',
+        cat: 'MAESTROS',
+        cu: 'CU-35 Registrar alta de guía',
+        actor: 'Admin de sistema',
+        dcd: 'Guia',
+        methods: 'guia.crear()',
+        rationale: 'Incorpora personal al cuerpo de guías. Persiste datos de contacto e idiomas en la entidad Guia del DCD.'
+      }},
+      {{
+        rf: 'RF-15',
+        name: 'Consultar guía',
+        cat: 'MAESTROS',
+        cu: 'CU-38 Consultar guía',
+        actor: 'Admin de sistema, Encargado',
+        dcd: 'Guia, VisitaGuiada',
+        methods: 'guia.getAgenda()',
+        rationale: 'Permite revisar la carga horaria y recorridos asignados a un guía en el DCD.'
+      }},
+      {{
+        rf: 'RF-18',
+        name: 'Registrar estilo de obra',
+        cat: 'MAESTROS',
+        cu: 'CU-39 Registrar estilo de obra',
+        actor: 'Admin de sistema',
+        dcd: 'Estilo',
+        methods: 'estilo.crear()',
+        rationale: 'Estandariza corrientes históricas (barroco, cubismo, renacentista) asociadas a las Obras en el DCD.'
+      }},
+      {{
+        rf: 'RF-19',
+        name: 'Consultar estilo de obra',
+        cat: 'MAESTROS',
+        cu: 'CU-41 Consultar estilo de obra',
+        actor: 'Admin de sistema',
+        dcd: 'Estilo',
+        methods: 'estilo.listar()',
+        rationale: 'Provee el catálogo consumido durante el alta de obras y curaduría de muestras.'
+      }},
+      {{
+        rf: 'RF-21',
+        name: 'Registrar tipo de incidente',
+        cat: 'MAESTROS',
+        cu: 'CU-31 Registrar tipo de incidente',
+        actor: 'Admin de sistema',
+        dcd: 'TipoIncidente',
+        methods: 'tipoIncidente.crear()',
+        rationale: 'Define las tipologías de daño (deterioro natural, provocado, caída accidental). En el DCD es mandatorio para Incidente (1 a 1).'
+      }},
+      {{
+        rf: 'RF-22',
+        name: 'Consultar tipo de incidente',
+        cat: 'MAESTROS',
+        cu: 'CU-34 Consultar tipo de incidente',
+        actor: 'Admin de sistema, Guardia',
+        dcd: 'TipoIncidente',
+        methods: 'tipoIncidente.listarActivos()',
+        rationale: 'Suministra las opciones mostradas en el selector del formulario táctil del CU-15 en tablet.'
+      }},
+      {{
+        rf: 'RF-24',
+        name: 'Registrar programación de exposiciones',
+        cat: 'MAESTROS',
+        cu: 'CU-05 Registrar programación de exposiciones',
+        actor: 'Administrador del museo',
+        dcd: 'Exposicion, Obra, Sala',
+        methods: 'exposicion.planificar(), obra.asignarSala()',
+        rationale: 'Cronograma de muestras artísticas. Asocia obras a salas específicas durante un período determinado en el DCD.'
+      }},
+      {{
+        rf: 'RF-25',
+        name: 'Consultar programación de exposiciones',
+        cat: 'MAESTROS',
+        cu: 'CU-06 Consultar exposiciones',
+        actor: 'Administrador del museo, Público',
+        dcd: 'Exposicion, Sala',
+        methods: 'exposicion.listarVigentes()',
+        rationale: 'Permite consultar cartelera y salas asignadas. En el DCD consulta la entidad Exposicion.'
+      }},
+      {{
+        rf: 'RF-26',
+        name: 'Registrar planificación de visitas guiadas',
+        cat: 'MAESTROS',
+        cu: 'CU-08 Registrar planificación de visitas',
+        actor: 'Administrador del museo',
+        dcd: 'VisitaGuiada, Guia, Sala',
+        methods: 'visita.crear(), guia.asignar()',
+        rationale: 'Agenda recorridos pedagógicos coordinando guía y salas en el DCD.'
+      }},
+      {{
+        rf: 'RF-27',
+        name: 'Consultar planificación de visitas guiadas',
+        cat: 'MAESTROS',
+        cu: 'CU-07 Consultar visitas guiadas',
+        actor: 'Administrador del museo',
+        dcd: 'VisitaGuiada',
+        methods: 'visita.listarPorFecha()',
+        rationale: 'Control de aforo y visitas confirmadas para evitar superposiciones con las rondas de guardia.'
+      }},
+      {{
+        rf: 'RF-28',
+        name: 'Consultar agenda de guías',
+        cat: 'MAESTROS',
+        cu: 'CU-11 Consultar agenda de guías',
+        actor: 'Administrador del museo, Guía',
+        dcd: 'Guia, VisitaGuiada',
+        methods: 'guia.getDisponibilidad()',
+        rationale: 'Verifica disponibilidad del personal para asignación de nuevos recorridos en el DCD.'
+      }},
+      {{
+        rf: 'RF-29',
+        name: 'Registrar venta de entrada',
+        cat: 'MAESTROS',
+        cu: 'CU-09 Registrar venta de entrada',
+        actor: 'Responsable de atención al cliente',
+        dcd: 'Entrada, Tarifa, Visitante',
+        methods: 'entrada.emitir(), tarifa.calcular()',
+        rationale: 'Regula el ingreso de público y cobro de tarifas. Persiste la venta en la entidad Entrada del DCD.'
+      }},
+      {{
+        rf: 'RF-30',
+        name: 'Contratar servicio adicional de guía',
+        cat: 'MAESTROS',
+        cu: 'CU-10 Registrar servicio adicional de guía',
+        actor: 'Responsable de atención al cliente',
+        dcd: 'Entrada, Guia',
+        methods: 'entrada.agregarServicioGuia()',
+        rationale: 'Adiciona el guiado profesional a la entrada del visitante en el DCD.'
+      }},
+      {{
+        rf: 'RF-31',
+        name: 'Consultar venta de entrada',
+        cat: 'MAESTROS',
+        cu: 'CU-32 Consultar venta de entrada',
+        actor: 'Responsable de atención al cliente',
+        dcd: 'Entrada',
+        methods: 'entrada.getDetalle()',
+        rationale: 'Auditoría de recaudación y cantidad de personas que ingresaron a las salas del museo.'
+      }},
+      {{
+        rf: 'RF-32',
+        name: 'Generar planificación de rondas de vigilancia',
+        cat: 'INCIDENTES',
+        cu: 'CU-12 Generar planificación de rondas',
+        actor: 'Administrador web (Automático)',
+        dcd: 'Guardia, Sala, SalaXGuardia',
+        methods: 'guardia.asignarRonda(), salaXGuardia.crear()',
+        rationale: 'Disparador automático del sistema que programa el cronograma de inspección y genera las instancias de SalaXGuardia en el DCD.'
+      }},
+      {{
+        rf: 'RF-33',
+        name: 'Consultar planificación de rondas de vigilancia',
+        cat: 'INCIDENTES',
+        cu: 'CU-13 Consultar planificación ronda',
+        actor: 'Encargado de vigilancia (EV)',
+        dcd: 'Guardia, SalaXGuardia, Sala',
+        methods: 'guardia.getRondasTurno()',
+        rationale: 'Permite al guardia consultar en su tablet las salas asignadas para su turno de patrullaje.'
+      }},
+      {{
+        rf: 'RF-34',
+        name: 'Registrar revisión de sala',
+        cat: 'INCIDENTES',
+        cu: 'CU-14 Registrar revisión de la sala',
+        actor: 'Encargado de vigilancia (EV)',
+        dcd: 'SalaXGuardia, Guardia, Sala',
+        methods: 'salaXGuardia.marcarVerificada(), salaXGuardia.setFin()',
+        rationale: 'Certifica la inspección presencial del guardia en la sala, estampando marca de tiempo en la clase asociativa SalaXGuardia.'
+      }},
+      {{
+        rf: 'RF-35',
+        name: 'Registrar incidente',
+        cat: 'INCIDENTES',
+        cu: 'CU-15 Registrar incidente',
+        actor: 'Encargado de vigilancia (EV)',
+        dcd: 'Incidente, TipoIncidente, Obra, Estado',
+        methods: 'incidente.crear(), obra.registrarIncidente(), estado.setInactivo()',
+        rationale: 'Núcleo del proceso de soporte (RN-2). El CU-15 persiste la entidad Incidente vinculada obligatoriamente a TipoIncidente y actualiza la Obra a estado Inactivo.'
+      }},
+      {{
+        rf: 'RF-36',
+        name: 'Consultar incidentes',
+        cat: 'INCIDENTES',
+        cu: 'CU-17 Consultar incidente',
+        actor: 'Encargado de supervisión',
+        dcd: 'Incidente, Obra, TipoIncidente',
+        methods: 'incidente.listarPendientes(), obra.getHistorial()',
+        rationale: 'Permite al supervisor examinar las denuncias cargadas por los guardias para decidir derivación a talleres o bajas.'
+      }},
+      {{
+        rf: 'RF-37',
+        name: 'Registrar seguimiento de resolución de incidente',
+        cat: 'INCIDENTES',
+        cu: 'CU-23 Registrar seguimiento',
+        actor: 'Encargado de supervisión',
+        dcd: 'Incidente, Obra',
+        methods: 'incidente.actualizarResolucion()',
+        rationale: 'Rastrea el informe de peritaje y los avances de la restauración de piezas afectadas.'
+      }},
+      {{
+        rf: 'RF-40',
+        name: 'Registrar obra a restaurar',
+        cat: 'OBRAS',
+        cu: 'CU-04 Registrar obra a restaurar',
+        actor: 'Responsable de ingreso, Supervisor',
+        dcd: 'Obra, Estado',
+        methods: 'obra.enviarARestauracion(), estado.transicionar("En Restauración")',
+        rationale: 'Documenta la salida de la pieza dañada hacia el taller especializado, transicionando su Estado en el DCD.'
+      }},
+      {{
+        rf: 'RF-41',
+        name: 'Registrar reingreso de obra al depósito',
+        cat: 'OBRAS',
+        cu: 'CU-02 Registrar reingreso de obra',
+        actor: 'Responsable de ingreso de obra',
+        dcd: 'Obra, Estado',
+        methods: 'obra.registrarReingreso(), estado.transicionar("En Depósito")',
+        rationale: 'Cumplimiento estricto de la Regla de Negocio 1: toda obra reparada debe reingresar indefectiblemente al depósito institucional.'
+      }},
+      {{
+        rf: 'RF-42',
+        name: 'Generar informe diario de vigilancia',
+        cat: 'REPORTES',
+        cu: 'CU-20 Generar informe diario de vigilancia',
+        actor: 'Encargado de supervisión, Director',
+        dcd: 'Incidente, SalaXGuardia, Guardia',
+        methods: 'informe.consolidarTurno()',
+        rationale: 'Consolida las rondas concluidas y los incidentes registrados en el día para auditoría directiva.'
+      }},
+      {{
+        rf: 'RF-43',
+        name: 'Generar reporte de patrones de incidentes',
+        cat: 'REPORTES',
+        cu: 'CU-18 Generar patrones de incidentes',
+        actor: 'Encargado de supervisión, Director',
+        dcd: 'Incidente, TipoIncidente, Sala',
+        methods: 'reporte.calcularEstadisticas()',
+        rationale: 'Análisis de correlación entre tipologías de incidentes y salas de mayor recurrencia para prevención de daños.'
+      }},
+      {{
+        rf: 'RF-44',
+        name: 'Emitir historial de incidentes',
+        cat: 'REPORTES',
+        cu: 'CU-22 Emitir historial de incidentes',
+        actor: 'Encargado de supervisión',
+        dcd: 'Incidente, Obra',
+        methods: 'obra.getHistorialIncidentes()',
+        rationale: 'Emite la hoja de vida pericial de una obra, vinculando todos los incidentes sufridos a lo largo de su custodia.'
+      }}
+    ];
+
+    let currentTraceFilter = 'ALL';
+
+    function renderTraceMatrixItems() {{
+      const container = document.getElementById('trace-items-container');
+      if (!container) return;
+      container.innerHTML = '';
+
+      const query = document.getElementById('trace-search-input')?.value.toLowerCase() || '';
+
+      const filtered = fullTraceData.filter(item => {{
+        const matchesCat = (currentTraceFilter === 'ALL' || item.cat === currentTraceFilter);
+        const text = (item.rf + ' ' + item.name + ' ' + item.cu + ' ' + item.dcd + ' ' + item.rationale).toLowerCase();
+        const matchesQuery = query === '' || text.includes(query);
+        return matchesCat && matchesQuery;
+      }});
+
+      if (filtered.length === 0) {{
+        container.innerHTML = '<div style="color: var(--text-light-secondary); padding: 16px; font-size: 13px;">No se encontraron requerimientos para este filtro.</div>';
+        return;
+      }}
+
+      filtered.forEach((item, index) => {{
+        const div = document.createElement('div');
+        div.className = 'trace-rf-item' + (index === 0 ? ' active' : '');
+        div.onclick = () => selectTraceDetail(div, item);
+        div.innerHTML = `
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+            <strong style="color: #60A5FA; font-size: 14px; font-weight: 800; letter-spacing: 0.03em;">${{item.rf}}</strong>
+            <span style="font-size: 12px; font-weight: 800; background: rgba(45, 127, 249, 0.22); color: #93C5FD; border: 1px solid rgba(45, 127, 249, 0.35); padding: 3px 8px; border-radius: 6px;">${{item.cu.split(' ')[0]}}</span>
+          </div>
+          <div style="font-size: 15px; color: #FFFFFF; font-weight: 600; line-height: 1.35;">${{item.name}}</div>
+        `;
+        container.appendChild(div);
+
+        if (index === 0) {{
+          updateTraceDossier(item);
+        }}
+      }});
+    }}
+
+    function selectTraceDetail(element, item) {{
+      document.querySelectorAll('#trace-items-container .trace-rf-item').forEach(el => el.classList.remove('active'));
+      element.classList.add('active');
+      updateTraceDossier(item);
+    }}
+
+    function updateTraceDossier(item) {{
+      document.getElementById('td-rf-code').innerText = 'REQUERIMIENTO FUNCIONAL ' + item.rf;
+      document.getElementById('td-rf-name').innerText = item.name;
+      document.getElementById('td-cu-badge').innerText = item.cu.split(' ')[0];
+      document.getElementById('td-cu-info').innerHTML = `<strong>${{item.cu}}</strong> &bull; Actor: ${{item.actor}}`;
+      document.getElementById('td-dcd-info').innerHTML = `<strong>Clases DCD:</strong> ${{item.dcd}}<br><strong>Métodos / Lógica:</strong> <code>${{item.methods}}</code>`;
+      document.getElementById('td-rationale').innerText = item.rationale;
+    }}
+
+    function filterTraceModule(btn, cat) {{
+      document.querySelectorAll('.trace-module-pills .trace-module-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentTraceFilter = cat;
+      renderTraceMatrixItems();
+    }}
+
+    function filterTraceMatrix() {{
+      renderTraceMatrixItems();
+    }}
+
+    // ========================================================
+    // REQUERIMIENTOS FUNCIONALES EXPAND / COLLAPSE
+    // ========================================================
+    let rfExclusiveMode = true;
+
+    function initExclusiveAccordion() {{
+      const allGroups = document.querySelectorAll('.rf-group');
+      allGroups.forEach(group => {{
+        const summary = group.querySelector('.rf-summary');
+        if (!summary) return;
+        summary.addEventListener('click', function(e) {{
+          if (!rfExclusiveMode) return;
+          // If group is currently closed, opening it will close all others
+          const willOpen = !group.open;
+          if (willOpen) {{
+            allGroups.forEach(other => {{
+              if (other !== group) other.open = false;
+            }});
+          }}
+        }});
+      }});
+    }}
+
+    function expandAllRf() {{
+      rfExclusiveMode = false;
+      document.querySelectorAll('.rf-group').forEach(g => {{
+        g.style.display = 'block';
+        g.open = true;
+      }});
+      setTimeout(() => {{ rfExclusiveMode = true; }}, 300);
+    }}
+
+    function collapseAllRf() {{
+      document.querySelectorAll('.rf-group').forEach(g => {{
+        g.open = false;
+      }});
+    }}
+
+    function filterRequirements() {{
+      const query = document.getElementById('rf-search-input').value.toLowerCase().trim();
+      const groups = document.querySelectorAll('.rf-group');
+      if (!query) {{
+        groups.forEach(g => {{
+          g.style.display = 'block';
+        }});
+        return;
+      }}
+      rfExclusiveMode = false;
+      groups.forEach(g => {{
+        const text = g.innerText.toLowerCase();
+        if (text.includes(query)) {{
+          g.style.display = 'block';
+          g.open = true;
+        }} else {{
+          g.style.display = 'none';
+          g.open = false;
+        }}
+      }});
+      setTimeout(() => {{ rfExclusiveMode = true; }}, 300);
+    }}
+
+    // Initialize View
+    renderTraceMatrixItems();
+    initExclusiveAccordion();
+    updateSlide();
+  </script>
+</body>
+</html>
+''')
+    print("Pure Navy Compilation completed successfully!")
+
+if __name__ == '__main__':
+    build_presentation()

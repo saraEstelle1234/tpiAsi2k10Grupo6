@@ -1,0 +1,502 @@
+TOTAL PAGES: 15
+
+
+======================================== PAGE 1 ========================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TPI ASI - Grupo 6 
+Caso: Museo de historia natural 
+ 
+ 
+Datos de la Universidad y Carrera: UTN - FRC - Ingenieria de sistemas de 
+información 
+Cátedra: Análisis de sistemas 
+Tema de la presentación:  
+Integrantes: 
+-Tarditti, Juan Sebastián - 400212 
+-Thomas Rapp, Francisco - 408990 
+-Abad, Francisco - 423269 
+-Molina, Tobias - 419749 
+-Moyano, Lucas Uriel - 410975 
+-Pereyra, Kevin - 418201 
+-Marcuzzi, Tomas - 403382 
+-Cufre, Agustín- 419166 
+-Jastrzebski, Emiliano - 402760 
+Curso: 2k10 
+Docentes: 
+-Cattaneo, Marcela Fabiana 
+-Turanzas, Susana Beatriz 
+-Padilla, Tomas Lautaro 
+-Sanchez, Claudia Evangelina 
+Año 2026 
+
+======================================== PAGE 2 ========================================
+Consignas 
+1. Dominio bajo estudio  
+1.1 Nombre y objetivo general de la organización del dominio bajo estudio 
+2. Modelo de procesos de negocio 
+2.1 Identifique todos los procesos de negocio descritos en dominio bajo estudio y 
+objetivo de cada proceso  
+2.2 Realice la vista externa a través del Mapa de proceso de negocio 
+2.3 Describa para cada proceso esencial (del negocio) la Plantilla de Descripción de 
+Proceso.  
+2.4 Requerimientos funcionales y no funcionales  
+2.5 Modele la vista interna a través del BPMN a Nivel descriptivo.  
+2.6 Modele la vista interna a través del BPMN a Nivel operativo.  
+2.7 Diagrama de casos de uso 
+2.8 Plantilla de descripción de caso de uso y prototipo de interfaz del caso de uso 
+“Registrar incidente” 
+2.9 Diagrama de clases del caso de uso “Registrar incidente” 
+ 
+Respuestas 
+1.1.  
+Nombre de la organización: Museo De Historia Natural 
+Objetivo: Exponer obras de artistas locales, nacionales e internacionales al público 
+mediante el cobro de entradas, preservando las obras con un sistema de gestión de 
+incidentes. 
+2.1. 
+Procesos estratégicos:  
+-Planificar la programación de exposiciones 
+-Planificar visitas guiadas 
+-Definir precios de guia 
+-Definir precios de entrada 
+Procesos esenciales: 
+-Exponer obras de arte 
+Procesos de Soporte: 
+-Gestionar ingreso de obras artísticas 
+-Gestionar incidentes y restauración de obras 
+-Administrar RRHH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+======================================== PAGE 3 ========================================
+ 
+ 
+ 
+ 
+2.2. Mapa de procesos 
+ 
+ 
+2.3 Planilla de descripción del proceso de soporte Gestionar vigilancia 
+ 
+Proceso de Negocio: Gestionar incidentes y restauración de obras 
+Objetivo 
+Gestionar incidentes y restauración de obras mediante las rondas de 
+vigilancia realizadas por el guardia, registrando los incidentes en el Módulo 
+Web para que los supervisores tomen medidas en relación a la obra, envio 
+a restauración, registro de baja de obra, etc.  
+Cliente del 
+Proceso 
+Proceso: “Exponer obras de artes” (esencial). 
+Producto del 
+Proceso 
+Informe generado con todos los incidentes ocurridos, y obra enviada a 
+reparación. 
+Proveedores del 
+proceso e 
+insumos que 
+brinda cada uno 
+Proveedor 
+Insumo 
+-Proceso: Gestionar ingreso de obras 
+artísticas. 
+-Obra dañada 
+  
+-Obra registrada en Módulo Web 
+ 
+ 
+Recursos del 
+proceso 
+Recursos Humanos 
+Recursos Tecnológicos - Hardware 
+-Guardia del Museo 
+-Modulo Web de Soporte 
+-Supervisor 
+-PC 
+ 
+ 
+
+======================================== PAGE 4 ========================================
+Formularios, 
+registros e 
+información del 
+proceso 
+Formularios 
+Registros e información 
+-Informe  
+-Incidente 
+- 
+-Informe 
+ 
+-Planificación de ronda de vigilancia 
+Reglas de 
+Negocio 
+ID 
+Regla de negocio 
+Descripción 
+1. 
+Reingreso obligatorio a 
+deposito 
+-Toda obra enviada a restauración, se 
+haya podido reparar con exito o no, 
+debe 
+ingresar 
+obligatoriamente 
+al 
+depósito del museo antes de definir su 
+destino final o su baja 
+2. 
+Registro 
+inmediato 
+de 
+incidente 
+El guardia debe registrar el incidente de 
+la obra de forma inmediata, indicando 
+detalles del incidente. 
+ 
+ 
+ 
+Restricciones 
+1.​ 
+Listado de 
+actividades del 
+proceso 
+1. Consultar planificación de rondas de vigilancia 
+2. Registrar sala con ‘observación pendiente’ 
+3. Compuerta Incidente Camino del "No" 
+4. Registrar estado de sala ‘sin novedades’ 
+4. Generar informe con salas recorridas 
+5. Fin del proceso 
+ 
+ 
+[Excepciones] 
+Nombre de la excepción:  
+Descripción:  
+ 
+Observaciones 
+- 
+ 
+2.4 Especificación de Requerimientos 
+Requerimientos Funcionales 
+Administrar Obras de Arte 
+1.​ Registrar ingreso de obra 
+2.​ Registrar reingreso de obra al depósito 
+3.​ Consultar obra 
+4.​ Registrar baja de obra 
+Administrar Tipos de Obra 
+5.​ Registrar tipo de obra 
+6.​ Consultar tipo de obra 
+7.​ Registrar baja de tipo de obra 
+
+======================================== PAGE 5 ========================================
+Administrar Tipos de Material 
+8.​ Registrar tipo de material 
+9.​ Consultar tipo de material 
+10.​Registrar baja de tipo de material 
+Administrar Salas 
+11.​Registrar sala 
+12.​Consultar sala 
+13.​Modificar sala 
+14.​Registrar baja de sala 
+Administrar Guías 
+15.​Registrar guía 
+16.​Consultar guía 
+17.​Registrar modificación de guía 
+18.​Registrar baja de guía 
+Administrar Estilos de Obra 
+19.​Registrar estilo de obra 
+20.​Consultar estilo de obra 
+21.​Registrar baja de estilo de obra 
+Administrar Tipos de Incidentes 
+22.​Registrar tipo de incidente 
+23.​Consultar tipo de incidente 
+24.​Registrar baja de tipo de incidente 
+Gestionar Exposiciones 
+25.​Registrar programación de exposiciones 
+26.​Consultar programación de exposiciones 
+Gestionar Visitas Guiadas 
+27.​Registrar planificación de visitas guiadas 
+28.​Consultar planificación de visitas guiadas 
+29.​Generar invitaciones a escuelas 
+30.​Consultar agenda de guías 
+Gestionar Venta de Entradas 
+
+======================================== PAGE 6 ========================================
+31.​Registrar venta de entrada 
+32.​Registrar contratación de servicio adicional de guía 
+33.​Consultar venta de entrada 
+Gestionar Planificación y Rondas de Vigilancia 
+34.​Generar planificación de rondas de vigilancia 
+35.​Consultar planificación de rondas de vigilancia 
+36.​Registrar revisión de sala 
+Gestionar Incidentes 
+37.​Registrar incidente 
+38.​Consultar incidentes 
+39.​Registrar seguimiento de resolución de incidente 
+Generar Informes y Reportes 
+40.​Generar informe diario de vigilancia 
+41.​Generar reporte de patrones de incidentes 
+42.​Consultar historial de incidentes 
+Requerimientos No Funcionales 
+1.​ Módulo Web de Soporte: El sistema deberá implementarse bajo una 
+arquitectura web cliente-servidor accesible desde navegadores web 
+modernos sin requerir instalación de software. 
+2.​ Interfaz móvil para rondas: La aplicación deberá contar con una interfaz 
+responsiva y táctil adaptada para tablets, permitiendo la visualización del 
+plano interactivo de salas y el reporte inmediato durante las rondas de 
+vigilancia. 
+ 
+ 
+ 
+ 
+2.5 BPMN a nivel descriptivo 
+ 
+
+======================================== PAGE 7 ========================================
+ 
+2.6 BPMN a nivel operativo 
+
+======================================== PAGE 8 ========================================
+ 
+
+======================================== PAGE 9 ========================================
+2.7 Diagrama de casos de uso
+ 
+ 
+Objetivos de los Casos de Uso 
+
+======================================== PAGE 10 ========================================
+1.​ Registrar ingreso de obra: Registrar el ingreso de una nueva obra al 
+museo, indicando autor, estilo, tipo de obra, dimensiones, material, valuación 
+y empleado responsable. 
+2.​ Registrar reingreso de obra: Registrar el reingreso de una obra al depósito 
+del museo luego de ser restaurada. 
+3.​ Consultar obra: Consultar la información, datos técnicos y estado de una 
+obra en particular. 
+4.​ Registrar baja de obra: Registrar la baja de una obra del catálogo del 
+museo, especificando la fecha, motivo de baja y destino final. 
+5.​ Registrar programación de exposiciones: Registrar el cronograma y 
+detalle de una exposición, indicando las obras a exponer, salas asignadas y 
+fechas de inicio y fin. 
+6.​ Consultar programación de exposiciones: Consultar las exposiciones 
+programadas en el museo, con su cronograma, salas asignadas y obras a 
+exponer. 
+7.​ Consultar planificación de visitas guiadas: Consultar las visitas guiadas 
+planificadas para escuelas, visualizando fechas, horarios y estado de cada 
+recorrido. 
+8.​ Registrar planificación de visitas: Registrar la planificación de una visita 
+guiada para escuelas, indicando fecha, horario, escuela participante y guías 
+asignados. 
+9.​ Generar invitaciones a escuelas: Generar y enviar las invitaciones a las 
+escuelas para asistir a las exposiciones y visitas planificadas. 
+10.​Registrar venta de entrada: Registrar la venta de una entrada al museo, 
+indicando fecha, hora, medio de pago y emitiendo el comprobante 
+correspondiente. 
+11.​Registrar contratación de servicio de guía: Registrar la contratación del 
+servicio complementario de guía para recorrer la exposición. 
+12.​Consultar agenda de guías: Consultar la agenda y horarios disponibles de 
+los guías del museo para coordinar una visita. 
+13.​Generar planificación de rondas: Generar automáticamente la planificación 
+de rondas de vigilancia, priorizando las salas con mayor cantidad de 
+incidentes. 
+14.​Consultar planificación ronda: Consultar el cronograma y mapa de salas 
+asignadas para la ronda de vigilancia del guardia. 
+15.​Registrar revisión de la sala: Registrar la revisión de una sala durante la 
+ronda, asentando la hora y si se encuentra con observación pendiente o sin 
+novedades. 
+16.​Registrar incidentes: Registrar un incidente ocurrido en una sala, indicando 
+la hora, pieza involucrada y tipo de incidente, pasando el objeto a estado 
+inactivo. 
+17.​Consultar sala del museo: Consultar la información de una sala en 
+particular, su temática y los objetos que contiene. 
+
+======================================== PAGE 11 ========================================
+18.​Consultar incidente: Consultar el detalle de un incidente registrado en una 
+sala durante la ronda. 
+19.​Generar patrones de incidentes: Procesar los registros históricos de 
+incidentes para detectar y generar el reporte de patrones de reiteración por 
+horarios, días o salas con mayor frecuencia. 
+20.​Consultar patrones de incidentes: Consultar los patrones y repetición de 
+incidentes generados por horarios o días para reforzar la vigilancia en salas 
+críticas. 
+21.​Generar informe diario de vigilancia: Consolidar y generar el informe oficial 
+al finalizar la jornada con el resumen de salas recorridas, novedades e 
+incidentes reportados. 
+22.​Consultar informe diario de vigilancia: Consultar el informe diario de 
+vigilancia con el resumen consolidado de revisiones, incidentes y acciones 
+realizadas. 
+23.​Consultar historial de incidentes: Consultar el historial cronológico y 
+detallado de todos los incidentes ocurridos en el museo. 
+24.​Registrar seguimiento de resolución de incidentes: Registrar el 
+seguimiento, evolución y observaciones del plan de acciones para devolver 
+un objeto dañado a su estado normal. 
+25.​Registrar sala nueva: Registrar una nueva sala en el sistema para futuros 
+reportes y exposiciones, indicando su temática y capacidad. 
+26.​Modificar sala: Modificar los datos y características de una sala existente en 
+el museo. 
+27.​Registrar baja de sala: Registrar la baja de una sala del museo, asentando 
+la fecha correspondiente. 
+28.​Consultar salas: Consultar el catálogo de salas del museo y su información 
+asociada. 
+29.​Registrar tipo de material: Registrar un nuevo tipo de material en el 
+sistema, indicando su reacción ante estímulos externos. 
+30.​Registrar baja tipo de material: Registrar la baja de un tipo de material del 
+catálogo. 
+31.​Consultar tipo de material: Consultar los tipos de materiales registrados en 
+el sistema. 
+32.​Registrar tipo de incidente: Registrar un nuevo tipo de incidente en el 
+sistema para futuros reportes y clasificaciones. 
+33.​Modificar tipo de incidente: Modificar los datos o descripción de un tipo de 
+incidente existente. 
+34.​Registrar baja tipo de incidente: Registrar la baja de un tipo de incidente en 
+el catálogo del sistema. 
+35.​Consultar tipo de incidente: Consultar los tipos de incidentes registrados en 
+el sistema. 
+36.​Registrar alta de guía: Registrar el alta de un nuevo guía en el sistema, 
+detallando sus datos personales y especialidades. 
+
+======================================== PAGE 12 ========================================
+37.​Registrar modificación de guía: Modificar los datos personales, 
+disponibilidad horaria o especialidades de un guía existente en el sistema. 
+38.​Registrar baja de guía: Registrar la baja de un guía en el museo, asentando 
+la fecha y motivo. 
+39.​Consultar guía: Consultar la información, legajo y datos de un guía en 
+particular. 
+40.​Registrar estilo de obra: Registrar un nuevo estilo de obra en el sistema 
+para clasificar las obras de arte. 
+41.​Registrar baja estilo de obra: Registrar la baja de un estilo de obra en el 
+sistema. 
+42.​Consultar estilo de obra: Consultar los estilos de obra registrados en el 
+sistema. 
+Objetivos de Actores 
+1.​ Responsable de ingreso de obra: Personal encargado de registrar y 
+controlar el ingreso, catálogo y estado de las obras de arte del museo. 
+2.​ Administrador del museo: Personal encargado de planificar las 
+exposiciones, visitas guiadas y gestionar la baja de obras. 
+3.​ Responsable de atención al cliente: Personal encargado de la venta de 
+entradas al público y la contratación del servicio de guías. 
+4.​ Administrador web: Componente de software / temporizador del sistema 
+encargado de disparar la generación automática de la planificación diaria de 
+rondas. 
+5.​ Encargado de vigilancia: Personal encargado de consultar su planificación, 
+realizar las rondas de inspección en las salas y registrar los incidentes 
+detectados. 
+6.​ Encargado de supervisión: Personal encargado de generar y consultar los 
+informes diarios de vigilancia, patrones de incidentes, historial y el 
+seguimiento de resolución de obras dañadas. 
+7.​ Admin de sistema: Personal encargado de administrar los parámetros de 
+configuración y datos maestros del sistema (salas, materiales, tipos de 
+incidentes, guías y estilos). 
+8.​ Escuela: Actor externo (institución educativa) receptora de las invitaciones 
+emitidas por el museo para asistir a exposiciones y visitas planificadas. 
+9.​ Usuario: Personal habilitado encargado de autenticarse y gestionar el 
+acceso a su sesión en el sistema. 
+ 
+2.8. Plantilla de descripción de caso de uso y prototipo de interfaz del caso de uso 
+“Registrar incidente” 
+ 
+DESCRIPCIÓN DE CASO DE USO 
+ 
+
+======================================== PAGE 13 ========================================
+ID: 
+Nombre Caso de Uso: Registrar incidente 
+Actor Principal:  Encargado de vigilancia (EV) 
+Actor Secundario: - 
+Tipo de Caso de uso       x☐ Concreto                           ​
+☐ Abstracto 
+Objetivo: Registrar incidente en un sala del museo, indicando la pieza involucrada y el tipo 
+de incidente con la hora . 
+ 
+Pre-Condición: Usuario logueado en el Módulo Web de Soporte y sala seleccionada 
+ 
+Curso Normal 
+1.​ El EV ingresa a la opción Reportar incidente 
+2.​ El sistema solicita que ingrese el código del objeto 
+3.​ El EV ingresa el código del objeto 
+4.​ El sistema busca el código del objeto, y muestra sus datos 
+5.​ El sistema solicita que se confirme que el objeto encontrado es el correcto 
+6.​ El EV confirma el objeto encontrado 
+7.​ El sistema solicita que se seleccione el tipo de incidente entre Deterioro natural, Deterioro 
+provocado y Caida accidental. 
+8.​ El EV selecciona el tipo de incidente 
+9.​ El sistema muestra toda la información del incidente: hora, objeto involucrado, tipo de 
+incidente 
+10.​El sistema solicita que se confirme el registro del incidente 
+11.​El EV confirma el registro del incidente 
+12.​El sistema registra el incidente en una sala del museo, con la pieza involucrada, el tipo de 
+incidente, la hora (que se obtiene de la hora actual) 
+13.​El sistema registra el objeto con estado “Inactivo” 
+14.​Fin del caso de uso 
+Cursos Alternativos 
+A1: Paso 11. El EV no confirma el registro del incidente. Se cancela el caso de uso. 
+ 
+A2:Paso 4. El sistema busca el código del objeto pero no lo encuentra, y solicita que se ingrese 
+otro código. 
+ 
+A3. Paso 6. El EV no confirma el objeto encontrado. Se cancela el caso de uso 
+      
+Post-Condiciones: 
+Éxito: El sistema registro con éxito el incidente en una sala, con la pieza, el tipo de 
+incidente, hora y registra el objeto con estado “Inactivo”.Incidente registrado exitosamente  
+         
+Fracaso: 
+El CU se cancela cuando:   
+A1. El EV no confirmó el registro del incidente 
+A2. El EV cancela el caso de uso en cualquier momento.  
+A3.El EV no confirmó el objeto encontrado. 
+ 
+ 
+ 
+ 
+ 
+Observaciones:  
+ 
+ 
+
+======================================== PAGE 14 ========================================
+PROTOTIPO DE INTERFAZ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+======================================== PAGE 15 ========================================
+2.9 Diagrama de clases del caso de uso “Registrar incidente” 
+ 
+ 
+https://app.diagrams.net/#G1TfviNKLgQjGiDRgWAmaD7ywTXa5W7xOT#%7B%22p
+ageId%22%3A%22dcd_2k10%22%7D 
+ 

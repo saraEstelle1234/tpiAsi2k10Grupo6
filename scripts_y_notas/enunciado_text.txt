@@ -1,0 +1,230 @@
+
+--- Page 1 ---
+                         Universidad Tecnológica Nacional – Facultad Regional Córdoba - Ingeniería en Sistemas de Información 
+                         Cátedra de Análisis de Sistemas 
+ 
+ 
+ 
+ 
+                                Curso 2K10 
+                         Trabajo Práctico Integrador 
+ 
+ 
+ 
+ 
+                                                Año 2026  
+ 
+Página 1 de 4 
+ 
+Trabajo Práctico Integrador 
+Objetivos de la asignatura con respecto al TPI 
+Que el alumno logre: 
+ 
+Conocer y comprender los fundamentos de la Ingeniería de Sistemas de Información y el Proceso de Desarrollo de 
+Software. 
+ 
+Desarrollar su capacidad de análisis de sistemas. 
+ 
+Reconocer la importancia de comprender los procesos de negocio y adquirir las habilidades para modelarlos. 
+ 
+Desarrollar modelos conceptuales de solución a problemas diversos en los procesos de negocio y en los sistemas de 
+información. 
+ 
+Desarrollar la capacidad de elicitar, especificar y validar requerimientos de información, como primera actividad del 
+modelado de soluciones de software. 
+ 
+Documentar el proceso de especificación de requerimientos de software. 
+ 
+Conocer metodologías, modelos, técnicas y lenguajes del proceso de Análisis de Sistemas de Información. 
+ 
+Integrar los conocimientos y habilidades adquiridos en asignaturas conexas y circundantes.  
+ 
+Tomar conciencia del carácter interdisciplinario de la tarea del profesional del ingeniero en sistemas de información. 
+ 
+Conformar e interactuar con un equipo de trabajo. 
+ 
+Integrar los conocimientos del Modelado de Negocios y el Modelado de Sistemas de Información, en un único trabajo 
+a partir de la situación propuesta. 
+ 
+Contenidos de la asignatura que se abordarán en el TPI 
+ 
+Modelado de Procesos de Negocio y BPMN 
+- 
+Mapa de procesos de negocio 
+- 
+Análisis de procesos de negocio 
+- 
+BPMN: Modelado de procesos de negocio 
+ 
+Herramientas para el modelado de software 
+ 
+Paradigma Orientado a Objetos 
+- 
+Modelo de Objetos del Dominio del Problema – Diagrama de clases 
+- 
+Patrones estructurales del Dominio 
+ 
+UML 2.0 
+ 
+Ingeniería de requerimientos 
+- 
+Identificación de Requerimientos. Tipos 
+- 
+Técnicas y herramientas de elicitación 
+- 
+Análisis de prefactibilidad 
+- 
+Especificación de requerimientos. Documento de Especificación de requerimientos de software – ERS 
+ 
+Modelo de Casos de uso del sistema de información 
+ 
+Diagrama de casos de uso  
+ 
+Descripciones de casos de uso 
+ 
+Patrones de casos de uso 
+- 
+Validación de requerimientos 
+ 
+Prototipos de interfaz 
+ 
+Salidas impresas 
+- 
+Consistencia e integración de modelos de especificación de requerimientos 
+
+--- Page 2 ---
+                         Universidad Tecnológica Nacional – Facultad Regional Córdoba - Ingeniería en Sistemas de Información 
+                         Cátedra de Análisis de Sistemas 
+ 
+ 
+ 
+ 
+                                Curso 2K10 
+                         Trabajo Práctico Integrador 
+ 
+ 
+ 
+ 
+                                                Año 2026  
+ 
+Página 2 de 4 
+ 
+ 
+Caso de Estudio - “Museo de Historia Natural” 
+El Museo de Historia Natural de la ciudad expone 
+obras 
+de 
+artistas 
+locales, 
+nacionales 
+e 
+internacionales. El público puede asistir a ver las 
+obras abonando una entrada, para lo que debe 
+recurrir a la caja, allí se le pregunta si necesita un 
+guía para recorrer la exposición, de ser así debe 
+abonar un adicional por el servicio, y esta persona 
+le explica una por una las obras. Si solicita este 
+servicio y no hay personal disponible, deberá 
+esperar hasta que se desocupe alguno.  
+Las obras ingresan al museo por diversas causas  (tipos de ingreso: compra, donación o préstamo), pero en cualquiera 
+de los casos al ingresar las obras se registran las mismas indicando estilo, tipo de obra -por ejemplo acuarela, óleo, 
+objeto animado-, nombre de la obra, fecha de creación,  descripción, alto, ancho, material y valuación, la fecha 
+registración y el empleado responsable de la registración, así como también los detalles del autor, si el museo no los 
+tiene registrados anteriormente. A cada obra que ingresa se le asigna un número de identificación. 
+El Administrador del Museo es quien tiene la responsabilidad de realizar la programación de las exposiciones, indicando 
+la duración de la exposición, fecha de inicio y fin de la misma, definiendo que obras se expondrán en que parte del 
+museo se colocarán, y también se planifican visitas guiadas para diferentes públicos destinos, que requieren diferentes 
+guías especialistas. Una vez planificadas las visitas se extienden las invitaciones en función de esta planificación a las 
+escuelas, para que asistan a ver las exposiciones. Es importante destacar que las visitas que se planifican acá son para 
+las escuelas únicamente y que éstas visitas son sin cargo, es decir el museo no le cobra a las escuelas. Dado que las 
+únicas visitas que se programan son las de las escuelas, la disponibilidad de los guías para atender visitas guiadas de 
+público en general queda restringida a los horarios en los que no tienen otras visitas ya agendadas. 
+Los guardias del Museo tienen la tarea de mantener el orden, evitar daños y registrar cualquier incidente que ocurra 
+durante su turno para su posterior análisis. Para facilitar su labor, el museo implementó el Módulo Web de Soporte, 
+una aplicación que planifica las rondas de vigilancia, ofrece información sobre el comportamiento de cada objeto 
+animado y permite mantener un historial detallado de los incidentes ocurridos. 
+El museo está organizado en distintas salas, cada una con una temática específica siendo la atracción especial las salas 
+que exhiben los objetos animados. En cada sala se encuentran varios objetos animados, los cuales poseen un número 
+de identificación, un nombre y un estado. El comportamiento de cada objeto depende del material con el que está 
+enteramente construido —ya sea mármol, yeso, óleo sobre lienzo o tela—, ya que este determina su reacción ante 
+
+--- Page 3 ---
+                         Universidad Tecnológica Nacional – Facultad Regional Córdoba - Ingeniería en Sistemas de Información 
+                         Cátedra de Análisis de Sistemas 
+ 
+ 
+ 
+ 
+                                Curso 2K10 
+                         Trabajo Práctico Integrador 
+ 
+ 
+ 
+ 
+                                                Año 2026  
+ 
+Página 3 de 4 
+ 
+estímulos externos como la luz, el sonido o la temperatura. Dichas reacciones son fundamentales para poder 
+restaurarlos en caso de incidentes. 
+Se considera incidente a toda situación que pueda poner en riesgo la integridad de una pieza. Entre los más comunes 
+se encuentran “Deterioro provocado”, “Caída accidental”, “Deterioro natural”. El guardia debe registrar cada evento de 
+forma inmediata, indicando la hora, la pieza involucrada y el tipo de incidente. A partir de diversos estudios, se 
+determinó que cada tipo de accidente provoca un cambio específico en el estado del objeto. 
+Los posibles estados que puede presentar un objeto animado son: “Activo”, “EnReposo”, “EnMovimiento”, “Dañado”, 
+“enRevisión”, “enRestaruración” e “Inactivo”. Según el tipo de material y el estado actual del objeto, el sistema propone 
+una serie de acciones recomendadas para devolverlo a su estado normal. Y permite asociar durante el seguimiento de 
+la resolución observaciones propias del caso.   
+Por ejemplo, ante una “Caída accidental”, el objeto pasa al estado “Inactivo”. Si se trata de una figura de yeso, el sistema 
+sugiere una serie de acciones: Revisión de integridad del material, pasar a restauración, control de calidad, test de 
+movimiento. Tras cumplir estas acciones, el objeto recupera su estado “Activo”. 
+Al iniciar su turno, el guardia visualiza en un mapa la planificación de su ronda de vigilancia, generada automáticamente 
+al finalizar el día anterior. Esta planificación prioriza las salas con más incidentes registrados. Durante la ronda, el guardia 
+marca cada sala visitada, “Observación pendiente”, confirmando que fue revisada y si se encuentra todo en orden, 
+“SinNovedades”. Si detecta un problema, puede registrar el incidente desde la misma ubicación, indicando el tipo de 
+suceso y el objeto afectado, “Incidente activo”. 
+Registrar los incidentes de cada sala es fundamental, ya que permite mejorar la planificación de las siguientes rondas. 
+Se ha observado que los incidentes tienden a repetirse en ciertos horarios o días de la semana (por ej. en fines de 
+semana, días festivos con mucha afluencia de público, entre otros) , por lo que conocer los patrones de incidentes ayuda 
+a anticipar situaciones y reforzar la vigilancia en los sectores más conflictivos. 
+Finalmente, al concluir el día, el sistema genera un informe completo que resume las salas recorridas, los incidentes 
+detectados y las acciones realizadas. Este informe es revisado por los supervisores, quienes analizan los incidentes, 
+evalúan la seguridad del museo y coordinan las medidas necesarias para mantener el orden y asegurar la integridad de 
+todas las obras. 
+Las obras que deben restaurarse por su deterioro natural debido al paso del tiempo o por cualquier otra causa son, en 
+primer momento, separadas del resto hasta el momento en el que pueden enviarse a los restauradores que las 
+repararán. Luego de restauradas las obras reingresan al depósito del museo y quedan disponibles para lo que se las 
+requiera. Aún si las obras no pueden restaurarse son ingresadas nuevamente al depósito para luego decidir el momento 
+para retirarla del museo, es decir, darle de baja. 
+ 
+
+--- Page 4 ---
+                         Universidad Tecnológica Nacional – Facultad Regional Córdoba - Ingeniería en Sistemas de Información 
+                         Cátedra de Análisis de Sistemas 
+ 
+ 
+ 
+ 
+                                Curso 2K10 
+                         Trabajo Práctico Integrador 
+ 
+ 
+ 
+ 
+                                                Año 2026  
+ 
+Página 4 de 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

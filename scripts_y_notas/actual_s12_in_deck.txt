@@ -1,0 +1,75 @@
+<!-- SLIDE 12: DIAGRAMA DE CLASES -->
+    <div class="slide" id="slide-12" data-topic="12 · Diagrama de Clases">
+      <div class="breadcrumb-tag">12 &bull; Modelo de Dominio</div>
+      <h1 class="giant-title">Diagrama de Clases</h1>
+      <p class="editorial-subtitle">
+        Diagrama de Clases del Dominio completo (Sección 2.10 del TPI)
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1.55fr 0.45fr; gap: 24px; align-items: stretch;">
+        <div style="display: flex; flex-direction: column;">
+          <div class="diagram-frame-clean frame-dark-canvas reveal-item revealed" style="height: 520px; display: flex; flex-direction: column;">
+            <div style="flex: 1; overflow: hidden; position: relative; display: flex; align-items: center; justify-content: center;">
+              <img id="dcd-img" src="{b64_dcd}" class="diagram-preview-img" style="max-height: 100%; width: 100%; object-fit: contain; cursor: zoom-in;" onclick="openZoomModal('b64_dcd', 'Diagrama de Clases del Dominio')" alt="DCD General">
+            </div>
+            <div class="diagram-action-bar">
+              <span style="font-size: 13px; font-weight: 600; color: #CBD5E1;">Clases, Atributos, Métodos y Multiplicidades del Dominio</span>
+              <button class="btn-primary" style="min-height: 40px; padding: 0 18px; font-size: 13px;" onclick="openZoomModal('b64_dcd', 'Diagrama de Clases del Dominio')">
+                Ampliar a pantalla completa {svg_expand}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- UN SOLO CUADRO EXPLICATIVO GENERAL DE LA LÓGICA -->
+        <div class="card-dark reveal-item revealed" style="padding: 26px 22px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div class="breadcrumb-tag" style="margin-bottom: 10px;">Lógica y Diseño OO</div>
+            <h3 style="font-size: 18px; font-weight: 800; color: #FFF; margin-bottom: 12px; letter-spacing: -0.01em;">Concepción y Lógica del Modelo de Dominio</h3>
+            
+            <p style="font-size: 13.5px; line-height: 1.6; color: var(--text-light); margin-bottom: 16px;">
+              El modelo estático plasma la persistencia y la lógica de negocio requerida para la gestión patrimonial y el proceso de vigilancia, estructurando las entidades según directivas de cátedra.
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+              <div style="background: rgba(255,255,255,0.03); border-left: 3px solid var(--blue-accent); padding: 10px 14px; border-radius: 0 8px 8px 0;">
+                <div style="font-size: 11.5px; font-weight: 700; color: #93C5FD; text-transform: uppercase;">1. Ciclo del Incidente y Tipificación</div>
+                <div style="font-size: 13px; color: var(--text-light); margin-top: 3px; line-height: 1.45;">
+                  La clase <code>Incidente</code> captura fecha, hora del servidor y descripción. Se vincula con multiplicidad obligatoria <strong>1</strong> a <code>TipoIncidente</code> y a la <code>Obra</code> afectada.
+                </div>
+              </div>
+
+              <div style="background: rgba(255,255,255,0.03); border-left: 3px solid #60A5FA; padding: 10px 14px; border-radius: 0 8px 8px 0;">
+                <div style="font-size: 11.5px; font-weight: 700; color: #93C5FD; text-transform: uppercase;">2. Transición de Estado de Obra</div>
+                <div style="font-size: 13px; color: var(--text-light); margin-top: 3px; line-height: 1.45;">
+                  Al registrarse el incidente, el método <code>registrarIncidente()</code> en la clase <code>Obra</code> actualiza su puntero hacia <code>Estado</code> a <em>'Inactivo'</em> (Regla de Negocio 2).
+                </div>
+              </div>
+
+              <div style="background: rgba(255,255,255,0.03); border-left: 3px solid #38BDF8; padding: 10px 14px; border-radius: 0 8px 8px 0;">
+                <div style="font-size: 11.5px; font-weight: 700; color: #93C5FD; text-transform: uppercase;">3. Histórico de Rondas (SalaXGuardia)</div>
+                <div style="font-size: 13px; color: var(--text-light); margin-top: 3px; line-height: 1.45;">
+                  La clase asociativa <code>SalaXGuardia</code> modela la relación 1 a muchos (1..*), preservando la fecha y hora de inspección de cada guardia por cada sala recorrida.
+                </div>
+              </div>
+
+              <div style="background: rgba(255,255,255,0.03); border-left: 3px solid #818CF8; padding: 10px 14px; border-radius: 0 8px 8px 0;">
+                <div style="font-size: 11.5px; font-weight: 700; color: #93C5FD; text-transform: uppercase;">4. Regla de Reingreso Obligatorio</div>
+                <div style="font-size: 13px; color: var(--text-light); margin-top: 3px; line-height: 1.45;">
+                  Sustento de la RN-1: toda obra reparada o no solo egresa de restauración mediante el método <code>registrarReingreso()</code> al depósito del museo.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: rgba(47, 107, 255, 0.08); border: 1px solid rgba(47, 107, 255, 0.25); border-radius: 8px; padding: 10px 14px; margin-top: 14px;">
+            <div style="font-size: 11.5px; font-weight: 700; color: #93C5FD; text-transform: uppercase;">Visor de Alta Resolución</div>
+            <div style="font-size: 12.5px; color: var(--text-light); margin-top: 2px;">
+              Hacé clic en el diagrama para examinar cada clase con zoom de rueda del mouse y desplazamiento panorámico libre.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    

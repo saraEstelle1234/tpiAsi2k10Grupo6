@@ -1,0 +1,256 @@
+<mxfile host="app.diagrams.net" agent="Antigravity-ASI">
+  <diagram name="Diagrama de Clases del Dominio" id="dcd_2k10">
+    <mxGraphModel dx="1805" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cls_incidente" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Incidente" vertex="1">
+          <mxGeometry height="236" width="230" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_incidente_attrs" parent="cls_incidente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- fecha&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- hora&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- descripcion&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- obra: Obra&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- tipoIncidente: TipoIncidente&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- sala: Sala&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_incidente_sep" parent="cls_incidente" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_incidente_meths" parent="cls_incidente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarIncidente()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ registrarIncidente()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerObra()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerTipoIncidente()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerSala()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="230" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_incidente" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="TipoIncidente" vertex="1">
+          <mxGeometry height="108" width="210" x="40" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_incidente_attrs" parent="cls_tipo_incidente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- descripcion&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="210" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_incidente_sep" parent="cls_tipo_incidente" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_incidente_meths" parent="cls_tipo_incidente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarTipoIncidente()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="210" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_sala" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Sala" vertex="1">
+          <mxGeometry height="220" width="230" x="340" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_sala_attrs" parent="cls_sala" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nroSala&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- tematica&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- capacidad&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- obra: Obra&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- salaXGuardia: SalaXGuardia&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_sala_sep" parent="cls_sala" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_sala_meths" parent="cls_sala" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarSala()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerObra()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerSalaXGuardia()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ buscarObra()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="84" width="230" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_salaxguardia" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="SalaXGuardia" vertex="1">
+          <mxGeometry height="172" width="210" x="40" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_salaxguardia_attrs" parent="cls_salaxguardia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- fecha&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- horaRevision&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- estadoRevision&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- guardia: Guardia&lt;/p&gt;" vertex="1">
+          <mxGeometry height="68" width="210" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_salaxguardia_sep" parent="cls_salaxguardia" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_salaxguardia_meths" parent="cls_salaxguardia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarSalaXGuardia()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerGuardia()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ registrarRevision()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="68" width="210" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_guardia" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Guardia" vertex="1">
+          <mxGeometry height="140" width="200" x="45" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_guardia_attrs" parent="cls_guardia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- legajo&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- apellido&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- turno&lt;/p&gt;" vertex="1">
+          <mxGeometry height="68" width="200" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_guardia_sep" parent="cls_guardia" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_guardia_meths" parent="cls_guardia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarGuardia()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="200" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_obra" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Obra" vertex="1">
+          <mxGeometry height="412" width="260" x="680" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_obra_attrs" parent="cls_obra" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- codigo&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- nroId&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- titulo&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- dimensiones&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- valuacion&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- fechaIngreso&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- fechaCreacion&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- autor: Autor&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- estilo: Estilo&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- material: Material&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- tipoObra: TipoObra&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- tipoIngreso: TipoIngreso&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- estado: Estado&lt;/p&gt;" vertex="1">
+          <mxGeometry height="212" width="260" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_obra_sep" parent="cls_obra" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_obra_meths" parent="cls_obra" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarObra()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerAutor()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerEstilo()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerMaterial()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerTipoObra()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerTipoIngreso()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ conocerEstado()+ solicitarEstadoObra()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ registrarObraInactiva()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ registrarObraActiva()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="164" width="260" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estado" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Estado" vertex="1">
+          <mxGeometry height="172" width="200" x="710" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estado_attrs" parent="cls_estado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- ambito&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="200" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estado_sep" parent="cls_estado" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estado_meths" parent="cls_estado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarEstado()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ registrarObraInactiva()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ registrarObraActiva()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ esInactivo()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ esActivo()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="200" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estilo" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Estilo" vertex="1">
+          <mxGeometry height="108" width="180" x="1040" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estilo_attrs" parent="cls_estilo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- descripcion&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="180" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estilo_sep" parent="cls_estilo" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_estilo_meths" parent="cls_estilo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarEstilo()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="180" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_autor" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Autor" vertex="1">
+          <mxGeometry height="124" width="190" x="1040" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_autor_attrs" parent="cls_autor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- apellido&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- nacionalidad&lt;/p&gt;" vertex="1">
+          <mxGeometry height="52" width="190" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_autor_sep" parent="cls_autor" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_autor_meths" parent="cls_autor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarAutor()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="190" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_material" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="Material" vertex="1">
+          <mxGeometry height="108" width="190" x="1040" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_material_attrs" parent="cls_material" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- reaccionEstimulos&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="190" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_material_sep" parent="cls_material" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_material_meths" parent="cls_material" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarMaterial()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="190" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_obra" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="TipoObra" vertex="1">
+          <mxGeometry height="172" width="190" x="1040" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_obra_attrs" parent="cls_tipo_obra" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- descripcion&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="190" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_obra_sep" parent="cls_tipo_obra" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_obra_meths" parent="cls_tipo_obra" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarTipoObra()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ tomarNombre()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarNombre()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ tomarDescripcion()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarDescripcion()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="190" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="note_setters" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;fontSize=10;align=left;spacingLeft=5;spacingRight=5;" value="Los metodos de seteo de&#xa;esta clase son extensibles a&#xa;todas las clases del dominio" vertex="1">
+          <mxGeometry height="70" width="180" x="1280" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e_note_tipo_obra" edge="1" parent="1" source="note_setters" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=1;strokeColor=#b58900;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="cls_tipo_obra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_ingreso" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="TipoIngreso" vertex="1">
+          <mxGeometry height="108" width="180" x="1040" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_ingreso_attrs" parent="cls_tipo_ingreso" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;- nombre&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;- descripcion&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="180" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_ingreso_sep" parent="cls_tipo_ingreso" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cls_tipo_ingreso_meths" parent="cls_tipo_ingreso" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;p style=&quot;margin:0px;&quot;&gt;+ crear()&lt;/p&gt;&lt;p style=&quot;margin:0px;&quot;&gt;+ mostrarTipoIngreso()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="36" width="180" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="a_inc_tipo" edge="1" parent="1" source="cls_incidente" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="cls_tipo_incidente">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_inc_tipo_lbl" connectable="0" parent="a_inc_tipo" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_inc_sala" edge="1" parent="1" source="cls_incidente" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cls_sala">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_inc_sala_lbl" connectable="0" parent="a_inc_sala" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-6" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_inc_obra" edge="1" parent="1" source="cls_incidente" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.311;entryDx=0;entryDy=0;" target="cls_obra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_inc_obra_lbl" connectable="0" parent="a_inc_obra" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-6" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_sala_sxg" edge="1" parent="1" source="cls_sala" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="cls_salaxguardia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_sala_sxg_lbl" connectable="0" parent="a_sala_sxg" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-1" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_sxg_guardia" edge="1" parent="1" source="cls_salaxguardia" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cls_guardia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_sxg_guardia_lbl" connectable="0" parent="a_sxg_guardia" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-6" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_sala_obra" edge="1" parent="1" source="cls_sala" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.409;exitDx=0;exitDy=0;entryX=0;entryY=0.947;entryDx=0;entryDy=0;" target="cls_obra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_sala_obra_lbl" connectable="0" parent="a_sala_obra" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-6" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_obra_estado" edge="1" parent="1" source="cls_obra" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="cls_estado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_obra_estado_lbl" connectable="0" parent="a_obra_estado" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-2" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_obra_estilo" edge="1" parent="1" source="cls_obra" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.073;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cls_estilo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_obra_estilo_lbl" connectable="0" parent="a_obra_estilo" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-18" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_obra_autor" edge="1" parent="1" source="cls_obra" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.194;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cls_autor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_obra_autor_lbl" connectable="0" parent="a_obra_autor" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-16" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_obra_material" edge="1" parent="1" source="cls_obra" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.388;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cls_material">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_obra_material_lbl" connectable="0" parent="a_obra_material" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="-10" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_obra_tipo" edge="1" parent="1" source="cls_obra" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.631;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cls_tipo_obra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_obra_tipo_lbl" connectable="0" parent="a_obra_tipo" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="9" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_obra_ingreso" edge="1" parent="1" source="cls_obra" style="endArrow=open;endFill=0;html=1;rounded=0;strokeWidth=1;strokeColor=#000000;exitX=1;exitY=0.874;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cls_tipo_ingreso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a_obra_ingreso_lbl" connectable="0" parent="a_obra_ingreso" style="resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;fontStyle=1;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.75" y="-12" as="geometry">
+            <mxPoint x="12" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

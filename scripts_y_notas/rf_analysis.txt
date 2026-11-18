@@ -1,0 +1,60 @@
+Requerimientos Funcionales 
+Administrar Obras de Arte 
+1.​ Registrar ingreso de obra 
+2.​ Registrar reingreso de obra al depósito 
+3.​ Consultar obra 
+4.​ Registrar baja de obra 
+Administrar Tipos de Obra 
+5.​ Registrar tipo de obra 
+6.​ Consultar tipo de obra 
+7.​ Registrar baja de tipo de obra 
+
+======================================== PAGE 5 ========================================
+Administrar Tipos de Material 
+8.​ Registrar tipo de material 
+9.​ Consultar tipo de material 
+10.​Registrar baja de tipo de material 
+Administrar Salas 
+11.​Registrar sala 
+12.​Consultar sala 
+13.​Modificar sala 
+14.​Registrar baja de sala 
+Administrar Guías 
+15.​Registrar guía 
+16.​Consultar guía 
+17.​Registrar modificación de guía 
+18.​Registrar baja de guía 
+Administrar Estilos de Obra 
+19.​Registrar estilo de obra 
+20.​Consultar estilo de obra 
+21.​Registrar baja de estilo de obra 
+Administrar Tipos de Incidentes 
+22.​Registrar tipo de incidente 
+23.​Consultar tipo de incidente 
+24.​Registrar baja de tipo de incidente 
+Gestionar Exposiciones 
+25.​Registrar programación de exposiciones 
+26.​Consultar programación de exposiciones 
+Gestionar Visitas Guiadas 
+27.​Registrar planificación de visitas guiadas 
+28.​Consultar planificación de visitas guiadas 
+29.​Generar invitaciones a escuelas 
+30.​Consultar agenda de guías 
+Gestionar Venta de Entradas 
+
+======================================== PAGE 6 ========================================
+31.​Registrar venta de entrada 
+32.​Registrar contratación de servicio adicional de guía 
+33.​Consultar venta de entrada 
+Gestionar Planificación y Rondas de Vigilancia 
+34.​Generar planificación de rondas de vigilancia 
+35.​Consultar planificación de rondas de vigilancia 
+36.​Registrar revisión de sala 
+Gestionar Incidentes 
+37.​Registrar incidente 
+38.​Consultar incidentes 
+39.​Registrar seguimiento de resolución de incidente 
+Generar Informes y Reportes 
+40.​Generar informe diario de vigilancia 
+41.​Generar reporte de patrones de incidentes 
+42.​Consultar historial de incidentes 

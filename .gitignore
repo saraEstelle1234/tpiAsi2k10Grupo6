@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp scratch & test crops
+scripts_y_notas/*_crop.png
+scripts_y_notas/crop_*.png
+scripts_y_notas/test_*.png
+scripts_y_notas/inspect_*.py
+scripts_y_notas/debug_*.py

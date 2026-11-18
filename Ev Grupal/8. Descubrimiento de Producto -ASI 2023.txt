@@ -1,0 +1,416 @@
+--- PAGE 1 ---
+2023
+1
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+UNIVERSIDAD TECNOLÓGICA 
+NACIONAL
+FACULTAD REGIONAL CÓRDOBA
+DPTO. INGENIERÍA EN SISTEMAS DE INFORMACIÓN
+CARRERA: INGENIERÍA EN SISTEMAS DE 
+INFORMACIÓN
+Análisis de Sistemas
+Curso: 2K7 – 2K10
+1
+Análisis de Sistemas
+Cursos: 2K7 – 2K10
+2
+Docente: Ing. Marcela F. Cattaneo
+JTP y Ay: Ing. Claudia Sánchez
+2K7     Ing. Silvia Lanza Castelli
+JTP y Ay: Ing. Claudia Sánchez
+2K10   Ing. Susana Turanzas
+
+--- PAGE 2 ---
+2023
+2
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Unidad 3:
+Elicitación de 
+Requerimientos
+3
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+4
+Proceso en donde se adquiere el conocimiento
+del trabajo del cliente / usuario, se busca
+comprender sus necesidades y se detallan las
+restricciones medioambientales.
+Proceso en donde se adquiere el conocimiento
+del trabajo del cliente / usuario, se busca
+comprender sus necesidades y se detallan las
+restricciones medioambientales.
+Concepto
+Recordamos …
+
+--- PAGE 3 ---
+2023
+3
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+●Otras técnicas para desarrollo de productos:
+Descubrimiento de Producto (Product Discovery) 
+5
+Todas las actividades orientadas a determinar
+qué producto debemos crear
+Todas las actividades orientadas a determinar
+qué producto debemos crear
+Concepto
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto (Product Discovery) 
+●Es un proceso iterativo que reduce la incertidumbre en
+torno a un problema o idea, para asegurar que se
+construye
+el
+producto
+correcto
+para
+la
+audiencia
+correcta.
+●Sirve para que el equipo de producto pueda enfocarse
+en
+construir
+lo
+correcto
+y
+no
+en
+construirlo
+correctamente
+6
+
+--- PAGE 4 ---
+2023
+4
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto (Product Discovery) 
+●Técnicas:
+7
+Visión de 
+producto
+Buyer
+Persona
+Mapa de 
+empatía
+Mapa de 
+Impacto
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Visión de Producto
+●Visión de Producto
+La visión de producto es una definición que describe a alto nivel, el 
+objetivo a largo plazo de tu producto. La visión de producto debe 
+responder a la pregunta:
+¿Qué quieres que sea tu producto dentro de unos años?
+8
+
+--- PAGE 5 ---
+2023
+5
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Visión de Producto
+●Visión de Producto debe ser:|
+○Clara
+○Concisa
+○Motivadora
+○Alcanzable. 
+Debe inspirar al equipo y stakeholders a crear un gran 
+producto que satisfaga las necesidades del cliente
+9
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Visión de Producto
+●Razones para definir la Visión de Producto:
+10
+Asegura que todos trabajen con las 
+mismas metas y objetivos.
+Permite alineación con los stakeholders
+y el equipo de desarrollo.
+Aporta claridad y motivación al equipo.
+Ayuda a definir tu estrategia de producto.
+Ayuda a definir la priorización del backlog.
+Ayuda a eliminar ruido, si una necesidad de un stakeholder no 
+ayuda a alcanzar la visión, no debe estar en el roadmap.
+
+--- PAGE 6 ---
+2023
+6
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Visión de Producto
+●Preguntas a responder en el proceso de creación de
+la Visión del Producto:
+11
+¿Cuáles son sus principales ventajas?
+¿Qué problema queremos resolver?
+Centrarnos en el cliente: los clientes son la razón de 
+nuestro producto
+Mirar el producto en el futuro: dentro de cinco años, 
+queremos que la gente diga xxxx de nuestro producto.
+●Algunas premisas:
+Aspecto diferencial: en alguna parte la visión debe explicar 
+por qué nuestro producto es diferente a de los competidores.
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Visión de Producto
+●Para comenzar nos podemos apoyar en la «visión del producto» de Geoffrey 
+Moore, en su libro Crossing the Chasm:
+12
+
+--- PAGE 7 ---
+2023
+7
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Visión de Producto
+●Ejemplos:
+13
+«Transporte tan fiable como el agua corriente, en todas partes y para 
+todos«
+UBER
+«Crear oportunidades económicas para cada profesional del mercado 
+laboral internacional.»
+LinkedIn
+«Hacer los mejores productos del mundo y dejar el mundo mejor de lo 
+que lo encontramos.»
+Apple
+«Ser el más prestigioso motor de búsqueda y el más importante del 
+mundo.»
+Google
+«Ser la empresa más centrada en el cliente de la Tierra; construir un 
+lugar donde la gente pueda venir a encontrar y descubrir cualquier 
+cosa que quiera comprar online. »
+Amazon
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Modelado de Persona
+●Modelado de Persona: Buyer Persona
+Herramienta que nos permite definir el perfil del cliente
+Útil para:
+Dirigir el producto/servicio
+Representar el cliente ideal
+Identificar potenciales usuarios
+14
+
+--- PAGE 8 ---
+2023
+8
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Modelado de Persona
+●Modelado de Persona: Buyer Persona
+15
+Soluciones que obtiene de la 
+marca
+¿Qué?
+¿Cuál?
+¿Cuál?
+Piensa y siente
+Esfuerzo
+Resultado
+Registra lo expresado por el 
+cliente
+Analiza su comportamiento
+Tiene en cuenta sus ocupaciones, 
+intereses y pasatiempos
+Información a manos del cliente
+Detalla las dudas, preocupaciones 
+y frustraciones que experimenta
+Conoce los miedos y puntos de 
+dolor que percibe
+El deseo de satisfacción del cliente
+El obstáculo que ha sido superado
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Modelado de Persona
+●Modelado de Persona: Buyer Persona
+16
+¿Qué?
+¿Qué?
+¿Qué?
+Dice y hace
+Oye
+Ve
+Redes sociales
+Examina sus acciones
+Aspectos demográficos
+Preocupaciones, sueños y metas
+Conoce los obstáculos a los que se 
+enfrenta el cliente
+Reseñas, comentarios u opiniones
+Testimonios o casos de éxito
+Análisis del entorno
+Contenido de marca
+
+--- PAGE 9 ---
+2023
+9
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Modelado de Persona
+●Modelado de Persona: Buyer Persona
+17
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Modelado de Persona
+●Modelado de Persona: Buyer Persona
+18
+
+--- PAGE 10 ---
+2023
+10
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Modelado de Persona
+●Modelado de Persona: Buyer Persona
+19
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Mapa de Empatía
+●Mapa de Empatía:
+20
+•
+¿Qué piensa y siente?
+•
+¿Qué oye?
+•
+¿Qué ve?
+•
+¿Qué dice y hace?
+•
+¿Cuáles son los esfuerzos que realiza?
+•
+¿Cuáles son los resultados que obtiene?
+Contestar estas interrogantes nos ayudará a conocer más al cliente 
+y representan un recurso complementario a la creación del buyer 
+persona.
+
+--- PAGE 11 ---
+2023
+11
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Mapa de Empatía
+21
+Saber cómo se comporta en 
+diferentes entornos; en público, 
+en privado, con compañeros de 
+trabajo, con amigos y con 
+familiares. identificar cómo 
+habla en ese entorno. 
+Se refiere a lo que necesita 
+para alcanzar el éxito y lograr 
+sus objetivos. Para ello hay 
+que conocer cómo mide el 
+éxito. 
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Mapa de Empatía
+●Mapa de Empatía
+22
+Refleja los pensamientos y sentimientos 
+de un cliente ideal. 
+Crearlo es muy útil en el esfuerzo por entender al cliente. 
+Es un recurso que nos permitirá ponernos en los 
+zapatos de los consumidores de nuestro producto
+Ayuda a contemplar las estrategias necesarias para 
+establecer un mejor vínculo con ellos.
+
+--- PAGE 12 ---
+2023
+12
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Mapa de Empatía 
+●Ejemplos
+23
+https://blog.hubspot.es/service/mapa-empatia#que-es
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Mapa de Empatía 
+●Ejemplos
+24
+https://blog.hubspot.es/service/mapa-empatia#que-es
+
+--- PAGE 13 ---
+2023
+13
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto – Mapa de Empatía 
+●Ejemplos
+25
+https://blog.hubspot.es/service/mapa-empatia#que-es
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto- Mapa de Impacto
+●Mapa de Impacto
+Es una técnica de planificación estratégica creada por Gojko
+Adzic. Permite a las organizaciones mantenerse en el camino 
+mientras crean productos y envían bienes y servicios. 
+Es una representación gráfica de los objetivos y los resultados 
+esperados, facilitando la toma de decisiones en forma 
+colaborativa
+26
+
+--- PAGE 14 ---
+2023
+14
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto- Mapa de Impacto
+●¿Cuándo utilizar el mapa de impacto?
+27
+Para ayudar a decidir qué debe incluirse en un producto
+Para planificar su próximo sprint o lanzamiento. 
+Para demostrar a un cliente que no vale la 
+pena invertir en una característica concreta
+Para la mejora de un producto existente
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto- Mapa de Impacto
+28
+Hacia dónde queremos ir
+Cómo vamos a llegar
+A quiénes vamos a involucrar
+
+--- PAGE 15 ---
+2023
+15
+Análisis de Sistemas
+Descubrimiento de Producto
+(ASI: 2K7 - 2K10)
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Descubrimiento de Producto- Mapa de Impacto
+29
+Descubrimiento de Producto (ASI:  2K7 - 2K10)
+Bibliografía
+30
+• https://blog.hubspot.es/service/mapa-empatia
+• https://www.culturadeproducto.com/como-redactar-una-vision-del-producto-
+convincente/
+• https://miro.com/es/plantillas/mapa-de-impacto/
+• Material taller docente “ Descubrimiento de Producto” – dictado por Ing. Giada Gentilli
+- Ing. Iris Gastañaga , organizado por la cátedra de Análisis de Sistemas UTN-FRC, Abril 
+de 2023
+

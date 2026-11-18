@@ -1,0 +1,1032 @@
+--- PAGE 1 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+1
+Análisis de Sistemas
+UNIVERSIDAD TECNOLÓGICA 
+NACIONAL
+FACULTAD REGIONAL CÓRDOBA
+DPTO. INGENIERÍA EN SISTEMAS DE INFORMACIÓN
+CARRERA: INGENIERÍA EN SISTEMAS DE INFORMACIÓN
+Análisis de Sistemas
+Curso: 2K7 – 2K10
+Análisis de Sistemas
+Cursos: 2K7 – 2K10
+Docente: Ing. Marcela F. Cattaneo
+JTP y Ay: Ing. Claudia Sánchez
+2K7     Ing. Silvia Lanza Castelli
+JTP y Ay: Ing. Claudia Sánchez
+2K10   Ing. Susana Turanzas
+
+--- PAGE 2 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+2
+Análisis de Sistemas
+Unidad 4: Modelado de Sistemas de 
+Información
+Introducción al Paradigma 
+Orientado a Objetos
+3
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+4
+“Un conjunto de teorías, estándares y métodos que 
+juntos representan una forma de organizar el 
+conocimiento, es decir, una forma de ver el mundo”
+(Thomas Kun)
+PARADIGMA
+Concepto
+Un modelo, teoría, marco de referencia, o filosofía, es alguna
+manera o forma en la cual vemos el mundo, no en términos
+del sentido de la vista, sino en términos de percepción,
+interpretación, entendimiento.
+
+--- PAGE 3 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+3
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+Grady
+Booch,
+sostiene
+que
+la
+“complejidad
+innata”
+del
+software se deriva de:
+●La complejidad del dominio del problema.
+●La dificultad de gestionar el proceso de desarrollo.
+●La flexibilidad que se puede alcanzar a través del software.
+●Los problemas de caracterizar el comportamiento de 
+sistemas discretos.
+5
+PARADIGMAS EN EL DESARROLLO DE SISTEMAS
+Complejidad del Software
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+6
+La técnica para dominar la complejidad de un sistema es .. 
+PARADIGMAS EN EL DESARROLLO DE SISTEMAS
+Complejidad del Software
+descomponerlo en partes más y más pequeñas, cada una 
+de las cuales se puede refinar en forma independiente. 
+Formas de descomponer un sistema complejo: 
+Descomposición funcional
+(Paradigma Estructurado)
+Descomposición orientada a objetos
+(Paradigma OO)
+
+--- PAGE 4 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+4
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+7
+PARADIGMAS EN EL DESARROLLO DE SISTEMAS
+Complejidad del Software
+Descomposición 
+algorítmica
+• Se divide el sistema en elementos funcionales 
+relacionados estructuralmente entre sí.
+• Enfatiza el orden de los eventos
+• Separación de funciones y datos.
+• Los datos y/funciones son visibles y accesibles en todo 
+el sistema
+Descomposición 
+OO
+• Un conjunto de agentes autónomos (objetos) que 
+colaboran para llevar a cabo algún comportamiento 
+• Resalta los agentes que causan acciones o son sujetos 
+de estas acciones.
+• Datos y comportamiento se modelan juntos.
+• Datos y comportamiento encapsulados
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+1. Permite organizar el sistema de acuerdo con abstracciones de más alto
+nivel, siendo éstas más cercanas a la manera de pensar de la gente.
+2. Los sistemas suelen construirse a partir de objetos ya existentes.
+3. La complejidad de los objetos que podemos utilizar sigue en aumento.
+4. Los datos globales desaparecen, junto con las funciones son parte
+interna de los objetos por lo que los cambios sólo afectan al objeto.
+8
+PARADIGMA ORIENTADO A OBJETOS
+CARACTERÍSTICAS
+Cuenta bancaria
+Venta
+Reserva de vuelo
+Cliente
+Producto
+
+--- PAGE 5 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+5
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+OBJETO
+●La palabra OBJETO proviene del latín objectus:
+○Ob significa “hacia”
+○Jacere es “arrojar”
+Objeto sería cualquier cosa que se puede arrojar…
+●Los objetos son más que simples cosas que se pueden arrojar
+●Son conceptos que pueden ser abstractos o concretos
+9
+PARADIGMA ORIENTADO A OBJETOS
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+OBJETO
+●Cualquier
+cosa
+que
+incorpore
+una
+estructura
+y
+un
+comportamiento o acción se le puede considerar OBJETO
+●Concepto formal:
+10
+PARADIGMA ORIENTADO A OBJETOS
+“Un objeto representa un elemento, unidad o entidad
+individual e identificable, ya sea real o abstracta, con un
+papel bien definido en el dominio del problema”.
+(Smith y Tockey)
+
+--- PAGE 6 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+6
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+NATURALEZA DE LOS OBJETOS
+Todo Objeto tiene:
+11
+PARADIGMA ORIENTADO A OBJETOS
+Estado
+Comportamiento
+Identidad
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●El
+estado
+de
+un
+objeto
+abarca
+todas
+las
+propiedades (normalmente estáticas) del mismo
+más
+los
+valores
+actuales
+(normalmente
+dinámicos) de cada una de esas propiedades.
+Propiedades
+atributos
+valores
+ESTADO DEL OBJETO
+12
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - ESTADO
+son los
+tienen
+Representado por
+
+--- PAGE 7 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+7
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●Ejemplo – Pensemos en el concepto CAJA DE AHORRO
+●Propiedades: Una caja de ahorro tiene
+○Un número
+○Un titular
+○Fecha de apertura
+○Saldo
+○Moneda
+○Fecha de cierre
+13
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - ESTADO
+Estados :
+●Abierta
+●Con saldo
+●Sin saldo
+●Cerrada
+Según sean los valores 
+de estas propiedades
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●El comportamiento es cómo actúa y reacciona
+un objeto, en términos de sus cambios de estado
+y paso de mensajes.
+●Representa su actividad visible y comprobable
+exteriormente.
+●Una operación denota un servicio que ofrecen
+todos los objetos del mismo tipo.
+14
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - COMPORTAMIENTO
+
+--- PAGE 8 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+8
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●Ejemplo – Pensemos en el concepto CAJA DE AHORRO
+●Comportamientos: Una caja de ahorro puede…
+○Incrementar su saldo por un depósito
+○Disminuir su saldo por una extracción
+○Mostrar su Saldo
+○Mostrar su Titular
+○Mostrar su número
+○Mostrar sus datos completos
+○Cerrarse
+15
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - COMPORTAMIENTO
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●Los tres tipos más comunes de comportamientos son los
+siguientes:
+○Modificador: Una operación que altera el estado de un objeto
+(modifica el valor de alguno/s de sus atributos.
+○Selector: Una operación que accede al estado de un objeto (a
+alguno/s de sus atributos) pero no altera ese estado.
+○Iterador: Una operación que permite acceder a todas las partes de un
+objeto en algún orden perfectamente establecido.
+●Hay otros dos tipos de operaciones habituales, para crear y
+destruir objetos
+16
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - COMPORTAMIENTO
+
+--- PAGE 9 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+9
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●La identidad es aquella propiedad de un objeto
+que lo distingue de todos los demás objetos.
+●Los objetos se distinguen por su propia existencia,
+aunque internamente los valores para todos sus
+datos sean iguales.
+17
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - IDENTIDAD
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+18
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE LOS OBJETOS - IDENTIDAD
+Jorge
+Maipu
+447
+La Calera
+Dominguez
+Médico
+Persona 1
+Jorge
+Maipu
+447
+La Calera
+Dominguez
+Médico
+Persona 2
+●Dos manzanas aunque sean externamente del mismo
+color y forma son diferentes objetos.
+●En una biblioteca puede haber varios libros de UML:
+tienen el mismo nombre, código, autor, edición pero
+son distintos objetos.
+●Dos personas:
+
+--- PAGE 10 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+10
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+CLASE
+●Una clase es una descripción de un conjunto de objetos que
+comparten los mismos atributos, operaciones, relaciones y
+semántica.
+19
+PARADIGMA ORIENTADO A OBJETOS
+Es la definición de un conjunto de objetos que comparten
+una estructura común y un comportamiento común.
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●Una clase puede representar:
+20
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE UNA CLASE
+Roles desempeñados por personas
+Lugares
+Cosas
+Roles desempeñados por organizaciones
+Conceptos
+Eventos / Transacciones
+
+--- PAGE 11 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+11
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+●VISTA
+EXTERNA:
+Declaración
+de
+todas
+las
+operaciones
+(comportamiento) aplicables a todas las instancias de la
+clase (objetos)
+●VISTA INTERNA: Engloba los secretos de su comportamiento.
+Se compone principalmente de la implementación de las
+operaciones definidas en su interfaz.
+21
+PARADIGMA ORIENTADO A OBJETOS
+NATURALEZA DE UNA CLASE
+INTERFAZ
+IMPLEMENTACIÓN
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+22
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+●Ejemplo definición de CLASE en UML
+Nombre de la clase
+Atributos/propiedades
+(ocultos)
+Responsabilidades/Operaciones
+Comportamiento
+(visible)
+
+--- PAGE 12 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+12
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+23
+PARADIGMA ORIENTADO A OBJETOS
+CLASE   Y    OBJETOS
+Vehículo
+Nombre 
+de la clase
+Estructura: 
+Características 
+(atributos) de 
+la clase
+Comporta-
+miento o 
+Responsa
+bilidades:
+Marca
+Modelo
+Año Fabricación
+Color
+Valor
+Dominio
+arrancar
+acelerar
+avanzar
+retroceder
+frenar
+combustEstimado
+Objeto 1
+Marca: Fiat
+Modelo: Mobi Easy
+Año Fabric.: 2018
+Color: Rojo
+Valor: 550.000
+Dominio: AC 544 DE
+Objeto 2
+Objeto 3
+Marca: Renault
+Modelo: Clio
+Año Fabric.: 2011
+Color: Azul
+Valor: 250.000
+Dominio: JTO149
+Marca: Ford
+Modelo: Fiesta
+Año Fabr.: 2016
+Color: Gris
+Valor: 400.000
+Dominio: ONJ540
+arrancar
+acelerar
+avanzar
+retroceder
+frenar
+combustEstimado
+arrancar
+acelerar
+avanzar
+retroceder
+frenar
+combustEstimado
+arrancar
+acelerar
+avanzar
+retroceder
+frenar
+combustEstimado
+Los objetos pueden hacer todo lo que está definido en la 
+clase a la que pertenecen
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+24
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+Abstracción
+Encapsulamiento
+Modularidad
+Jerarquía
+
+--- PAGE 13 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+13
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+25
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+Abstracción
+Encapsulamiento
+Modularidad
+Jerarquía
+●Abstracción
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+26
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+Abstracción
+Encapsulamiento
+Modularidad
+Jerarquía
+Ocultamiento de
+información
+¿Qué se oculta?
+●Encapsulamiento
+
+--- PAGE 14 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+14
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+27
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+Abstracción
+Encapsulamiento
+Modularidad
+Jerarquía
+Marcela
+Maipu
+447
+La Calera
+25-03
+02-101
+01-03-05
+15000
+00-00-00
+$ars
+titular
+mostrar Nombre
+Objeto Caja de Ahorro
+Objeto Titular
+mostrar Titular
+●Encapsulamiento
+Estructura encapsulada 
+de datos
+Operaciones que 
+acceden a los datos
+Referencia a un
+objeto Titular
+Mensaje – solicitud
+de servicio
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+28
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+Abstracción
+Encapsulamiento
+Modularidad
+Jerarquía
+●Modularidad
+Cohesión
+Acoplamiento
+Alta
+Bajo
+Independencia
+de 
+componentes
+
+--- PAGE 15 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+15
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+29
+PARADIGMA ORIENTADO A OBJETOS
+ELEMENTOS ESENCIALES
+Abstracción
+Encapsulamiento
+Modularidad
+Jerarquía
+●Jerarquía
+Jerarquía de 
+clases
+Jerarquía de 
+partes
+Generalización 
+(Herencia)
+Agregación / 
+Composición
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+30
+PARADIGMA ORIENTADO A OBJETOS
+Relaciones entre Clases
+●Existen los siguientes tipos básicos de relaciones entre 
+clases, en UML:
+Jerárquicas
+• Generalización (Herencia)
+• Agregación/Composición
+No 
+Jerárquicas
+• Asociación
+• Dependencia
+●Las que incluimos en un modelo de dominio  
+
+--- PAGE 16 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+16
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+31
+PARADIGMA ORIENTADO A OBJETOS
+Relaciones entre Clases – Presentación general
+●Generalización/Especialización (Herencia):
+●
+Asociación
+●Composición y Agregación
+●Dependencia, es una relación de uso, se usarán cuando se 
+quiera indicar que un elemento utiliza a otro.
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+32
+RELACIONES ENTRE CLASES
+Generalización (Herencia)
+●La herencia es una relación entre clases en la que una
+clase
+comparte
+la
+estructura
+y/o
+el
+comportamiento
+definidos en una (herencia simple) o más clases (herencia
+múltiple).
+Simbología
+
+--- PAGE 17 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+17
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+33
+RELACIONES ENTRE CLASES
+Generalización (Herencia)
+●La herencia hace que la estructura de datos y operaciones 
+estén disponibles para su reutilización por parte de sus 
+subclases. 
+●Una subclase puede añadir atributos y operaciones a los 
+que hereda de sus padres. 
+Herencia simple
+Herencia
+Múltiple
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+34
+RELACIONES ENTRE CLASES
+Generalización (Herencia)
+Polimorfismo
+•
+Una responsabilidad de un hijo con el 
+mismo nombre de la que figura en el 
+padre, redefine el comportamiento 
+heredado del padre.
+•
+Una operación que adopta varias 
+formas de implantación según haya 
+sido redefinida en las clases hijas. 
+
+--- PAGE 18 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+18
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+35
+RELACIONES ENTRE CLASES
+Asociación
+●Una asociación es una relación estructural que especifica que 
+los objetos de una clase están conectados con los objetos de 
+otra.
+●
+Una asociación sólo denota una dependencia semántica 
+entre dos clases pero no establece la forma exacta en que 
+una clase se relaciona con la otra. 
+Dada una asociación entre dos clases se puede navegar  
+desde un objeto de una clase hasta un objeto de la otra. 
+Navegabilidad
+Multiplicidad
+Simbología
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+36
+RELACIONES ENTRE CLASES
+Asociación
+●Ejemplos:
+Una asociación bidireccional 
+también se puede representar 
+así:
+RELACIONES ENTRE CLASES
+Asociación
+
+--- PAGE 19 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+19
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+37
+RELACIONES ENTRE CLASES
+Asociación
+●Ejemplos: Asociación reflexiva
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+38
+RELACIONES ENTRE CLASES
+Asociación
+●Ejemplos:
+La multiplicidad de la asociación
+indica
+cuántos
+objetos
+pueden
+conectarse
+a
+través
+de
+una
+instancia de la asociación.
+Valores posibles de la Multiplicidad:
+•
+Uno
+1
+•
+Muchos
+*
+•
+Uno a muchos
+1..*
+•
+Cero a Uno
+0..1
+•
+Cero a Muchos
+0..*
+•
+Uno a n
+1..3 por ej.
+
+--- PAGE 20 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+20
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+39
+RELACIONES ENTRE CLASES
+Agregación/composición
+●Relación “todo/parte” en la cual una clase representa una 
+cosa grande (el “todo”) , que consta de elementos más 
+pequeños (las “partes”). 
+Agregación
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+40
+RELACIONES ENTRE CLASES
+Composición
+●
+Composición: Representa una relación del tipo “tiene un”, 
+o sea, un objeto del todo tiene objetos de la parte. Denota 
+contención física.
+Factura
+ItemFactura
+Factura
+ItemFactura
+Motor
+Pieza
+Composición
+
+--- PAGE 21 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+21
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+41
+RELACIONES ENTRE CLASES
+Agregación
+●
+Es un tipo de relación, en donde el tiempo de vida del objeto
+incluido es independiente del que lo incluye. También llaman a esta
+forma de agregación “compartida” porque es posible que un objeto
+“parte o contenido” corresponda a más de un objeto “todo o
+contenedor”
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+42
+RELACIONES ENTRE CLASES
+Dependencia
+●Una relación de uso que declara que un cambio en la especificación
+de un elemento puede afectar a otro elemento que la utiliza.
+●Generalmente las dependencias se utilizan para indicar que una clase
+utiliza a otra como argumento en la signatura de una operación.
+Utilizaremos 
+dependencias más 
+adelante en el modelado
+
+--- PAGE 22 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+22
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+43
+RELACIONES ENTRE CLASES
+Diagrama de Clases
+●Los
+diagrama
+de
+clases
+son
+los
+más
+utilizados
+en
+el
+modelado de sistemas orientados a objetos.
+●Muestra un conjunto de clases así como sus relaciones.
+●En un diagrama de clases podemos encontrar:
+○Clases
+○Relaciones
+○Indicadores de multiplicidad y navegabilidad
+○Nombre de Rol
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+44
+RELACIONES ENTRE CLASES
+Diagrama de Clases
+
+--- PAGE 23 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+23
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+45
+DIAGRAMAS DE CLASES
+¿Cómo encontrar Clases? Algunos consejos…
+Está dentro 
+de los límites 
+de nuestro 
+sistema?
+{inicio}
+Tiene un
+comportamiento
+identificable para 
+nuestro dominio
+de problema?
+SI
+SI
+Tiene una
+estructura
+Identificable?
+SI
+Tiene 
+relaciones con 
+otros 
+candidatos?
+SI
+considerar
+una clase 
+del dominio
+Es probable
+que no sea 
+una clase del 
+dominio
+NO
+NO
+NO
+NO
+Está dentro 
+de los límites 
+de nuestro 
+sistema?
+{inicio}
+Está dentro 
+de los límites 
+de nuestro 
+sistema?
+Está dentro 
+de los límites 
+de nuestro 
+sistema?
+Tiene un
+comportamiento
+identificable para 
+nuestro dominio
+de problema?
+SI
+SI
+Tiene una
+estructura
+Identificable?
+SI
+Tiene una
+estructura
+Identificable?
+Tiene una
+estructura
+Identificable?
+SISI
+Tiene 
+relaciones con 
+otros 
+candidatos?
+SISI
+considerar
+una clase 
+del dominio
+considerar
+una clase 
+del dominio
+Es probable
+que no sea 
+una clase del 
+dominio
+Es probable
+que no sea 
+una clase del 
+dominio
+NO
+NO
+NO
+NO
+●Leer cuidadosamente la especificación de
+requerimientos buscando frases sustantivas y
+hacer una lista preliminar.
+●Observar la lista y dividir los items en tres
+categorías: clases obvias, absurdas y dudosas.
+●Buscar
+entre
+estas
+categorías
+de
+abstracciones las que tengan un rol en el
+dominio que se está modelando:
+○
+Cosas tangibles
+○
+Roles desempeñados por personas u organizaciones
+○
+Hechos, acontecimientos
+○
+Transacciones, interacciones
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+46
+DIAGRAMAS DE CLASES
+¿Cómo encontrar responsabilidades de las Clases? 
+●Las responsabilidades incluyen dos tipos de items:
+○El conocimiento que mantiene un objeto.
+○Las acciones que puede ejecutar un objeto.
+• Responsabilidades “Conocer”
+• Responsabilidades “Hacer”
+
+--- PAGE 24 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+24
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+47
+RELACIONES ENTRE CLASES
+Diagrama de Clases
+Responsabilidades
+HACER
+Hacer algo el mismo objeto
+Iniciar una acción en otros 
+objetos
+Coordinar y controlar 
+actividades en otros 
+objetos
+Responsabilidades 
+CONOCER
+Conocer los datos privados 
+encapsulados
+Conocer los objetos 
+relacionados
+Conocer las cosas que puede 
+derivar o calcular
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+48
+PARADIGMA ORIENTADO A OBJETOS
+Relaciones entre Objetos
+Relaciones 
+entre 
+Objetos
+•Enlace
+•Agregación/Composición
+
+--- PAGE 25 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+25
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+49
+RELACIONES ENTRE OBJETOS
+Enlace
+●Rumbaugh define enlace como “una conexión física o
+conceptual entre objetos”.
+●Denota la asociación específica por la cual un objeto (el
+cliente) utiliza los servicios de otro objeto (el servidor) o a
+través de la cual un objeto puede comunicarse con otro.
+A
+B
+Objeto 1
+Objeto 2
+Enlace
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+50
+RELACIONES ENTRE OBJETOS
+Enlace
+●Un mensaje enviado de un objeto a otro representa la
+existencia de un enlace entre ambos. Los mensajes se
+muestran
+como
+líneas
+dirigidas,
+que
+representan
+su
+dirección,
+con
+una
+etiqueta
+que
+nombra
+al
+propio
+mensaje.
+Caja de 
+Anorro
+Titular
+1: Mos trar Nom bre
+Enlace
+Mensaje
+
+--- PAGE 26 ---
+Paradigma Orientado a Objetos
+(ASI 2K7 - 2K10)
+26
+Análisis de Sistemas
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+51
+RELACIONES ENTRE OBJETOS
+Agregación
+●La agregación denota una jerarquía todo/parte, en la cual
+un objeto del todo tiene objetos de la parte.
+Objetos
+Clases
+Paradigma Orientado a Objetos  (ASI: 2K7 - 2K10)
+52
+●BOOCH, Grady, “Análisis y Diseño Orientado a Objetos”, - Editorial
+Addison-Wesley/Diaz Santos –Estados Unidos de América -
+Año
+1996
+●BOOCH, Grady, RUMBAUGH, James, JACOBSON, Ivar, “Lenguaje
+Unificado de Modelado” Segunda Edición, - Editorial Addison-Wesley
+– Pearson Educación – Año 2006.
+●Martin, James; Odell James J. “Análisis y Diseño Orientado a
+Objetos”, - Editorial Prentice Hall - Año 1992
+●Weitzenfeld, Alfredo - “Ingeniería de Software Orientado a Objetos
+con UML, Java e Internet”, - Thomson Editores - Año 2005
+●Evans Gary, “Getting from Use.Case to code Part 1: Use Case
+Analysis”, artículo publicado en el sitio IBM Rational en Julio/2004.
+●Bell Donald, “UML Basics Part III: The Class Diagram”,
+artículo
+publicado en el sitio IBM Rational en Noviembre/2003.
+BIBLIOGRAFÍA
+

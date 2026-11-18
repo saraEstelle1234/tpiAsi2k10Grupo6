@@ -1,0 +1,1685 @@
+--- PAGE 1 ---
+2023
+1
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+UNIVERSIDAD TECNOLÓGICA 
+NACIONAL
+FACULTAD REGIONAL CÓRDOBA
+DPTO. INGENIERÍA EN SISTEMAS DE INFORMACIÓN
+CARRERA: INGENIERÍA EN SISTEMAS DE 
+INFORMACIÓN
+Análisis de Sistemas
+Curso: 2K7 – 2K10
+1
+Análisis de Sistemas
+Cursos: 2K7 – 2K10
+2
+Docente: Ing. Marcela F. Cattaneo
+JTP y Ay: Ing. Claudia Sánchez
+2K7     Ing. Silvia Lanza Castelli
+JTP y Ay: Ing. Claudia Sánchez
+2K10   Ing. Susana Turanzas
+
+--- PAGE 2 ---
+2023
+2
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Unidad 3:
+Elicitación de 
+Requerimientos
+3
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+4
+NUESTRO TRAYECTO EN ASI
+Estudio de la organización
+MODELADO DE PROCESOS 
+DE NEGOCIO
+Pensar en el SI de soporte
+SISTEMAS DE 
+INFORMACIÓN
+SISTEMA DE SOFTWARE
+Marco de trabajo
+PROCESO DE 
+DESARROLLO
+Herramientas para definir SW
+CONSTRUCCIÓN DE MODELOS
+UML
+INGENIERÍA DE SOFTWARE
+Requerimientos
+AGILES
+SCRUM
+PUD
+
+--- PAGE 3 ---
+2023
+3
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+5
+Proceso en donde se adquiere el conocimiento
+del trabajo del cliente / usuario, se busca
+comprender sus necesidades y se detallan las
+restricciones medioambientales.
+Proceso en donde se adquiere el conocimiento
+del trabajo del cliente / usuario, se busca
+comprender sus necesidades y se detallan las
+restricciones medioambientales.
+Concepto
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+6
+Ganar conocimiento relevante del problema
+para producir una especificación rigurosa del
+software necesario para resolver el problema.
+Ganar conocimiento relevante del problema
+para producir una especificación rigurosa del
+software necesario para resolver el problema.
+Propósito
+
+--- PAGE 4 ---
+2023
+4
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos - Fuentes
+7
+Usuarios y otros involucrados
+Formularios y Documentos
+Software
+Manuales
+Informes
+Estándares
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+Actividades:
+• Identificar fuentes del conocimiento.
+• Adquirir el conocimiento a través de las técnicas de Elicitación.
+• Decidir sobre la relevancia del conocimiento.
+• Comprender la significación del conocimiento y su importancia.
+8
+
+--- PAGE 5 ---
+2023
+5
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+Productos:
+• El
+conjunto
+de
+los
+requerimientos
+de
+todas
+las
+partes
+involucradas.
+• Es un proceso de creación de modelos:
+o El
+analista
+comienza
+con
+modelos
+mentales
+con
+conocimiento
+dependiente
+del
+domino,
+al
+avanzar
+los
+modelos son más orientados al software.
+o No se produce ningún modelo formal.
+9
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+Interacción con otros procesos:
+10
+• Provee la información que se
+deberá Especificar
+• Se
+reciben
+nuevos
+requerimientos
+de
+los
+siguientes procesos
+• Todo conocimiento nuevo sobre el
+dominio
+dispara
+necesidades
+de
+Validación
+
+--- PAGE 6 ---
+2023
+6
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+Técnicas de Elicitación:
+11
+ENTREVISTAS
+CUESTIONARIOS
+ANÁLISIS DE DOCUMENTACIÓN
+OBSERVACIÓN
+JAD
+TORBELLINO DE IDEAS
+Y otros…
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Entrevista:
+• Es una conversación dirigida con un propósito específico que se
+basa en un formato de preguntas y respuestas.
+• Tipo de información buscado:
+12
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+
+--- PAGE 7 ---
+2023
+7
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+13
+Técnicas de Elicitación: Entrevista
+Planeación 
+de la 
+entrevista
+Realización 
+de la 
+entrevista
+Análisis de la 
+información y 
+elaboración 
+de informe
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+• Para lograr todo lo planteado es necesario contar con una buena
+planeación de la entrevista.
+14
+Lectura de 
+antecedentes
+Técnicas de Elicitación: Entrevista
+Establecer 
+objetivos de 
+la entrevista
+Selección de los
+entrevistados
+Preparación del
+entrevistado
+Selección del
+tipo de preguntas
+y estructura
+Preparación de la entrevista …
+
+--- PAGE 8 ---
+2023
+8
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Elicitación de Requerimientos
+Lectura de Antecedentes:
+o Prestar
+atención
+al
+vocabulario
+que
+los
+miembros
+de
+la
+organización utilizan para describirse y describir la organización.
+o Permitirá aprovechar al máximo el tiempo de la entrevista.
+15
+Técnicas de Elicitación: Entrevista
+-Un informe anual reciente
+-Un boletín corporativo
+-Cualquier comunicación que explique al 
+público las características
+de la organización
+- Sitio Web, etc
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+16
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Establecer los objetivos de la entrevista:
+• Establezca los objetivos de la entrevista con base en los
+antecedentes que consulte y en su experiencia.
+• Existen aspectos fundamentales sobre el procesamiento de la
+información y el proceso de toma de decisiones sobre los que
+deseará hacer preguntas.
+
+--- PAGE 9 ---
+2023
+9
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Selección de los entrevistados:
+o Incluir a personas clave de todos los niveles del sistema.
+o Muestrear a los miembros de la organización.
+o Mantener
+un
+equilibrio
+de
+modo
+que
+se
+cubran
+tantas
+necesidades de los usuarios como sea posible.
+17
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Preparación del entrevistado:
+o Agendar la entrevista con tiempo y avisarle a la persona a
+entrevistar para que pueda pensar acerca de la misma.
+o Establecer el tiempo de entrevista entre 45´ y 1 hora.
+o En algunas organizaciones se requerirá solicitar aprobación
+formal para realizar la entrevista.
+18
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+
+--- PAGE 10 ---
+2023
+10
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Selección del tipo de preguntas y estructura de la entrevista:
+• Redacte
+preguntas
+que
+cubran
+aspectos
+fundamentales
+detectados al plantear los objetivos de la entrevista.
+• La esencia de la entrevista se basa en el uso de técnicas
+inquisitivas adecuadas.
+• Al preparar una entrevista deben tomarse decisiones sobre:
+o El tipo de preguntas a realizar
+o La estructura de la entrevista
+o Cómo documentar la entrevista
+19
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Selección del tipo de preguntas y estructura de la entrevista
+20
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Decisiones 
+importantes 
+del 
+entrevistador
+Tipo de Preguntas:
+- Abiertas
+- Cerradas
+- Exploratorias
+Tipo de Preguntas:
+- Abiertas
+- Cerradas
+- Exploratorias
+Estructura de 
+la entrevista:
+- No 
+estructurada
+- Estructurada
+Estructura de 
+la entrevista:
+- No 
+estructurada
+- Estructurada
+- Pirámide
+- Embudo
+- Diamante
+- Pirámide
+- Embudo
+- Diamante
+Documentación:
+- Cuaderno de 
+notas
+- Grabación
+Documentación:
+- Cuaderno de 
+notas
+- Grabación
+
+--- PAGE 11 ---
+2023
+11
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Tipo de preguntas:
+• Abiertas:
+Son
+las
+preguntas
+que
+dejan
+“abiertas”
+las
+posibilidades de respuesta que tiene el entrevistado. Como
+por ejemplo:
+– Cuáles son las maneras de recibir un pedido del cliente?
+– Podría describirme el procedimiento que se sigue con una Orden de Pago?
+21
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+22
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+1. Simplifican las cosas para el 
+entrevistado
+2. Permiten al entrevistador 
+observar el vocabulario del 
+entrevistado
+3. Proporcionan mucho detalle
+4. Revelan alternativas no 
+consideradas
+5. Hacen más interesante la 
+entrevista
+6. Facilitan el estilo del 
+entrevistador
+7. Útiles cuando el entrevistado 
+no está preparado
+1. Pueden generar demasiada 
+información irrelevante
+2. Posible pérdida de control de la 
+entrevista
+3. Pueden llevar demasiado 
+tiempo para la cantidad de 
+información que aportan
+4. Pueden dar la apariencia de 
+que el entrevistador no se 
+preparó
+5. La posible apariencia de que no 
+se tiene objetivos claros para 
+la entrevista
+Ventajas
+Desventajas
+•
+Ventajas y Desventajas de las preguntas Abiertas:
+
+--- PAGE 12 ---
+2023
+12
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+23
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Tipo de preguntas:
+• Cerradas: Son aquellas en las que las posibles respuestas del
+entrevistado están limitadas. Por ejemplo:
+- Cuántas facturas se generan en un mes?
+- Quién recibe el reporte de Ventas mensual?
+- Preguntas
+bipolares
+(cuya
+respuesta
+será
+SI/NO,
+Verdadero/Falso,
+de
+acuerdo/en desacuerdo.
+- Preguntas de múltiple opción en las que se puede elegir una única respuesta
+(más utilizadas en Cuestionarios)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+24
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Ventajas
+Desventajas
+•
+Ventajas y Desventajas de las preguntas Cerradas:
+1. Ahorran tiempo
+2. Facilitan la comparación de
+entrevistas
+3. Llegan al punto de interés
+4. Mantienen el control de la
+entrevista
+5.
+Cubren
+rápidamente
+di-
+versos aspectos
+6.
+Obtienen
+datos
+de
+rele-
+vancia
+1. Aburren al entrevistado
+2. Pierden la riqueza del detalle
+3. Se pueden perder ideas 
+centrales
+4. No favorecen un clima de 
+armonía entre el entre-
+vistado y el entrevistador
+
+--- PAGE 13 ---
+2023
+13
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+25
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+•
+Atributos de las preguntas abiertas y cerradas:
+Abiertas
+Cerradas
+Confiabilidad de los datos
+Uso eficiente del tiempo
+Precisión de los datos
+Amplitud y profundidad
+Habilidad requerida
+del entrevistador
+Facilidad de análisis
+Baja                                                                              Alta
+Bajo                                                                              Alto
+Baja                                                                              Alta
+Mucha                                                                            Poca
+Mucha                                                                            Poca
+Difícil                                                                             Fácil
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Tipo de preguntas:
+• Exploratorias o de sondeo: El sondeo más sólido y el más
+simple es la pregunta “Para qué?”. Otras serían:
+– Podría darme un ejemplo?
+– Podría dar más detalles?
+26
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+
+--- PAGE 14 ---
+2023
+14
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Errores en las preguntas:
+o Evite las preguntas tendenciosas.
+o Evite las preguntas dobles.
+27
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+28
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Todo se planea de 
+antemano, tanto las 
+preguntas como la    
+secuencia.
+La estructuración se 
+refiere principalmente al 
+orden en que se plantean 
+las preguntas.
+Entrevista 
+Estructurada
+Carecen de estructura 
+formal pero no significa 
+falta de preparación.
+En este enfoque nos 
+limitamos a un breve 
+planteamiento que 
+incluya numerosas 
+preguntas planteadas 
+con precisión.
+Entrevistas 
+No 
+Estructuradas
+
+--- PAGE 15 ---
+2023
+15
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+o La
+estructura
+piramidal
+corresponde
+a
+una
+organización
+inductiva:
+–El entrevistador comienza con preguntas detalladas (en general de tipo
+cerradas) y luego irá ampliando los tópicos haciendo preguntas abiertas.
+–
+Conviene utilizar cuando …
+•
+el entrevistado necesita una introducción hacia el tópico principal
+•
+el entrevistado se niega a involucrarse en el tópico
+•
+necesite encadenar preguntas para llegar a una conclusión final.
+29
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Preguntas
+específicas
+Preguntas
+generales
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+o La estructura en embudo, corresponde a un enfoque
+deductivo:
+–
+Se comienza con preguntas de carácter general y más adelante
+va reduciendo las posibles respuestas mediante preguntas
+cerradas.
+–
+Es útil …
+•
+Para facilitar el inicio de la entrevista
+•
+Si el entrevistado está comprometido con el tópico y necesita
+cierta libertad para expresar sus emociones
+•
+Porque organiza la entrevista de modo de poder obtener
+información detallada sin largas secuencias de preguntas.
+30
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Comienza con 
+una pregunta
+general
+Y concluyen 
+con una
+específica
+
+--- PAGE 16 ---
+2023
+16
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+La estructura diamante es una combinación de las dos estructuras:
+•
+El entrevistador comienza con preguntas cerradas sencillas, a la
+mitad de la entrevista pedirá la opinión del entrevistado sobre
+tópicos generales, por último el entrevistador replanteará las
+preguntas con mayor precisión como marco de clausura.
+-
+Inconveniente
+requiere más tiempo.
+-
+Principal ventaja
+mantiene el interés del entrevistado
+31
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Preguntas
+específicas
+Y concluyen 
+con una
+específica
+Preguntas
+más 
+generales
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Entrevistas
+no estructuradas
+32
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Difícil                                                                              Fácil
+Mucho                                                                           Poco
+Muy necesario                                                               Limitado
+Mucho                                                                           Poco
+Muchas                                                                           Muy poco  
+oportunidades
+Gran                                                                              Reducida
+Evaluación
+Cantidad requerida de 
+tiempo
+Entrenamiento requerido
+Permite la espontaneidad
+Permite conocer al 
+entrevistado
+Flexibilidad
+Control de la entrevista
+Precisión
+Confiabilidad
+Amplitud y profundidad
+Bajo                                                                              Alto
+Baja                                                                              Alta
+Baja                                                                              Alta
+Mucha                                                                          Poca
+• Entrevistas
+estructuradas
+vs
+
+--- PAGE 17 ---
+2023
+17
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Registro de la entrevista:
+Puede utilizarse:
+•Grabación:
+–Solicitar autorización
+–Informar destino de la grabación
+–Asegurar confidencialidad
+•Toma de notas:
+la única alternativa para documentar la
+entrevista si el entrevistado niega el permiso para la grabación.
+33
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+34
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+1. Registro preciso y completo de 
+lo mencionado por cada 
+persona.
+2. Libera al entrevistador para 
+escuchar y responder con 
+mayor rapidez
+3. Permite mayor contacto visual 
+y por lo tanto mayor armonía
+4. Permite reproducir la 
+entrevista para otros 
+miembros del equipo
+1. Puede poner nervioso al entrevistado y
+por lo tanto limitar sus respuestas
+2. Puede reducir la capacidad de atención
+del entrevistador al suponer que todo
+estará grabado
+3. Si la grabación es larga puede resultar
+difícil localizar ciertos pasajes
+4. Incrementa el costo de la elicitación por
+las tareas de transcripción.
+Ventajas
+Desventajas
+•
+Registro de entrevista: Grabación
+
+--- PAGE 18 ---
+2023
+18
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+35
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+1. Mantienen alerta al 
+entrevistador
+2. Sirven para recordar preguntas 
+importantes
+3. Permiten recordar las 
+tendencias principales de la 
+entrevista
+4. Muestran el interés del 
+entrevistador en la entrevista
+5. Demuestran la prepara-ción del 
+entrevistador
+1. La pérdida del contacto visual y con
+ello el acercamiento con el entrevistado
+2. La pérdida de la continuidad en la
+conversación.
+3. Obligan al entrevistado a interrumpir
+sus
+planteamientos
+mientras
+el
+entrevistador toma notas
+4.Causan
+excesiva
+atención
+sobre
+los
+hechos y muy poca sobre las opiniones
+…y sentimientos
+Ventajas
+Desventajas
+•
+Registro de entrevista: Toma de Notas
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Realización de la entrevista:
+o Presentarse, recordar el motivo de su presencia
+o Recordar
+al
+entrevistado
+que
+registrará
+los
+puntos
+importantes de la entrevista; asegurar confidencialidad
+o Comenzar el desarrollo de la estrevista según la estructura
+planeada
+o Manejar adecuadamente el tiempo
+o Al concluir la entrevista, informe al entrevistado sobre los
+pasos posteriores
+36
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+
+--- PAGE 19 ---
+2023
+19
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Análisis de la información :
+o Analizar la información recopilada en la entrevista para poder
+elaborar
+un
+informe
+y
+las
+conclusiones,
+obteniendo
+los
+requerimientos.
+o Escribir el informe tan pronto ha concluido la entrevista.
+o Mantener una secuencia detallada de los acontecimientos y
+registrar también sus propias opiniones.
+o Revisar con el entrevistado el informe de la entrevista, en una
+reunión de seguimiento.
+37
+Elicitación de Requerimientos
+Técnicas de Elicitación: Entrevista
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Cuestionario:
+• Consiste en un formato de preguntas que se responden por
+escrito.
+• Pueden ser un suplemento de utilidad para las entrevistas.
+• Tipo de información buscada:
+38
+Elicitación de Requerimientos
+Técnicas de Elicitación
+
+--- PAGE 20 ---
+2023
+20
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Excelentes
+para
+conseguir
+respuestas
+para
+preguntas
+específicas cerradas.
+• Las respuestas que se obtienen pueden cuantificarse.
+• Preguntas claves detectadas en entrevistas a través del
+cuestionario llegan a una audiencia más amplia.
+39
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+40
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Aplicar el
+cuestionario
+Definir el objetivo
+y conveniencia 
+de aplicación
+Elaborar las
+Preguntas y diseñar
+el cuestionario
+Selección de las
+personas que
+lo recibirán
+El desarrollo y la planeación de un cuestionario útil requiere tiempo.
+•
+Pasos para la aplicación de cuestionarios:
+
+--- PAGE 21 ---
+2023
+21
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+41
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+• Definir objetivo y conveniencia del uso de cuestionarios:
+o Las personas a quienes necesite interrogar se encuentran 
+dispersas.
+o Gran cantidad de personas involucradas 
+o Para llevar a cabo un estudio exploratorio de opinión general.
+o Para realizar un sondeo a fin de identificar problemas actuales
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Elaborar las preguntas:
+o Las preguntas de un cuestionario deben ser completamente
+transparentes.
+o El flujo del cuestionario debe ser convincente.
+o Se debe anticipar a las respuestas de las preguntas.
+42
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+
+--- PAGE 22 ---
+2023
+22
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+43
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+• Uso de preguntas abiertas en cuestionarios:
+o Deben ser precisas para guiar a quien responde a contestar
+de una manera específica.
+o Útiles para conocer la opinión sobre algunos aspectos del
+sistema.
+o Usarlas cuando sea imposible enumerar todas las posibles
+respuestas.
+o Son útiles para explorar situaciones.
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Uso de preguntas cerradas en cuestionarios:
+o Utilizar cuando sea capaz de enumerar de antemano todas
+las respuestas posibles.
+o Las
+respuestas
+planteadas
+deben
+ser
+mutuamente
+excluyentes.
+o Útiles para explorar una gran muestra de personas, porque
+facilita el análisis de las respuestas.
+44
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+
+--- PAGE 23 ---
+2023
+23
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+•
+Inconvenientes de las preguntas abiertas y cerradas:
+Abiertas
+Cerradas
+45
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Lenta                                                                      Rápida
+Alta                                                                         Poca
+Alta                                                                         Poca
+Fácil                                                                         Difícil
+Difícil                                                                        Fácil
+Velocidad de conclusión
+Naturaleza explorativa
+Amplitud y profundidad
+Facilidad de Preparación
+Facilidad de análisis
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Lenguaje del cuestionario:
+46
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Usar en lo posible 
+lenguaje de quien 
+contesta
+Redactar 
+preguntas 
+precisas
+Utilizar 
+preguntas 
+cortas
+Evitar el uso de 
+lenguaje 
+corriente
+Evitar la 
+parcialidad
+Dirigir las 
+preguntas a las 
+personas 
+indicadas. 
+Preguntas 
+técnicamente 
+precisas.
+
+--- PAGE 24 ---
+2023
+24
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Uso de escalas
+Las razones para utilizar escalas son:
+o Medir las actitudes o características de la gente que contesta
+un cuestionario.
+o Contar con un elemento de juicio sobre los temas del
+cuestionario.
+47
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+48
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Continu
+ación
+Tipos de escalas:
+NOMINAL
+• Se utilizan para clasificar 
+objetos.
+ORDINAL
+• Además de realizar una 
+clasificación implican un 
+arreglo por categorías.
+DE INTERVALO
+• Tienen la característica 
+que la diferencia que 
+existe es la misma entre 
+los intervalos de cada uno 
+de los números.
+PROPORCIONAL
+• Son similares a las 
+escalas de intervalos 
+pero incluyen el cero.
+
+--- PAGE 25 ---
+2023
+25
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Tipos de escalas – ejemplos- : Nominal
+Cuál es el tipo de aplicativo que más utiliza?
+a) Procesador de texto
+b) Planilla de cálculo
+c) Base de Datos
+d) Graficador
+Entrarían en este tipo de escalas las preguntas cuyas
+respuestas sean:
+SI/NO, Verdadero/Falso.
+49
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+50
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+•Tipos de escalas – ejemplos- : Ordinal
+El personal de soporte es:
+a) Extremadamente útil
+b) Muy útil
+c) Moderadamente útil
+d) No muy útil
+e) Nada útil
+
+--- PAGE 26 ---
+2023
+26
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+•
+Tipos de escalas – ejemplos- Intervalo:
+Qué tan útil es el apoyo del personal de soporte?
+Nada útil
+Extremadamente
+útil
+1
+2
+3
+4
+5
+51
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+•
+Tipos de escalas – ejemplos- Proporcional:
+Aproximadamente cuántas horas diarias dedica a la
+computadora?
+0
+2
+4
+6
+8
+52
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+
+--- PAGE 27 ---
+2023
+27
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Problemas con el uso de escalas:
+o Indulgencia: Se presenta cuando los que responden son
+poco evaluadores.
+o Tendencia central: Es un problema que se presenta
+cuando el que responde califica todo como promedio.
+o Efecto de halo: Surge cuando la impresión que deja una
+pregunta se acarrea a la siguiente.
+53
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Soluciones a la …
+o Indulgencia:
+Colocar
+la
+categoría
+“promedio”
+corrida
+del
+centro.
+o Tendencia central:
+Reducir las diferencias entre los extremos
+Crear una escala con mayor número de puntos
+o Efecto de halo: Colocar en una misma página una sola
+categoría y distintos elementos a evaluar.
+54
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+
+--- PAGE 28 ---
+2023
+28
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Diseño del cuestionario.
+●Consideraciones sobre el estilo:
+o Disponga suficiente espacio en blanco (márgenes).
+o Disponga del espacio adecuado para las respuestas.
+o Use círculos para las respuestas.
+o Mantenga un estilo consistente.
+55
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Diseño del cuestionario
+●Orden de las preguntas:
+o Las preguntas de importancia para quien contesta van primero.
+o Agrupar preguntas del mismo tema.
+o Uso de tendencias asociativas.
+o Plantear primero los temas de menor controversia.
+56
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+
+--- PAGE 29 ---
+2023
+29
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Selección de las personas que responderán el cuestionario:
+•
+Se basa en los objetivos planteados para el cuestionario.
+•
+Uso del muestreo.
+•
+Frecuentemente los receptores se eligen por:
+–
+Ser prototipos de un nivel
+–
+Su antigüedad en la empresa
+–
+Sus responsabilidades en el cargo
+–
+Otro interés especial sobre el sistema actual o propuesto
+57
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Aplicación del cuestionario:
+o Reunir a todas las personas en un solo sitio.
+o Entregar personalmente los cuestionarios en blanco y recogerlos
+cuando estén completos.
+o Permitir que lo contesten durante las horas de trabajo y luego lo
+depositen en un buzón central.
+o Enviar el cuestionario a los que estén en otras sucursales
+estableciendo una fecha límite para su respuesta.
+58
+Elicitación de Requerimientos
+Técnicas de Elicitación: Cuestionario
+Encuesta
+
+--- PAGE 30 ---
+2023
+30
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Análisis de documentación:
+o Se
+necesita
+comprender
+el
+papel
+de
+los
+documentos
+en
+una
+organización.
+o Tipo de información buscada:
+59
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Análisis de documentación:
+60
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+Análisis de documentos 
+cuantitativos
+Análisis de documentos 
+cualitativos
+
+--- PAGE 31 ---
+2023
+31
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Análisis de documentos cuantitativos:
+○Reportes para toma de decisiones
+○Reportes de desempeño
+○Registros de transacciones
+○Formas para captura de datos
+■Oficial
+■No oficial (informales)
+61
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Registros de transacciones
+○Revisión de errores en cantidades y totales
+○Búsqueda de oportunidades para mejorar el diseño
+○Observar cantidad y tipo de transacciones
+○Observar situaciones en que la computadora puede 
+simplificar el trabajo
+62
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+
+--- PAGE 32 ---
+2023
+32
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Formas para captura de datos
+○Recolectar ejemplares de todas las formas
+○Observar el tipo de forma
+○Documentar el patrón de distribución pretendido
+○Comparar el patrón de distribución pretendido con quien 
+en realidad recibe la forma
+63
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Formas para captura de datos – analizar:
+○Si está llena de manera completa
+○Hay formas que nunca se usan?
+○Se distribuyen todas las copias?
+○Se usan formas “no oficiales”?
+64
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+
+--- PAGE 33 ---
+2023
+33
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Formas para captura de datos – signos a observar:
+○Los datos o la información no fluye como se pretende
+○Cuellos de botella en el procesamiento de las formas
+○Duplicación innecesaria de trabajo
+○Falta de comprensión por parte de los empleados acerca de la 
+interrelación del flujo de información
+65
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Análisis de documentos cualitativos
+●
+Lineamientos sobre información a buscar:
+○Claves o metáforas de lineamiento
+○Referencias “nosotros y los otros” - “unos contra otros”
+○Identificar términos que caractericen lo “bueno y lo malo” 
+para la organización
+○Reconocer la presencia del sentido del humor
+66
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+
+--- PAGE 34 ---
+2023
+34
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Análisis de documentos cualitativos:
+●
+Inspeccionar y analizar:
+○Memorandums
+○Tableros de noticias – áreas de trabajo
+○Manuales
+○Manuales de política
+67
+Elicitación de Requerimientos
+Técnicas de Elicitación: Análisis de documentación
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Observación:
+• A través de la observación de las actividades el analista
+profundiza en lo que se hace y no sólo lo que se dice o se tiene
+documentado
+• Tipo de información buscada:
+68
+Elicitación de Requerimientos
+Técnicas de Elicitación: Observación
+
+--- PAGE 35 ---
+2023
+35
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Razones por las que se hace observación:
+o Obtener información de los tomadores de decisión y su
+ambiente.
+o Confirmar lo que las entrevistas y los cuestionarios hubieran
+detectado
+o Rebatir o anular lo que otros métodos encontraron
+69
+Elicitación de Requerimientos
+Técnicas de Elicitación: Observaciones
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Las observación debe realizarse de manera:
+- Estructurada
+- Sistemática
+●Se debe determinar:
+- Qué y quiénes serán sujetos de observación
+- Cuándo, dónde, cómo y por qué
+●Se puede observar:
+- Las actividades de toma de decisiones de un gerente
+- El lenguaje corporal del tomador de decisiones
+- Tareas operativas
+70
+Elicitación de Requerimientos
+Técnicas de Elicitación: Observaciones
+
+--- PAGE 36 ---
+2023
+36
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• Registro de la observación:
+– In situ
+– A Posteriori
+• Tipos de registro:
+– Pareja de adjetivos, categorías, escalas
+– Notas de campo estructuradas
+– Guión del analista: se registra el actor y sus acciones 
+71
+Elicitación de Requerimientos
+Técnicas de Elicitación: Observaciones
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+JAD
+(Joint
+Application
+Design
+–
+Diseño
+conjunto
+de
+aplicaciones )
+•
+Técnica
+para
+promover
+la
+cooperación,
+comprensión,
+trabajo
+en
+grupo
+entre
+compradores,
+usuarios
+y
+desarrolladores.
+•
+Provee un proceso que facilita la creación de una visión
+compartida sobre lo que el sistema debe ser.
+72
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+
+--- PAGE 37 ---
+2023
+37
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Principios fundamentales
+●Grupos dinámicos, usando sesiones de grupo facilitadas para 
+acrecentar las capacidades individuales.
+●El uso de ayudas visuales para mejorar la comunicación y 
+comprensión.
+●Mantener un proceso racional y organizado.
+●Aplicar la filosofía de documentación “lo que ves, es lo que 
+obtenés”, usando formularios de documentación estándar que 
+son completados y respaldados por todos los participantes. 
+73
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Los grupos de usuarios desean algo nuevo, no una solución estándar 
+para un problema común.
+●La cultura de la organización apoya los comportamientos de solución 
+de problemas conjuntos entre varios niveles.
+●Los analistas pronostican que se obtendrán muchas más ideas 
+mediante un ejercicio de grupo.
+●El flujo de trabajo permite la ausencia de personal durante dos a 
+cuatro días.
+74
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+
+--- PAGE 38 ---
+2023
+38
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Patrocinador inicia y concluye la sesión JAD.
+●Analista de sistemas escucha qué dicen los usuarios y qué requieren. 
+Ayuda a “mantener los pies en la tierra” en cuanto a las soluciones 
+propuestas.
+●Ocho a doce usuarios.
+●Líder de la sesión debe ser alguien con habilidades de comunicación que 
+facilite las interacciones apropiadas.
+●Uno o dos observadores analistas o expertos técnicos de otras áreas 
+funcionales.
+●Un escriba que formalice todo lo que se haga.
+75
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Fuera de la organización.
+●Duración de dos a cuatro días.
+●Minimizar las distracciones y responsabilidades diarias del trabajo 
+regular de los participantes.
+●Asegurar la participación de todos los convocados.
+●Reunión de orientación una semana antes del taller.
+76
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+
+--- PAGE 39 ---
+2023
+39
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●Fases
+77
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+Custominzación
+Session
+Wrap-up
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Customization
+●Preparación de la fase de sesión
+●Incluye
+○organizar el grupo,  
+○ajustar el proceso para el sistema particular que se construirá,
+○preparar los materiales (transparencias, marcadores, papeles, 
+rectángulos magnéticos de vinílico que se pueden escribir y mover en 
+la pizarra, etc.).
+78
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+
+--- PAGE 40 ---
+2023
+40
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Session
+●Uno o más encuentros estructurados y facilitados (coordinados 
+por un facilitador) que involucra a los desarrolladores y a los 
+usuarios.
+●Durante estos encuentros, se definen, desarrollan y documentan los 
+requerimientos de alto nivel. 
+●Los participantes brindan diferentes ideas y vistas sobre el sistema. 
+●Discusiones coordinadas con el objetivo que las ideas se presenten, 
+analicen y refinen, de modo que al final de la reunión todos estén de 
+acuerdo. 
+79
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Wrap-up
+●Espacio dedicado a convertir la información de la fase de sesión 
+(transparencias, gráficos y documentos escritos a mano) en su 
+forma final.
+●Se podría obtener un documento de especificación de 
+requerimientos.
+80
+Elicitación de Requerimientos
+Técnicas de Elicitación: JAD
+
+--- PAGE 41 ---
+2023
+41
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Brainstorming”: Torbellino de Ideas o Tormenta de Ideas:
+o Técnica de grupo simple para generación de ideas.
+o Permite a las personas sugerir y explorar ideas en una atmósfera
+libre de críticas y juicios (prejuicios).
+o Se trabaja mejor en una sesión de torbellino de ideas, si participan
+entre 4/5 a 8/10 personas.
+o Un
+participante es el líder, pero el rol de líder es más que nada
+para dar comienzo a la sesión.
+81
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+●La sesión consiste en dos fases:
+82
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+Generación
+Consolidación
+Se fomenta a los 
+participantes a ofrecer 
+tantas ideas como sea 
+posible, sin discutir los 
+méritos de las ideas.
+Se discuten, revisan
+y
+organizan
+las
+ideas.
+
+--- PAGE 42 ---
+2023
+42
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Alex F. Osborn, un investigador y escritor sobre pensamiento
+creativo, ofrece cuatro reglas para la fase de generación:
+• Criticar las ideas está absolutamente prohibido.
+• Se
+fomentan
+las
+ideas
+descabelladas,
+no
+trilladas,
+no
+convencionales.
+• El número de ideas generadas debería ser muy grande.
+• Además de sugerir ideas totalmente nuevas, se debe fomentar a los
+participantes a combinar o “embellecer” ideas de otros.
+83
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Puede concluir en cualquiera de estas dos formas:
+•
+Si el líder cree que no se están generando más ideas,
+la
+reunión puede parar.
+•
+Si se han generado y registrado suficientes ideas, el líder
+conduce la reunión hacia la próxima fase.
+84
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+
+--- PAGE 43 ---
+2023
+43
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+• La fase de consolidación permite al grupo organizar las
+ideas de modo que puedan utilizarlas mejor:
+– Rever las ideas con el propósito de clarificación
+– Puede ser necesario re-escribir algunas de las ideas para que
+sean comprendidas mejor
+– Algunas ideas serán descartadas
+85
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+– Se debate sobre las ideas restantes con el objetivo de clasificarlas y
+priorizarlas:
+• aquellas que sean absolutamente esenciales,
+• aquellas que podrían ser agradables pero no esenciales,
+• y aquellas que podrían ser apropiadas para una segunda o
+subsecuentes versiones del sistema.
+– Producir un registro de las ideas que quedaron, con sus prioridades
+u otros comentarios relevantes de la fase de consolidación
+86
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+
+--- PAGE 44 ---
+2023
+44
+Análisis de Sistemas
+Elicitación de Requerimientos
+(ASI: 2K7 - 2K10)
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Ventajas:
+– Estimula el pensamiento imaginativo para ayudar a los usuarios a tornarse
+concientes de sus necesidades.
+– Ayuda a construir una imagen más completa de las necesidades de los
+usuarios.
+– Permite evitar la tendencia a enfocarse estrechamente, demasiado pronto.
+– Para algunos tipos de personalidad, proporciona una puesta en escena social
+más confortable que muchas de las técnicas de grupo estructuradas.
+87
+Elicitación de Requerimientos
+Técnicas de Elicitación: Torbellino de Ideas
+Elicitación de Requerimientos (ASI:  2K7 - 2K10)
+Bibliografía
+88
+•
+Sommerville
+Ian,
+“Ingeniería
+de
+Sofware”,
+9na
+Ed.,
+Addison Wesley - Madrid, 2011.
+•
+Loucopoulos,
+P.,
+Karakostas,
+V.,
+“System
+Requeriments Engineering”, McGraw-Hill, 1995, London.
+•
+Kendall Kenneth E. y Kendall Julie E., "Análisis y Diseño de
+Sistemas", - Editorial Prentice Hall Hispanoamericana,
+6ta.
+Edición, AÑO: 2005.
+

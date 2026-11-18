@@ -1,0 +1,800 @@
+--- PAGE 1 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+1
+UNIVERSIDAD TECNOLÓGICA 
+NACIONAL
+FACULTAD REGIONAL CÓRDOBA
+DPTO. INGENIERÍA EN SISTEMAS DE INFORMACIÓN
+CARRERA: INGENIERÍA EN SISTEMAS DE 
+INFORMACIÓN
+Análisis de Sistemas
+Curso:  2K7 – 2K10
+1
+Análisis de Sistemas
+Cursos: 2K7 – 2K10
+2
+Docente: Ing. Marcela F. Cattaneo
+JTP y Ay: Ing. Claudia Sánchez
+2K7     Ing. Silvia Lanza Castelli
+JTP y Ay: Ing. Claudia Sánchez
+2K10   Ing. Susana Turanzas
+
+--- PAGE 2 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+2
+Unidad 4:
+Patrones para la 
+construcción de Modelos 
+de Objetos del Dominio
+3
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Modelo de Dominio
+•
+El Modelo de Dominio captura los tipos de objetos más
+importantes en el contexto del sistema:
+o
+Los objetos del dominio representan las “cosas” que existen o los
+“eventos” que suceden en el entorno en el que se desenvuelve el
+sistema.
+o Muchos de las clases del dominio del problema, pueden deducirse de:
+4
+La especificación de 
+requisitos
+Entrevistas con los expertos 
+del dominio 
+del Modelo del Negocio
+
+--- PAGE 3 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+3
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Modelo de Dominio
+• Utilidad del modelo de dominio:
+o Debe contribuir a la comprensión del problema que se supone
+que el sistema resuelve.
+o Ayuda
+a
+los
+usuarios,
+clientes,
+desarrolladores
+y
+otros
+participantes del proyecto a utilizar un vocabulario común.
+o Las clases del dominio que aquí se encuentren se utilizarán:
+Al describir los casos de uso (capturan la funcionalidad del sistema)
+Diseñar el prototipo de interfaz de usuario
+Para sugerir clases internas durante el Análisis.
+5
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Diagrama de clases del Dominio de Problema
+• Pautas para su construcción
+o Debe contener sólo los elementos esenciales para comprender ese aspecto.
+o Debe proporcionar detalles en forma consistente con el nivel de abstracción,
+mostrando sólo aquellos adornos que sean esenciales en dicho nivel.
+o Se deben distribuir sus elementos de modo de minimizar los cruces de
+líneas.
+o Organizar los elementos de modo que los que sean semánticamente
+cercanos lo estén también físicamente.
+o Usar notas y colores sobre aspectos importantes que se quieran destacar.
+6
+
+--- PAGE 4 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+4
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+7
+DIAGRAMAS DE CLASES
+¿Cómo encontrar responsabilidades de las Clases? 
+●Las responsabilidades incluyen dos tipos de items:
+○El conocimiento que mantiene un objeto.
+○Las acciones que puede ejecutar un objeto.
+• Responsabilidades “Conocer”
+• Responsabilidades “Hacer”
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+8
+RELACIONES ENTRE CLASES
+Diagrama de Clases
+Responsabilidades
+HACER
+Hacer algo el mismo objeto
+Iniciar una acción en otros 
+objetos
+Coordinar y controlar 
+actividades en otros objetos
+Responsabilidades 
+CONOCER
+Conocer los datos privados 
+encapsulados
+Conocer los objetos 
+relacionados
+Conocer las cosas que puede 
+derivar o calcular
+
+--- PAGE 5 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+5
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Una descripción de un problema que ocurre y de cómo
+solucionarlo.
+•
+Son estereotipos que utilizamos una y otra vez para solucionar
+problemas parecidos.
+•
+Permiten
+REUSAR soluciones (de análisis / diseño)
+• Un  patrón  de  modelo  de  objetos  es            una agrupación  de  
+objetos  con  responsabilidades estereotipadas y escenarios de 
+interacción.
+9
+¿Qué es un Patrón de software?
+¿Cómo se expresan los patrones en Objetos?
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+¿Cómo nos ayudan los Patrones para Construcción de Modelos 
+de Dominio?
+Ayudan a encontrar:
+• Clases
+• Relaciones
+• Atributos
+• Responsabilidades
+10
+
+--- PAGE 6 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+6
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para la construcción de Modelo de 
+Objetos del Dominio
+Tipos:
+11
+Patrón Fundamental
+Patrones Transaccionales
+Patrones de agregación
+Patrones de Plan
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrón Fundamental:
+- Es la plantilla que todos los patrones siguen.
+12
+A
+B
+A - Atributos para la clase: Sugiere atributos, se debe
+analizar si se van a considerar para el sistema que se
+está modelando.
+B - sobreMi: refiere a que otros atributos
+específicos podrían ser necesarios según el
+dominio en particular que se está modelando.
+Ayuda para encontrar Atributos.
+
+--- PAGE 7 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+7
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrón Fundamental:
+- Ayuda para encontrar responsabilidades.
+13
+A
+B
+A - cuantos y cuanto: qué conteos pueden ser
+necesarios para la misma clase o en colaboración
+con otros objetos de otras clases.
+B calcularSobreTrabajadores: que cálculos son
+necesarios en relación a objetos de otra clase o
+en colaboración con ellos.
+clasificarTrabajadores:
+que
+servicios
+de
+ordenamiento o comparación podrían existir
+sobre objetos de la otra clase
+C - calcularParaMi: qué 
+cálculos específicos 
+podrían ser necesarios.
+valúeMe: qué servicios 
+de autoevaluación 
+podrían ser necesarios.
+C
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales:
+14
+Los Patrones Transaccionales son:
+•
+#2 Actor - Participante
+•
+#3 Participante - Transacción
+•
+#4 Lugar - Transacción
+•
+#5 ItemEspecífico - Transacción
+•
+#6 Transacción – Detalle Transacción
+•
+#7 Transacción – Transacción subsiguiente
+•
+#8 Detalle Transacción-DetalleTrSubsiguiente
+•
+#9 Item – Detalle Transacción
+•
+#10 Item Específico – Detalle Transacción
+•
+#11 Item – Item Específico
+•
+#12 Asociación – Otra asociación
+•
+#13 Item Específico – Item Jerárquico
+
+--- PAGE 8 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+8
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales:
+15
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+#3 Participante - Transacción:
+16
+Cliente
+tipoDocumento : TipoDocumento
+numeroDocumento
+apellido
+nombre
+fechaNacimiento
+sexo
+profesion
+domicilio : Domicilio
+telefono
+email
+fechaAlta
+usuario : Usuario
+tarjeta : TarjetaCliente
+pedido : Pedido
+crear()
+mostrarCliente()
+calcularEdad()
+mostrarPedidosPendientes()
+calcularCantidadPedidosPendientes()
+conocerPedido()
+conocerTarjetaCliente()
+conocerDomicilio()
+conocerTipoDocumento()
+conocerUsuario()
+
+--- PAGE 9 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+9
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+#3 Participante - Transacción:
+17
+Pedido
+numeroPedido
+fechaPedido
+horaPedido
+fechaEnvioPrevista
+fechaEnvioReal
+fechaEntregaPrevista
+fechaEntregaReal
+detallePedido : DetallePedido
+cupon : Cupon
+estado : Estado
+fechaCancelacion
+motivoCancelacion
+reclamo : Reclamo
+crear()
+mostrarPedido()
+calcularMontoTotal()
+registrarEnvio()
+registrarEntrega()
+cancelarPedido()
+verificarEstado()
+mostrarEstadoPedido()
+contarItems()
+calcularTotalDiscos()
+agregarDetallePedido()
+quitarDetallePedido()
+conocerDetallePedido()
+conocerReclamo()
+conocerCupon()
+conocerEstado()
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Pedido
+numeroPedido
+fechaPedido
+horaPedido
+fechaEnvioPrevista
+fechaEnvioReal
+fechaEntregaPrevista
+fechaEntregaReal
+detallePedido : DetallePedido
+cupon : Cupon
+estado : Estado
+fechaCancelacion
+motivoCancelacion
+reclamo : Reclamo
+crear()
+mostrarPedido()
+calcularMontoTotal()
+registrarEnvio()
+registrarEntrega()
+cancelarPedido()
+verificarEstado()
+mostrarEstadoPedido()
+contarItems()
+calcularTotalDiscos()
+agregarDetallePedido()
+quitarDetallePedido()
+conocerDetallePedido()
+conocerReclamo()
+conocerCupon()
+conocerEstado()
+Cliente
+tipoDocumento : TipoDocumento
+numeroDocumento
+apellido
+nombre
+fechaNacimiento
+sexo
+profesion
+domicilio : Domicilio
+telefono
+email
+fechaAlta
+usuario : Usuario
+tarjeta : TarjetaCliente
+pedido : Pedido
+crear()
+mostrarCliente()
+calcularEdad()
+mostrarPedidosPendientes()
+calcularCantidadPedidosPendientes()
+conocerPedido()
+conocerTarjetaCliente()
+conocerDomicilio()
+conocerTipoDocumento()
+conocerUsuario()
+0..*
+0..*
+Patrones para Modelo de Dominio
+•
+#3 Participante - Transacción:
+18
+
+--- PAGE 10 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+10
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales:
+19
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+#6 Transacción - Detalle Transacción:
+20
+DetallePedido
+disco : DiscoCompacto
+cantidad
+precio
+estado
+fechaCancelacion
+crear()
+mostrarDetallePedido()
+calcularSubtotal()
+tomarCantidad()
+cancelarDetallePedido()
+conocerDiscoCompacto()
+
+--- PAGE 11 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+11
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+#6 Transacción - Detalle Transacción:
+21
+DetallePedido
+disco : DiscoCompacto
+cantidad
+precio
+estado
+fechaCancelacion
+crear()
+mostrarDetallePedido()
+calcularSubtotal()
+tomarCantidad()
+cancelarDetallePedido()
+conocerDiscoCompacto()
+Pedido
+numeroPedido
+fechaPedido
+horaPedido
+fechaEnvioPrevista
+fechaEnvioReal
+fechaEntregaPrevista
+fechaEntregaReal
+detallePedido : DetallePedido
+cupon : Cupon
+estado : Estado
+fechaCancelacion
+motivoCancelacion
+reclamo : Reclamo
+crear()
+mostrarPedido()
+calcularMontoTotal()
+registrarEnvio()
+registrarEntrega()
+cancelarPedido()
+verificarEstado()
+mostrarEstadoPedido()
+contarItems()
+calcularTotalDiscos()
+agregarDetallePedido()
+quitarDetallePedido()
+conocerDetallePedido()
+conocerReclamo()
+conocerCupon()
+conocerEstado()
+1..*
+1..*
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales - ejemplos:
+22
+
+--- PAGE 12 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+12
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales – Otros ejemplos:
+23
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales – Otros ejemplos:
+24
+
+--- PAGE 13 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+13
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones Transaccionales:
+- Ejemplo de cómo usar los patrones para encontrar atributos y
+responsabilidades
+25
+Atributos deducidos con
+ayuda del patron #5
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+Ejemplo Centro de Estética: Presta distintos servicios: Tratamientos faciales, corporales, solárium. Para cada
+tipo de servicio se brindan distintos tratamientos, por ej dentro de los tratamientos faciales encontramos: Spa
+facial, Refresh facial, Peeling. Para cada tratamiento se define una agenda de turnos los cuales luego se
+asignan a un profesional. Cuando el cliente desea realizarse un tratamiento selecciona uno de los turnos
+disponibles el cual se le asigna
+26
+
+--- PAGE 14 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+14
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+Ejemplo Centro de Estética: Fragmento de solución sugerida aplicando patrones
+27
+#3 Participante - Transacción
+#3 Participante - Transacción
+#5 ItemEspecífico - Transacción
+#11 Item – Item Específico
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Otros Patrones Transaccionales:
+28
+Cuenta
+TipoCuenta
+CuentaSuperior
+CuentaIntermedia
+CuentaImputable
+#13
+Ej. aplicable a un 
+Plan de Cuentas de 
+un Sistema Contable
+#12 se aplica a cualquier
+otra asociación no conside-
+rada en los otros patrones.
+1
+Categoría
+Empleado
+#12
+
+--- PAGE 15 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+15
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones de Agregación:
+29
+#14
+#15
+#16
+#17
+#18
+#19
+Los Patrones de agregación son:
+•
+#14 Contenedor-Contenido.
+•
+#15 Contenedor-Detalle de Contenedor
+•
+#16 Grupo-Miembro
+•
+#17 Todo-Parte
+•
+#18 Compuesto de Parte -Parte
+•
+#19 Paquete-Componente de Paquete
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones de Agregación - ejemplos:
+30
+DiscoCompacto
+Canción
+#14
+Motor
+Pieza
+#17
+Comisión
+Alumno
+#16
+PC
+Gabinete
+Componente
+#17
+#18
+Cine
+Sala
+#17
+Patrones de 
+Agregación
+Mensaje
+Señal
+#19
+Contenedor
+Contenido
+Todo
+Parte
+Todo
+Parte
+Compuesto
+de parte
+Grupo
+Miembro
+Paquete
+Componente
+de Paquete
+Actividad Comercio
+Comercio
+Detalle Contenedor
+#15
+DiscoCompacto
+Canción
+#14
+Motor
+Pieza
+#17
+Comisión
+Alumno
+#16
+PC
+Gabinete
+Componente
+#17
+#18
+PC
+Gabinete
+Componente
+#17
+#18
+Cine
+Sala
+#17
+Cine
+Sala
+#17
+Patrones de 
+Agregación
+Mensaje
+Señal
+#19
+Mensaje
+Señal
+#19
+Contenedor
+Contenido
+Todo
+Parte
+Todo
+Parte
+Compuesto
+de parte
+Grupo
+Miembro
+Paquete
+Componente
+de Paquete
+Actividad Comercio
+Comercio
+Detalle Contenedor
+#15
+
+--- PAGE 16 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+16
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones de Plan:
+31
+VersionPlan
+Plan
+EjecucionPlan
+Paso
+EjecucionPaso
+#20
+#21
+#23
+#22
+#24
+Los patrones de plan son:
+•
+# 20 Plan-Paso.
+•
+# 21 Plan-Ejecución de plan
+•
+#22  Paso-Ejecución de Paso
+•
+#23 Ejecución de Plan –Ejecución de paso
+•
+# 24 Plan-Versión de plan
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Patrones para Modelo de Dominio
+•
+Patrones de Plan:
+32
+0..*
+#20 Plan - Paso
+#21 Plan - Ejecución de Plan
+#23 Ejecución de Plan - Ejecución de Paso
+Version
+numero
+descripcion
+fecha
+crear()
+mostrarDatos()
+EjecucionPlan
+fechaInicio
+horaInicio
+fechaFin
+horaFin
+encargado : Empleado
+observaciones
+ejecucionOT : EjecucionOT
+crear()
+calcularDuracion()
+estaCompleto() : Boolean
+mostrarEjecucionOT()
+PlanProduccion
+fechaCreacion
+descripcion
+fechaInicioEstimada
+version : Version
+OT : OrdenTrabajo
+ejecucion : EjecucionPlan
+crear()
+calcularDuracionEstimada()
+mostrarTotalRecursosNecesarios()
+calcularCostoTotalRecursos()
+mostrarOT()
+mostrarVersiones()
+asignarVersion()
+1..*
+1..*
+0..*
+EjecucionOT
+fechaInicio
+horaInicio
+fechaFin
+horaFin
+estado
+ejecuto : Empleado
+controlo : Empleado
+recursosUtilizados
+crear()
+calcularDuracion()
+completada() : Boolean
+mostrarDatos()
+mostrarRecursosUtilizados()
+calcularCostoRecUtilizados()
+OrdenTrabajo
+nroOrden
+numeroSecuencia
+descripcion
+duracionEstimada
+recursosNecesarios
+generoOT
+estadoOT
+ejecucion : EjecucionOT
+crear()
+mostrarRecursos()
+calcularCostoRecursos()
+mostrarCostoRecursos()
+0..*
+0..*
+#22 Paso - Ejecución de Paso
+Recursos Necesarios y Utilizados 
+son referencia a otras clases
+#24 Plan - Versión de Plan
+
+--- PAGE 17 ---
+Análisis de Sistemas
+Patrones para Modelado de Dominio
+(ASI: 2K7 - 2K10)
+17
+Patrones para Modelo de Dominio  (ASI: 2K7 - 2K10)
+Bibliografía
+33
+• Coad Peter, “Object Models, Strategies, Patterns & Aplications”
+(1995), Editorial Yourdon Press.
+• Meles Judith, Apunte de cátedra DSI: Patrones para el Análisis y
+Diseño de Software Orientado a Objetos
+

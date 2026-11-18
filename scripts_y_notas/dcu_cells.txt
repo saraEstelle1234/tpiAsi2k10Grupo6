@@ -1,0 +1,99 @@
+act_obras                 | Responsable de ingreso de obra | shape=umlActor;verticalLabelPosition=bot
+act_admin_museo           | Administrador del museo | shape=umlActor;verticalLabelPosition=bot
+act_atencion              | Responsable de atencion al cliente | shape=umlActor;verticalLabelPosition=bot
+act_admin_web             | Administrador web | shape=umlActor;verticalLabelPosition=bot
+act_vigilancia            | Encargado de vigilancia | shape=umlActor;verticalLabelPosition=bot
+act_seguridad             | Encargado de supervision | shape=umlActor;verticalLabelPosition=bot
+act_admin_sist            | Admin de sistema | shape=umlActor;verticalLabelPosition=bot
+act_escuela               | Escuela | shape=umlActor;verticalLabelPosition=bot
+act_usuario               | Usuario | shape=umlActor;verticalLabelPosition=bot
+num_1                     | 1 | text;html=1;strokeColor=none;fillColor=n
+txt_1                     | Registrar ingreso de obra | text;html=1;strokeColor=none;fillColor=n
+num_2                     | 2 | text;html=1;strokeColor=none;fillColor=n
+txt_2                     | Registrar reingreso de obra | text;html=1;strokeColor=none;fillColor=n
+num_3                     | 3 | text;html=1;strokeColor=none;fillColor=n
+txt_3                     | Consultar obra | text;html=1;strokeColor=none;fillColor=n
+num_4                     | 4 | text;html=1;strokeColor=none;fillColor=n
+txt_4                     | Registrar baja de obra | text;html=1;strokeColor=none;fillColor=n
+num_5                     | 5 | text;html=1;strokeColor=none;fillColor=n
+txt_5                     | Registrar programacion de exposiciones | text;html=1;strokeColor=none;fillColor=n
+num_6                     | 6 | text;html=1;strokeColor=none;fillColor=n
+txt_6                     | Consultar programacion de exposiciones | text;html=1;strokeColor=none;fillColor=n
+num_7                     | 7 | text;html=1;strokeColor=none;fillColor=n
+txt_7                     | Consultar planificacion de visitas guiadas | text;html=1;strokeColor=none;fillColor=n
+num_8                     | 8 | text;html=1;strokeColor=none;fillColor=n
+txt_8                     | Registrar planificacion de visitas | text;html=1;strokeColor=none;fillColor=n
+num_9                     | 9 | text;html=1;strokeColor=none;fillColor=n
+txt_9                     | Generar invitaciones a escuelas | text;html=1;strokeColor=none;fillColor=n
+num_10                    | 10 | text;html=1;strokeColor=none;fillColor=n
+txt_10                    | Registrar venta de entrada | text;html=1;strokeColor=none;fillColor=n
+num_11                    | 11 | text;html=1;strokeColor=none;fillColor=n
+txt_11                    | Registrar contratacion de servicio de guia | text;html=1;strokeColor=none;fillColor=n
+num_12                    | 12 | text;html=1;strokeColor=none;fillColor=n
+txt_12                    | Consultar agenda de guias | text;html=1;strokeColor=none;fillColor=n
+num_13                    | 13 | text;html=1;strokeColor=none;fillColor=n
+txt_13                    | Generar planificacion de rondas | text;html=1;strokeColor=none;fillColor=n
+num_14                    | 14 | text;html=1;strokeColor=none;fillColor=n
+txt_14                    | Consultar planificacion ronda | text;html=1;strokeColor=none;fillColor=n
+num_15                    | 15 | text;html=1;strokeColor=none;fillColor=n
+txt_15                    | Registrar revision de la sala | text;html=1;strokeColor=none;fillColor=n
+num_16                    | 16 | text;html=1;strokeColor=none;fillColor=n
+txt_16                    | Registrar incidentes | text;html=1;strokeColor=none;fillColor=n
+num_17                    | 17 | text;html=1;strokeColor=none;fillColor=n
+txt_17                    | Consultar sala del museo | text;html=1;strokeColor=none;fillColor=n
+num_18                    | 18 | text;html=1;strokeColor=none;fillColor=n
+txt_18                    | Consultar incidente | text;html=1;strokeColor=none;fillColor=n
+num_19                    | 19 | text;html=1;strokeColor=none;fillColor=n
+txt_19                    | Generar patrones de incidentes | text;html=1;strokeColor=none;fillColor=n
+num_20                    | 20 | text;html=1;strokeColor=none;fillColor=n
+txt_20                    | Consultar patrones de incidentes | text;html=1;strokeColor=none;fillColor=n
+num_21                    | 21 | text;html=1;strokeColor=none;fillColor=n
+txt_21                    | Generar informe diario de vigilancia | text;html=1;strokeColor=none;fillColor=n
+num_22                    | 22 | text;html=1;strokeColor=none;fillColor=n
+txt_22                    | Consultar informe diario de vigilancia | text;html=1;strokeColor=none;fillColor=n
+num_23                    | 23 | text;html=1;strokeColor=none;fillColor=n
+txt_23                    | Consultar historial de incidentes | text;html=1;strokeColor=none;fillColor=n
+num_24                    | 24 | text;html=1;strokeColor=none;fillColor=n
+txt_24                    | Registrar seguimiento de resolucion incidentes | text;html=1;strokeColor=none;fillColor=n
+num_25                    | 25 | text;html=1;strokeColor=none;fillColor=n
+txt_25                    | Registrar sala nueva | text;html=1;strokeColor=none;fillColor=n
+num_26                    | 26 | text;html=1;strokeColor=none;fillColor=n
+txt_26                    | Modificar sala | text;html=1;strokeColor=none;fillColor=n
+num_27                    | 27 | text;html=1;strokeColor=none;fillColor=n
+txt_27                    | Registrar baja de sala | text;html=1;strokeColor=none;fillColor=n
+num_28                    | 28 | text;html=1;strokeColor=none;fillColor=n
+txt_28                    | Consultar salas | text;html=1;strokeColor=none;fillColor=n
+num_29                    | 29 | text;html=1;strokeColor=none;fillColor=n
+txt_29                    | Registrar tipo de material | text;html=1;strokeColor=none;fillColor=n
+num_30                    | 30 | text;html=1;strokeColor=none;fillColor=n
+txt_30                    | Registrar baja tipo de material | text;html=1;strokeColor=none;fillColor=n
+num_31                    | 31 | text;html=1;strokeColor=none;fillColor=n
+txt_31                    | Consultar tipo de material | text;html=1;strokeColor=none;fillColor=n
+num_32                    | 32 | text;html=1;strokeColor=none;fillColor=n
+txt_32                    | Registrar tipo de incidente | text;html=1;strokeColor=none;fillColor=n
+num_33                    | 33 | text;html=1;strokeColor=none;fillColor=n
+txt_33                    | Modificar tipo de incidente | text;html=1;strokeColor=none;fillColor=n
+num_34                    | 34 | text;html=1;strokeColor=none;fillColor=n
+txt_34                    | Registrar baja tipo de incidente | text;html=1;strokeColor=none;fillColor=n
+num_35                    | 35 | text;html=1;strokeColor=none;fillColor=n
+txt_35                    | Consultar tipo de incidente | text;html=1;strokeColor=none;fillColor=n
+num_36                    | 36 | text;html=1;strokeColor=none;fillColor=n
+txt_36                    | Registrar alta de guia | text;html=1;strokeColor=none;fillColor=n
+num_37                    | 37 | text;html=1;strokeColor=none;fillColor=n
+txt_37                    | Registrar modificacion de guia | text;html=1;strokeColor=none;fillColor=n
+num_38                    | 38 | text;html=1;strokeColor=none;fillColor=n
+txt_38                    | Registrar baja de guia | text;html=1;strokeColor=none;fillColor=n
+num_39                    | 39 | text;html=1;strokeColor=none;fillColor=n
+txt_39                    | Consultar guia | text;html=1;strokeColor=none;fillColor=n
+num_40                    | 40 | text;html=1;strokeColor=none;fillColor=n
+txt_40                    | Registrar estilo de obra | text;html=1;strokeColor=none;fillColor=n
+num_41                    | 41 | text;html=1;strokeColor=none;fillColor=n
+txt_41                    | Registrar baja estilo de obra | text;html=1;strokeColor=none;fillColor=n
+num_42                    | 42 | text;html=1;strokeColor=none;fillColor=n
+txt_42                    | Consultar estilo de obra | text;html=1;strokeColor=none;fillColor=n
+num_43                    | 43 | text;html=1;strokeColor=none;fillColor=n
+txt_43                    | Iniciar sesion | text;html=1;strokeColor=none;fillColor=n
+num_44                    | 44 | text;html=1;strokeColor=none;fillColor=n
+txt_44                    | Cerrar sesion | text;html=1;strokeColor=none;fillColor=n
+num_45                    | 45 | text;html=1;strokeColor=none;fillColor=n
+txt_45                    | Modificar contrasena | text;html=1;strokeColor=none;fillColor=n

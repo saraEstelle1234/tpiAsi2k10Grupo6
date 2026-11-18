@@ -1,0 +1,102 @@
+ACTORS IN DCU:
+  act_obras                : Responsable de ingreso de obra
+  act_admin_museo          : Administrador del museo
+  act_atencion             : Responsable de atencion al cliente
+  act_admin_web            : Administrador web
+  act_vigilancia           : Encargado de vigilancia
+  act_seguridad            : Encargado de supervision
+  act_admin_sist           : Admin de sistema
+  act_escuela              : Escuela
+  act_usuario              : Usuario
+
+USE CASES IN DCU (90):
+  num_1                    : 1
+  txt_1                    : Registrar ingreso de obra
+  num_2                    : 2
+  txt_2                    : Registrar reingreso de obra
+  num_3                    : 3
+  txt_3                    : Consultar obra
+  num_4                    : 4
+  txt_4                    : Registrar baja de obra
+  num_5                    : 5
+  txt_5                    : Registrar programacion de exposiciones
+  num_6                    : 6
+  txt_6                    : Consultar programacion de exposiciones
+  num_7                    : 7
+  txt_7                    : Consultar planificacion de visitas guiadas
+  num_8                    : 8
+  txt_8                    : Registrar planificacion de visitas
+  num_9                    : 9
+  txt_9                    : Generar invitaciones a escuelas
+  num_10                   : 10
+  txt_10                   : Registrar venta de entrada
+  num_11                   : 11
+  txt_11                   : Registrar contratacion de servicio de guia
+  num_12                   : 12
+  txt_12                   : Consultar agenda de guias
+  num_13                   : 13
+  txt_13                   : Generar planificacion de rondas
+  num_14                   : 14
+  txt_14                   : Consultar planificacion ronda
+  num_15                   : 15
+  txt_15                   : Registrar revision de la sala
+  num_16                   : 16
+  txt_16                   : Registrar incidentes
+  num_17                   : 17
+  txt_17                   : Consultar sala del museo
+  num_18                   : 18
+  txt_18                   : Consultar incidente
+  num_19                   : 19
+  txt_19                   : Generar patrones de incidentes
+  num_20                   : 20
+  txt_20                   : Consultar patrones de incidentes
+  num_21                   : 21
+  txt_21                   : Generar informe diario de vigilancia
+  num_22                   : 22
+  txt_22                   : Consultar informe diario de vigilancia
+  num_23                   : 23
+  txt_23                   : Consultar historial de incidentes
+  num_24                   : 24
+  txt_24                   : Registrar seguimiento de resolucion incidentes
+  num_25                   : 25
+  txt_25                   : Registrar sala nueva
+  num_26                   : 26
+  txt_26                   : Modificar sala
+  num_27                   : 27
+  txt_27                   : Registrar baja de sala
+  num_28                   : 28
+  txt_28                   : Consultar salas
+  num_29                   : 29
+  txt_29                   : Registrar tipo de material
+  num_30                   : 30
+  txt_30                   : Registrar baja tipo de material
+  num_31                   : 31
+  txt_31                   : Consultar tipo de material
+  num_32                   : 32
+  txt_32                   : Registrar tipo de incidente
+  num_33                   : 33
+  txt_33                   : Modificar tipo de incidente
+  num_34                   : 34
+  txt_34                   : Registrar baja tipo de incidente
+  num_35                   : 35
+  txt_35                   : Consultar tipo de incidente
+  num_36                   : 36
+  txt_36                   : Registrar alta de guia
+  num_37                   : 37
+  txt_37                   : Registrar modificacion de guia
+  num_38                   : 38
+  txt_38                   : Registrar baja de guia
+  num_39                   : 39
+  txt_39                   : Consultar guia
+  num_40                   : 40
+  txt_40                   : Registrar estilo de obra
+  num_41                   : 41
+  txt_41                   : Registrar baja estilo de obra
+  num_42                   : 42
+  txt_42                   : Consultar estilo de obra
+  num_43                   : 43
+  txt_43                   : Iniciar sesion
+  num_44                   : 44
+  txt_44                   : Cerrar sesion
+  num_45                   : 45
+  txt_45                   : Modificar contrasena

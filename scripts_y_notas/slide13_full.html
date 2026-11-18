@@ -1,0 +1,91 @@
+id="slide-13" data-topic="13 · Trazabilidad de Requerimientos">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+        <div>
+          <div class="breadcrumb-tag">13 &bull; Trazabilidad de Requerimientos</div>
+          <h1 class="giant-title">Trazabilidad de Requerimientos</h1>
+          <p class="editorial-subtitle">
+            Matriz completa de correspondencia: Requerimiento Funcional (RF) &rarr; Caso de Uso (CU) &rarr; Diagrama de Clases (DCD)
+          </p>
+        </div>
+        <div style="opacity: 0.85; padding-top: 10px;">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"/>
+            <circle cx="6" cy="12" r="3"/>
+            <circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Filter Controls Bar -->
+      <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 12px;">
+        <input type="text" id="trace-search-input" class="search-input" placeholder="🔍 Filtrar trazabilidad (ej: RF-35, incidente, obra, sala, ronda, informe)..." oninput="filterTraceMatrix()" style="flex: 1; height: 42px; background: rgba(10, 22, 40, 0.7); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 0 16px; color: #FFF; font-size: 13.5px;">
+        
+        <div class="trace-module-pills" style="margin-bottom: 0; display: flex; gap: 6px;">
+          <button class="trace-module-btn active" onclick="filterTraceModule(this, 'ALL')">Todos (34)</button>
+          <button class="trace-module-btn" onclick="filterTraceModule(this, 'INCIDENTES')">Incidentes y Rondas</button>
+          <button class="trace-module-btn" onclick="filterTraceModule(this, 'OBRAS')">Obras y Depósito</button>
+          <button class="trace-module-btn" onclick="filterTraceModule(this, 'MAESTROS')">Salas y Maestros</button>
+          <button class="trace-module-btn" onclick="filterTraceModule(this, 'REPORTES')">Informes</button>
+        </div>
+      </div>
+
+      <!-- Interactive Trace Matrix Console -->
+      <div class="trace-matrix-console reveal-item revealed" style="margin-bottom: 0;">
+        <!-- Left Column: Scrollable List of All Mapped Requirements -->
+        <div style="width: 38%; display: flex; flex-direction: column;">
+          <div style="font-size: 11.5px; font-weight: 700; color: var(--blue-accent); text-transform: uppercase; margin-bottom: 8px;">
+            Seleccionar Requerimiento Funcional:
+          </div>
+          <div class="trace-rf-list" id="trace-items-container" style="max-height: 440px; overflow-y: auto; padding-right: 6px;">
+            <!-- Dynamically populated / hardcoded items -->
+          </div>
+        </div>
+
+        <!-- Right Column: Detail Dossier of Selected Trace Link -->
+        <div class="trace-impact-dossier" id="trace-dossier-panel" style="width: 62%; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; margin-bottom: 14px;">
+              <div>
+                <span style="font-size: 12px; font-weight: 700; color: #93C5FD; text-transform: uppercase;" id="td-rf-code">REQUERIMIENTO FUNCIONAL RF-35</span>
+                <div style="font-size: 17px; font-weight: 800; color: #FFF; margin-top: 2px;" id="td-rf-name">Registrar incidente</div>
+              </div>
+              <span style="font-size: 12px; font-weight: 800; background: var(--blue-accent); color: #FFF; padding: 4px 12px; border-radius: 6px;" id="td-cu-badge">CU-15</span>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 12px; font-size: 13px;">
+              <div style="background: rgba(255,255,255,0.03); padding: 12px 14px; border-radius: 8px;">
+                <span style="color: #60A5FA; font-weight: 700; display: block; font-size: 11.5px; text-transform: uppercase; margin-bottom: 4px;">Caso de Uso Asociado (DCU)</span>
+                <span id="td-cu-info" style="color: #FFF; font-weight: 600; font-size: 13.5px;">CU-15: Registrar incidente &bull; Actor: Encargado de vigilancia (EV)</span>
+              </div>
+
+              <div style="background: rgba(255,255,255,0.03); padding: 12px 14px; border-radius: 8px;">
+                <span style="color: #38BDF8; font-weight: 700; display: block; font-size: 11.5px; text-transform: uppercase; margin-bottom: 4px;">Clases, Atributos y Métodos Afectados (DCD)</span>
+                <span id="td-dcd-info" style="color: var(--text-light); line-height: 1.5;">
+                  <strong>Clases:</strong> <code>Incidente</code>, <code>TipoIncidente</code>, <code>Obra</code>, <code>Estado</code>.<br>
+                  <strong>Método invocado:</strong> <code>obra.registrarIncidente()</code> actualiza puntero a Estado 'Inactivo'.
+                </span>
+              </div>
+
+              <div style="background: rgba(47,107,255,0.08); border-left: 3px solid var(--blue-accent); padding: 12px 14px; border-radius: 0 8px 8px 0;">
+                <span style="color: #93C5FD; font-weight: 700; display: block; font-size: 11.5px; text-transform: uppercase; margin-bottom: 4px;">Justificación de Trazabilidad y Lógica</span>
+                <span id="td-rationale" style="color: var(--text-light); font-size: 12.5px; line-height: 1.55;">
+                  El requerimiento exige documentar el daño in situ. El CU-15 materializa la interacción en tablet, y el DCD persiste el hecho en la entidad Incidente vinculada obligatoriamente a TipoIncidente, actualizando en la misma transacción el estado de la obra para su derivación por supervisión.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 14px; margin-top: 14px; display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 12px; color: var(--text-light-secondary);">
+              Garantía de Integridad: Todo caso de uso implementa al menos un RF y se persiste en entidades del DCD.
+            </span>
+            <span style="font-size: 11px; font-weight: 700; background: rgba(16,185,129,0.2); color: #6EE7B7; padding: 3px 8px; border-radius: 4px;">TRAZABILIDAD 100%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 14: CIERRE & AGRADECIMIENTO -->
+    <div class="slide" 

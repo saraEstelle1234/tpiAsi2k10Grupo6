@@ -1,0 +1,217 @@
+=== REPORTE DE COMPARACION DCU (45) vs PDF OBJETIVOS (42) ===
+
+LISTA COMPLETA PDF (42):
+   1. Registrar ingreso de obra
+   2. Registrar reingreso de obra
+   3. Consultar obra
+   4. Registrar baja de obra
+   5. Registrar programación de exposiciones
+   6. Consultar programación de exposiciones
+   7. Consultar planificación de visitas guiadas
+   8. Registrar planificación de visitas
+   9. Generar invitaciones a escuelas
+  10. Registrar venta de entrada
+  11. Registrar contratación de servicio de guía
+  12. Consultar agenda de guías
+  13. Generar planificación de rondas
+  14. Consultar planificación ronda
+  15. Registrar revisión de la sala
+  16. Registrar incidentes
+  17. Consultar sala del museo
+  18. Consultar incidente
+  19. Generar patrones de incidentes
+  20. Consultar patrones de incidentes
+  21. Generar informe diario de vigilancia
+  22. Consultar informe diario de vigilancia
+  23. Consultar historial de incidentes
+  24. Registrar seguimiento de resolución de incidentes
+  25. Registrar sala nueva
+  26. Modificar sala
+  27. Registrar baja de sala
+  28. Consultar salas
+  29. Registrar tipo de material
+  30. Registrar baja tipo de material
+  31. Consultar tipo de material
+  32. Registrar tipo de incidente
+  33. Modificar tipo de incidente
+  34. Registrar baja tipo de incidente
+  35. Consultar tipo de incidente
+  36. Registrar alta de guía
+  37. Registrar modificación de guía
+  38. Registrar baja de guía
+  39. Consultar guía
+  40. Registrar estilo de obra
+  41. Registrar baja estilo de obra
+  42. Consultar estilo de obra
+
+LISTA COMPLETA DCU (90):
+   1. 1
+   2. Registrar ingreso de obra
+   3. 2
+   4. Registrar reingreso de obra
+   5. 3
+   6. Consultar obra
+   7. 4
+   8. Registrar baja de obra
+   9. 5
+  10. Registrar programacion de exposiciones
+  11. 6
+  12. Consultar programacion de exposiciones
+  13. 7
+  14. Consultar planificacion de visitas guiadas
+  15. 8
+  16. Registrar planificacion de visitas
+  17. 9
+  18. Generar invitaciones a escuelas
+  19. 10
+  20. Registrar venta de entrada
+  21. 11
+  22. Registrar contratacion de servicio de guia
+  23. 12
+  24. Consultar agenda de guias
+  25. 13
+  26. Generar planificacion de rondas
+  27. 14
+  28. Consultar planificacion ronda
+  29. 15
+  30. Registrar revision de la sala
+  31. 16
+  32. Registrar incidentes
+  33. 17
+  34. Consultar sala del museo
+  35. 18
+  36. Consultar incidente
+  37. 19
+  38. Generar patrones de incidentes
+  39. 20
+  40. Consultar patrones de incidentes
+  41. 21
+  42. Generar informe diario de vigilancia
+  43. 22
+  44. Consultar informe diario de vigilancia
+  45. 23
+  46. Consultar historial de incidentes
+  47. 24
+  48. Registrar seguimiento de resolucion incidentes
+  49. 25
+  50. Registrar sala nueva
+  51. 26
+  52. Modificar sala
+  53. 27
+  54. Registrar baja de sala
+  55. 28
+  56. Consultar salas
+  57. 29
+  58. Registrar tipo de material
+  59. 30
+  60. Registrar baja tipo de material
+  61. 31
+  62. Consultar tipo de material
+  63. 32
+  64. Registrar tipo de incidente
+  65. 33
+  66. Modificar tipo de incidente
+  67. 34
+  68. Registrar baja tipo de incidente
+  69. 35
+  70. Consultar tipo de incidente
+  71. 36
+  72. Registrar alta de guia
+  73. 37
+  74. Registrar modificacion de guia
+  75. 38
+  76. Registrar baja de guia
+  77. 39
+  78. Consultar guia
+  79. 40
+  80. Registrar estilo de obra
+  81. 41
+  82. Registrar baja estilo de obra
+  83. 42
+  84. Consultar estilo de obra
+  85. 43
+  86. Iniciar sesion
+  87. 44
+  88. Cerrar sesion
+  89. 45
+  90. Modificar contrasena
+
+=== CASOS EN DCU QUE NO ESTAN EN LA LISTA DEL PDF ===
+  [EN DCU PERO NO EN PDF]: 1
+  [EN DCU PERO NO EN PDF]: 2
+  [EN DCU PERO NO EN PDF]: 3
+  [EN DCU PERO NO EN PDF]: 4
+  [EN DCU PERO NO EN PDF]: 5
+  [EN DCU PERO NO EN PDF]: Registrar programacion de exposiciones
+  [EN DCU PERO NO EN PDF]: 6
+  [EN DCU PERO NO EN PDF]: Consultar programacion de exposiciones
+  [EN DCU PERO NO EN PDF]: 7
+  [EN DCU PERO NO EN PDF]: Consultar planificacion de visitas guiadas
+  [EN DCU PERO NO EN PDF]: 8
+  [EN DCU PERO NO EN PDF]: Registrar planificacion de visitas
+  [EN DCU PERO NO EN PDF]: 9
+  [EN DCU PERO NO EN PDF]: 10
+  [EN DCU PERO NO EN PDF]: 11
+  [EN DCU PERO NO EN PDF]: Registrar contratacion de servicio de guia
+  [EN DCU PERO NO EN PDF]: 12
+  [EN DCU PERO NO EN PDF]: Consultar agenda de guias
+  [EN DCU PERO NO EN PDF]: 13
+  [EN DCU PERO NO EN PDF]: Generar planificacion de rondas
+  [EN DCU PERO NO EN PDF]: 14
+  [EN DCU PERO NO EN PDF]: Consultar planificacion ronda
+  [EN DCU PERO NO EN PDF]: 15
+  [EN DCU PERO NO EN PDF]: Registrar revision de la sala
+  [EN DCU PERO NO EN PDF]: 16
+  [EN DCU PERO NO EN PDF]: 17
+  [EN DCU PERO NO EN PDF]: 18
+  [EN DCU PERO NO EN PDF]: 19
+  [EN DCU PERO NO EN PDF]: 20
+  [EN DCU PERO NO EN PDF]: 21
+  [EN DCU PERO NO EN PDF]: 22
+  [EN DCU PERO NO EN PDF]: 23
+  [EN DCU PERO NO EN PDF]: 24
+  [EN DCU PERO NO EN PDF]: Registrar seguimiento de resolucion incidentes
+  [EN DCU PERO NO EN PDF]: 25
+  [EN DCU PERO NO EN PDF]: 26
+  [EN DCU PERO NO EN PDF]: 27
+  [EN DCU PERO NO EN PDF]: 28
+  [EN DCU PERO NO EN PDF]: 29
+  [EN DCU PERO NO EN PDF]: 30
+  [EN DCU PERO NO EN PDF]: 31
+  [EN DCU PERO NO EN PDF]: 32
+  [EN DCU PERO NO EN PDF]: 33
+  [EN DCU PERO NO EN PDF]: 34
+  [EN DCU PERO NO EN PDF]: 35
+  [EN DCU PERO NO EN PDF]: 36
+  [EN DCU PERO NO EN PDF]: Registrar alta de guia
+  [EN DCU PERO NO EN PDF]: 37
+  [EN DCU PERO NO EN PDF]: Registrar modificacion de guia
+  [EN DCU PERO NO EN PDF]: 38
+  [EN DCU PERO NO EN PDF]: Registrar baja de guia
+  [EN DCU PERO NO EN PDF]: 39
+  [EN DCU PERO NO EN PDF]: Consultar guia
+  [EN DCU PERO NO EN PDF]: 40
+  [EN DCU PERO NO EN PDF]: 41
+  [EN DCU PERO NO EN PDF]: 42
+  [EN DCU PERO NO EN PDF]: 43
+  [EN DCU PERO NO EN PDF]: Iniciar sesion
+  [EN DCU PERO NO EN PDF]: 44
+  [EN DCU PERO NO EN PDF]: Cerrar sesion
+  [EN DCU PERO NO EN PDF]: 45
+  [EN DCU PERO NO EN PDF]: Modificar contrasena
+
+=== CASOS EN PDF QUE NO ESTAN EN DCU ===
+  [EN PDF PERO NO EN DCU]: 5. Registrar programación de exposiciones
+  [EN PDF PERO NO EN DCU]: 6. Consultar programación de exposiciones
+  [EN PDF PERO NO EN DCU]: 7. Consultar planificación de visitas guiadas
+  [EN PDF PERO NO EN DCU]: 8. Registrar planificación de visitas
+  [EN PDF PERO NO EN DCU]: 11. Registrar contratación de servicio de guía
+  [EN PDF PERO NO EN DCU]: 12. Consultar agenda de guías
+  [EN PDF PERO NO EN DCU]: 13. Generar planificación de rondas
+  [EN PDF PERO NO EN DCU]: 14. Consultar planificación ronda
+  [EN PDF PERO NO EN DCU]: 15. Registrar revisión de la sala
+  [EN PDF PERO NO EN DCU]: 24. Registrar seguimiento de resolución de incidentes
+  [EN PDF PERO NO EN DCU]: 36. Registrar alta de guía
+  [EN PDF PERO NO EN DCU]: 37. Registrar modificación de guía
+  [EN PDF PERO NO EN DCU]: 38. Registrar baja de guía
+  [EN PDF PERO NO EN DCU]: 39. Consultar guía

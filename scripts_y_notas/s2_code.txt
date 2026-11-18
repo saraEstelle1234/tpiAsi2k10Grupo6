@@ -1,0 +1,82 @@
+id="slide-2" data-topic="02 · Dominio y Objetivos">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <div>
+          <div class="breadcrumb-tag">02 &bull; Dominio y Objetivos</div>
+          <h1 class="giant-title">Dominio bajo Estudio</h1>
+          <p class="editorial-subtitle">
+            Museo de Historia Natural &bull; Contexto institucional y objetivos de la organización
+          </p>
+        </div>
+        <div style="opacity: 0.85; padding-top: 10px;">
+          {svg_museum_arch}
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px;">
+        <div class="card-dark reveal-item revealed">
+          <div style="font-size: 12px; font-weight: 700; color: var(--blue-accent); text-transform: uppercase; margin-bottom: 6px;">Organización y Operatoria del Dominio</div>
+          <div style="font-size: 14.5px; line-height: 1.6; color: var(--text-light);">
+            El Museo de Historia Natural de la ciudad expone obras de artistas locales, nacionales e internacionales. El público asiste a ver las obras abonando una entrada en caja, pudiendo solicitar con arancel adicional el servicio de guía. Las obras ingresan por compra, donación o préstamo, registrándose autor, estilo, tipo de obra, dimensiones, material, valuación y fecha, asignándose un número de identificación.
+          </div>
+        </div>
+        <div class="card-dark reveal-item revealed">
+          <div style="font-size: 12px; font-weight: 700; color: var(--blue-accent); text-transform: uppercase; margin-bottom: 6px;">Salas Temáticas y Rondas de Vigilancia</div>
+          <div style="font-size: 14.5px; line-height: 1.6; color: var(--text-light);">
+            El museo está organizado en salas temáticas, con especial atracción en los objetos animados, cuyo comportamiento ante luz, sonido y temperatura depende de su material. El guardia realiza rondas de vigilancia basadas en una planificación diaria que prioriza las salas con más incidentes, registrando cada sala como 'Sin novedades' o con 'Observación pendiente' si detecta un incidente de forma inmediata.
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Expandable Objective Cards Strictly from TPI -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+        <div class="card-dark expandable-card reveal-item revealed" onclick="toggleExpandCard(this)">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="font-size: 38px; font-weight: 800; color: var(--blue-accent); line-height: 1;">01</div>
+            <div class="expand-circle-btn">{svg_plus}</div>
+          </div>
+          <div style="font-size: 16px; font-weight: 700; color: #FFF; margin: 12px 0 6px 0;">Objetivo General de la Organización</div>
+          <div style="font-size: 13.5px; color: var(--text-light-secondary); line-height: 1.45;">
+            Exponer obras de artistas locales, nacionales e internacionales al público mediante el cobro de entradas, preservando las obras con un sistema de gestión de incidentes.
+          </div>
+          <div class="card-extra-content">
+            Definido textualmente en la Sección 1.1 del TPI: sostener la exposición de arte como proceso esencial y financiar las actividades mediante el cobro de entradas y servicios de guía, asegurando la conservación integral del patrimonio.
+          </div>
+        </div>
+
+        <div class="card-dark expandable-card reveal-item revealed" onclick="toggleExpandCard(this)">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="font-size: 38px; font-weight: 800; color: var(--blue-accent); line-height: 1;">02</div>
+            <div class="expand-circle-btn">{svg_plus}</div>
+          </div>
+          <div style="font-size: 16px; font-weight: 700; color: #FFF; margin: 12px 0 6px 0;">Objetivo del Proceso de Vigilancia</div>
+          <div style="font-size: 13.5px; color: var(--text-light-secondary); line-height: 1.45;">
+            Gestionar incidentes y restauración de obras mediante las rondas de vigilancia del guardia, registrando en el Módulo Web.
+          </div>
+          <div class="card-extra-content">
+            Definido en la plantilla de proceso (Sección 2.3): permitir que los supervisores tomen medidas en relación a la obra, tales como envío a restauración, registro de baja de obra o refuerzo de vigilancia en sectores conflictivos.
+          </div>
+        </div>
+
+        <div class="card-dark expandable-card reveal-item revealed" onclick="toggleExpandCard(this)">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="font-size: 38px; font-weight: 800; color: var(--blue-accent); line-height: 1;">03</div>
+            <div class="expand-circle-btn">{svg_plus}</div>
+          </div>
+          <div style="font-size: 16px; font-weight: 700; color: #FFF; margin: 12px 0 6px 0;">Regla de Reingreso Obligatorio a Depósito</div>
+          <div style="font-size: 13.5px; color: var(--text-light-secondary); line-height: 1.45;">
+            Luego de restauradas las obras reingresan al depósito del museo y quedan disponibles para lo que se las requiera.
+          </div>
+          <div class="card-extra-content">
+            Texto textual del enunciado y TPI: Aún si las obras no pueden restaurarse son ingresadas nuevamente al depósito para luego decidir el momento para retirarla del museo, es decir, darle de baja. Ninguna pieza retorna directamente a sala de exhibición.
+          </div>
+        </div>
+      </div>
+    </div>
+''')
+
+        # ========================================================
+        # SLIDE 3: MAPA DE PROCESOS (THEME: DARK - MATCHED CANVAS)
+        # ========================================================
+        out.write(f'''
+    <!-- SLIDE 3: MAPA DE PROCESOS -->
+    <div class="slide" 
