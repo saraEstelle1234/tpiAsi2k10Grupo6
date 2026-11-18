@@ -9,18 +9,25 @@ checks = []
 slide_ids = re.findall(r'<div class="slide[^"]*" id="slide-(\d+)"', html)
 checks.append(("Slide count is 14", len(slide_ids) == 14 and slide_ids == [str(i) for i in range(1, 15)]))
 
-# 2. Slide 05 layout
-s5_match = 'id="slide-5"' in html and 'grid-template-columns: 1fr 240px' in html and 'BPMN Nivel Descriptivo' in html
-checks.append(("Slide 05 has 1fr 240px layout & concise summary", s5_match))
+# 2. Slide 05 layout & 4 lanes
+s5_slice = html[html.find('id="slide-5"'):html.find('id="slide-6"')]
+s5_match = ('BPMN Nivel Descriptivo' in s5_slice and 
+            'Guardia del museo' in s5_slice and 
+            'Admin de sistema' in s5_slice and 
+            'Encargado de supervisión' in s5_slice and 
+            'Encargado de restauración' in s5_slice and
+            'height: 620px' in s5_slice)
+checks.append(("Slide 05 has new Descriptivo diagram, 620px height & 4 lanes listed", s5_match))
 
-# 3. Slide 06 layout & professor corrections
-s6_match = ('id="slide-6"' in html and 
-            'BPMN Nivel Operativo' in html and 
-            'Alimentación y Almacenes' in html and 
-            'Estados Explícitos' in html and 
-            '4 Carriles y Restauración' in html and
-            'height: 480px' in html)
-checks.append(("Slide 06 has maximized diagram & 3 professor correction cards", s6_match))
+# 3. Slide 06 layout & 4 lanes with professor corrections
+s6_slice = html[html.find('id="slide-6"'):html.find('id="slide-7"')]
+s6_match = ('BPMN Nivel Operativo' in s6_slice and 
+            'Alimentación y Almacenes' in s6_slice and 
+            'Estados Explícitos' in s6_slice and 
+            '4 Carriles y Restauración' in s6_slice and
+            'height: 520px' in s6_slice and
+            'Restaurar obra' in s6_slice)
+checks.append(("Slide 06 has new Operativo diagram (1682x798), 520px height & 4 lanes with professor corrections", s6_match))
 
 # 4. Slide 09 layout (DCU): Taller (750px), narrower (620px) to match 0.868 aspect ratio with NO side bands, NO cuadritos negros
 s9_slice = html[html.find('id="slide-9"'):html.find('id="slide-10"')]
