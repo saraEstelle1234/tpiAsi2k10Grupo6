@@ -2596,9 +2596,9 @@ main {
 
             <div style="display: flex; flex-direction: column; gap: 15px; padding-left: 2px;">
               <div style="border-left: 3px solid var(--blue-accent); padding-left: 12px;">
-                <div style="font-size: 13px; font-weight: 800; color: #93C5FD; margin-bottom: 2px;">Gestión de Incidentes</div>
+                <div style="font-size: 13px; font-weight: 800; color: #93C5FD; margin-bottom: 2px;">Gestión de Incidentes (1..1)</div>
                 <div style="font-size: 12.5px; color: var(--text-light); line-height: 1.45;">
-                  La entidad <code>Incidente</code> documenta fecha, hora y descripción, vinculada a su <code>TipoIncidente</code> y a la <code>Obra</code> afectada.
+                  La entidad <code>Incidente</code> documenta fecha, hora y descripción. Multiplicidad <strong>1</strong> hacia <code>TipoIncidente</code> y <strong>1</strong> hacia <code>Obra</code>.
                 </div>
               </div>
 
@@ -2610,9 +2610,9 @@ main {
               </div>
 
               <div style="border-left: 3px solid #38BDF8; padding-left: 12px;">
-                <div style="font-size: 13px; font-weight: 800; color: #93C5FD; margin-bottom: 2px;">Vigilancia y Rondas</div>
+                <div style="font-size: 13px; font-weight: 800; color: #93C5FD; margin-bottom: 2px;">Vigilancia y Rondas (1..*)</div>
                 <div style="font-size: 12.5px; color: var(--text-light); line-height: 1.45;">
-                  La relación entre <code>Guardia</code> y <code>Sala</code> se asienta mediante la clase asociativa <code>SalaXGuardia</code>, auditando fecha y hora de ronda.
+                  Auditoría de rondas mediante clase asociativa <code>SalaXGuardia</code>. Multiplicidad <strong>1..*</strong> desde <code>Sala</code> y <strong>1</strong> hacia <code>Guardia</code>.
                 </div>
               </div>
 
@@ -2626,8 +2626,8 @@ main {
           </div>
 
           <div style="background: rgba(45, 127, 249, 0.08); border: 1px solid rgba(45, 127, 249, 0.2); border-radius: 8px; padding: 10px 12px; margin-top: 14px;">
-            <div style="font-size: 12px; color: #93C5FD; line-height: 1.4;">
-              💡 <em>Hacé clic en el diagrama o en 'Ampliar' para explorar todas las clases, atributos y métodos en alta resolución.</em>
+            <div style="font-size: 12px; color: #93C5FD; line-height: 1.45;">
+              ✨ <strong>Multiplicidades Verificadas:</strong> <code>Incidente &rarr; (1) TipoIncidente</code> | <code>Sala &rarr; (1..*) SalaXGuardia</code>. Clic en 'Ampliar' para explorar atributos y métodos.
             </div>
           </div>
         </div>
