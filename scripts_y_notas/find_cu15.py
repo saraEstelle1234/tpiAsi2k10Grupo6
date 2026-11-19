@@ -1,20 +1,14 @@
-import xml.etree.ElementTree as ET
+from PIL import Image
 
-tree = ET.parse("Diagramas/Diagrama_de_Casos_de_Uso.drawio")
-root = tree.getroot()
+# Let's inspect different quadrants of page8_diagram.png
+im = Image.open('media/page8_diagram.png')
+w, h = im.size
+print('DCU size:', w, h)
 
-for cid in ["oval_15", "txt_15", "num_15", "oval_14", "txt_14", "num_14"]:
-    c = root.find(f".//mxCell[@id='{cid}']")
-    if c is not None:
-        geo = c.find("mxGeometry")
-        val = c.get("value", "")
-        if geo is not None:
-            print(f"{cid}: val='{val}' x={geo.get('x')} y={geo.get('y')} w={geo.get('width')} h={geo.get('height')}")
-        else:
-            print(f"{cid}: val='{val}'")
-
-# check edges connected to oval_15
-for e in root.iter("mxCell"):
-    if e.get("edge") == "1" and (e.get("source") in ["oval_15", "oval_14"] or e.get("target") in ["oval_15", "oval_14"]):
-        print(f"Edge {e.get('id')}: {e.get('source')} -> {e.get('target')} style={e.get('style')}")
-
+# Let's save 4 slices vertically to find CU 15
+for i in range(4):
+    y0 = int(h * i / 4)
+    y1 = int(h * (i + 1) / 4)
+    slice_img = im.crop((0, y0, w, y1))
+    slice_img.save(f'scripts_y_notas/dcu_slice_{i}.png')
+print("DCU slices saved.")
