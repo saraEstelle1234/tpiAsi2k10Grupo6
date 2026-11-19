@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+from PIL import Image
+
+def simulate_dcd(target_x_pct, target_y_pct, zoom, out_path):
+    im = Image.open('scripts_y_notas/extracted_dcd_full.png').convert('RGB')
+    iw, ih = im.size
+    viewport_w = 1060
+    viewport_h = 670
+    
+    tx = iw * (target_x_pct / 100.0)
+    ty = ih * (target_y_pct / 100.0)
+    
+    vis_h = ih / zoom
+    vis_w = vis_h * (viewport_w / viewport_h)
+    
+    x0 = int(tx - vis_w / 2)
+    y0 = int(ty - vis_h / 2)
+    x1 = int(tx + vis_w / 2)
+    y1 = int(ty + vis_h / 2)
+    
+    crop = Image.new('RGB', (int(vis_w), int(vis_h)), (18, 18, 18))
+    src_x0 = max(0, x0)
+    src_y0 = max(0, y0)
+    src_x1 = min(iw, x1)
+    src_y1 = min(ih, y1)
+    
+    if src_x1 > src_x0 and src_y1 > src_y0:
+        patch = im.crop((src_x0, src_y0, src_x1, src_y1))
+        dest_x = src_x0 - x0
+        dest_y = src_y0 - y0
+        crop.paste(patch, (dest_x, dest_y))
+        
+    crop = crop.resize((viewport_w, viewport_h), Image.Resampling.LANCZOS)
+    crop.save(out_path)
+    print(f"Simulated {out_path} centered at ({target_x_pct}%, {target_y_pct}%) zoom={zoom}")
+
+# Sector 1: Incidente & Sala (tx=29%, ty=52%, zoom=2.1)
+simulate_dcd(29, 52, 2.1, 'scripts_y_notas/sim_dcd_incidente_sala.png')
+
+# Sector 2: Obra & Material (tx=63%, ty=42%, zoom=2.0)
+simulate_dcd(63, 42, 2.0, 'scripts_y_notas/sim_dcd_obra_material.png')
+
+# Sector 3: TipoIncidente & Sugerencias (tx=18%, ty=37%, zoom=2.4)
+simulate_dcd(18, 37, 2.4, 'scripts_y_notas/sim_dcd_tipo_incidente.png')
+
+# Sector 4: Multiplicidades Corregidas (tx=19%, ty=53%, zoom=2.05)
+simulate_dcd(19, 53, 2.05, 'scripts_y_notas/sim_dcd_multiplicidades.png')
