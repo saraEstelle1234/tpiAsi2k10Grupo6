@@ -1,103 +1,116 @@
-# Guion de Defensa Oral — TPI ASI 2K10 (Grupo 6)
-**Organización:** Museo de Historia Natural  
-**Tema:** Sistema de Gestión y Vigilancia Museológica (Gestión de Incidentes y Restauración de Obras)  
-**Archivo de la Presentación:** [`presentacion.html`](file:///c:/Users/thoma/Desktop/Facu%202026/ASI%202K10/TPI%20ASI/presentacion.html)  
-**Total de Slides:** 14 slides interactivas en estética editorial azul marino oscuro (`#0A1628`).
+# 🎙️ Guion Oficial de Defensa Oral — TPI ASI 2K10 (Grupo 6)
+
+> **Cátedra:** Análisis de Sistemas de Información (ASI) • Curso 2K10 • UTN FRC  
+> **Caso de Estudio:** Museo de Historia Natural  
+> **Modalidad:** Defensa grupal oral • Duración máxima: **15 minutos** (1:30 a 1:45 min por expositor)  
+> **Expositores:** 8 integrantes activos (Agustín Cufre asume apertura y cierre/trazabilidad).
 
 ---
 
-## 👥 Distribución Oficial de los 9 Integrantes
+## 👥 Tabla Oficial de Exposición por Integrante
 
-| N° | Integrante | Legajo | Slides Asignadas | Temas de Exposición |
-| :---: | :--- | :---: | :---: | :--- |
-| **1** | **Francisco Abad** | 423269 | **01 y 02** | **Portada del Equipo, Dominio bajo Estudio y Objetivos Organizacionales** |
-| **2** | **Agustín Cufre** | 419166 | **03** | **Mapa de Procesos de Negocio (Cadena de Valor: Estratégicos, Clave y Soporte)** |
-| **3** | **Tomas Marcuzzi** | 403382 | **04** | **Plantilla de Proceso de Soporte (Sección 2.3) y Reglas de Negocio RN-1 y RN-2** |
-| **4** | **Emiliano Jastrzebski** | 402760 | **05 y 06** | **Modelado BPMN Nivel 1 (Descriptivo Macro) y Nivel 2 (Detalle Operativo)** |
-| **5** | **Tobias Molina** | 419749 | **07 y 08** | **Requerimientos Funcionales (15 grupos desplegables) y No Funcionales (RNFs)** |
-| **6** | **Francisco Thomas Rapp (Fran)** | **408990** | **09** | **Diagrama de Casos de Uso (42 CUs, Sectorización por Actor y Concepción General)** |
-| **7** | **Lucas Uriel Moyano** | 410975 | **10 y 11** | **Plantilla Formal de CU-15 (14 Pasos, A1-A3) y Prototipo de Pantalla en Tablet** |
-| **8** | **Juan Sebastián Tarditti (Juan)** | **400212** | **12** | **Diagrama de Clases del Dominio (DCD): Concepción, Lógica Estructural y Clases** |
-| **9** | **Kevin Pereyra** | 418201 | **13 y 14** | **Matriz de Trazabilidad Integral (RF ↔ CU ↔ DCD) y Cierre Final del Equipo** |
-
----
-
-## 🎙️ Guion Verbal Exacto por Integrante
-
-### 1. Francisco Abad (Slide 01 y 02 · Portada, Dominio y Objetivos)
-> *"Buenas tardes profesores y ayudante. Damos inicio a la defensa de nuestro Trabajo Práctico Integrador para el Museo de Historia Natural de la ciudad. Como se describe textualmente en la sección 1.1 de nuestro TPI, la organización tiene como misión institucional exponer obras de artistas locales, nacionales e internacionales, garantizando su custodia y conservación activa mediante un sistema informático especializado.*  
-> *En la diapositiva 2 presentamos el dominio bajo estudio: el museo cuenta con diversas salas de exposición temática y permanente, un depósito central de resguardo patrimonial, personal de vigilancia en sala y articulación con talleres externos de restauración. Se destacan tres objetivos organizacionales: primero, la difusión y acceso público a eventos culturales; segundo, la seguridad y vigilancia continua mediante rondas periódicas de guardia; y tercero, la conservación ágil de las obras mediante la detección temprana y registro inmediato de anomalías."*
+| N° | Orador | Legajo | Diapositiva(s) | Tema Asignado | Tiempo Estimado |
+| :-: | :--- | :-: | :---: | :--- | :-: |
+| **1** | **Agustín Cufre** | 419166 | **Slide 01 y 02** | **Portada, Dominio bajo estudio y Objetivos del sistema** | 1:45 min |
+| **2** | **Kevin Pereyra** | 418201 | **Slide 03** | **Mapa de Procesos de Negocio (Estratégicos, Esenciales, Soporte)** | 1:30 min |
+| **3** | **Tobias Molina** | 419749 | **Slide 04** | **Plantilla de Descripción de Proceso: Gestionar Incidentes** | 1:30 min |
+| **4** | **Tomas Marcuzzi** | 403382 | **Slide 05 y 06** | **Modelado BPMN Nivel Descriptivo y Operativo (4 Carriles)** | 2:00 min |
+| **5** | **Lucas Moyano** | 410975 | **Slide 07 y 08** | **Requerimientos Funcionales (45 RFs) y No Funcionales (2 RNFs)** | 1:45 min |
+| **6** | **Francisco Thomas Rapp** | 408990 | **Slide 09** | **Diagrama de Casos de Uso General (DCU y Actores)** | 1:30 min |
+| **7** | **Francisco Abad** | 423269 | **Slide 10 y 11** | **Plantilla CU-15: Registrar Incidente y Prototipo de Interfaz UI** | 1:45 min |
+| **8** | **Juan Sebastián Tarditti** | 400212 | **Slide 12** | **Diagrama de Clases del Dominio (DCD y Multiplicidades)** | 1:45 min |
+| **9** | **Agustín Cufre** | 419166 | **Slide 13 y 14** | **Matriz de Trazabilidad Integral, Conclusiones y Cierre** | 1:30 min |
 
 ---
 
-### 2. Agustín Cufre (Slide 03 · Mapa de Procesos)
-> *"Para situar el alcance del sistema dentro de la cadena de valor, en la diapositiva 3 exponemos el Mapa de Procesos de la organización, estructurado en tres niveles según la cátedra:*  
-> *- **Estratégico:** 'Gestionar exposiciones artísticas', que planifica las temporadas y convocatorias.*  
-> *- **Clave u Operativos:** 'Gestionar visitas guiadas' y 'Vender entradas', que constituyen la entrega de valor directa y el contacto con los visitantes.*  
-> *- **Soporte o Apoyo:** 'Gestionar ingreso de obras artísticas' y 'Gestionar incidentes y restauración de obras'. Este último es el proceso crítico que hemos seleccionado y modelado a fondo en nuestro TPI, ya que garantiza la integridad física de las colecciones expuestas."*
+## 🎙️ Guion Verbal Exacto por Expositor
 
 ---
 
-### 3. Tomas Marcuzzi (Slide 04 · Plantilla de Proceso de Soporte)
-> *"En la diapositiva 4 construimos la ficha técnica formal del proceso bajo estudio (Sección 2.3 del TPI). Su objetivo es gestionar los incidentes y la restauración de obras mediante las rondas de control realizadas por el personal de guardia, documentando los hechos en el Módulo Web para que los supervisores tomen decisiones informadas.*  
-> *El cliente del proceso es el proceso esencial 'Exponer obras de arte', recibiendo como producto el informe consolidado y las piezas enviadas a reparación.*  
-> *Destacamos especialmente las dos Reglas de Negocio rectoras: la **Regla 1**, de reingreso obligatorio al depósito, que establece que toda obra enviada a restauración —haya podido repararse con éxito o no— debe ingresar indefectiblemente al depósito del museo antes de definir cualquier nuevo destino o su baja; y la **Regla 2**, de registro inmediato de incidente, que obliga al guardia a documentar los detalles del hecho de manera inmediata en el sistema al constatar el daño."*
+### 1. Agustín Cufre (Slide 01 y 02 · Portada, Dominio y Objetivos)
+> *"Buenas tardes profesores. Somos el Grupo 6 del curso 2K10 y hoy presentamos nuestro Trabajo Práctico Integrador: el **Sistema de Gestión y Vigilancia Museológica para el Museo de Historia Natural**.*  
+> *Pasando a la **diapositiva 2**, analizamos el dominio bajo estudio. El museo tiene como misión exponer colecciones de arte y paleontología de artistas locales e internacionales, sustentándose mediante el cobro de entradas generales y el arancel optativo de visitas guiadas.*  
+> *Como pueden apreciar en la **fotografía oficial de las salas de exhibición**, el museo cuenta con objetos animados y piezas de alto valor patrimonial sensibles a la temperatura, humedad e iluminación según su material. Nuestro alcance se centra en dar soporte integral a las rondas de inspección física y al congelamiento inmediato del daño cuando ocurre un incidente, asegurando la preservación del patrimonio."*
 
 ---
 
-### 4. Emiliano Jastrzebski (Slide 05 y 06 · BPMN Nivel Descriptivo y Operativo)
-> *"En la diapositiva 5 presentamos el Modelado BPMN a Nivel 1 Descriptivo. Su concepción se centra en reflejar la coreografía global entre los cuatro carriles formales de responsabilidad: **Guardia del museo**, **Admin de sistema**, **Encargado de supervisión** y **Encargado de restauración**. Muestra la secuencia macro desde que el guardia inicia su ronda de inspección física y detecta una anomalía, el administrador tipifica el incidente y define la respuesta sugerida, hasta que el supervisor evalúa las opciones y el restaurador interviene la obra.*  
-> *Avanzando a la diapositiva 6, pasamos al Nivel 2 Operativo, donde el diagrama se encuentra desplegado a ancho completo para máxima legibilidad. Aquí incorporamos y resolvimos las observaciones clave de la cátedra:*  
-> *1. **Alimentación y Almacenes:** La tarea 'Registrar incidente' se alimenta directamente de los almacenes maestros de **Incidente**, **Salas** y **Obras**, asociando las acciones sugeridas de acuerdo al material de la pieza.*  
-> *2. **Estados Explícitos:** Cada compuerta y cambio de estado declara taxativamente hacia qué estado pasa la entidad: la compuerta bifurca entre 'Sin novedades' e 'Incidente activo', y la obra pasa a 'Inactivo' ante daño y retorna formalmente a 'Activo' tras la restauración.*  
-> *3. **4 Carriles y Restauración Formal:** Separamos estrictamente las responsabilidades: el **Guardia del museo** solo reporta en su tablet móvil durante la ronda; el **Admin de sistema** tipifica el daño y evalúa la última acción sugerida; el **Encargado de supervisión** analiza el informe consolidado y decide la derivación; y en el carril del **Encargado de restauración** incorporamos la actividad explícita **'Restaurar obra'**, vinculada a la Regla de Negocio 1 de reingreso indefectible a depósito."*
+### 2. Kevin Pereyra (Slide 03 · Mapa de Procesos de Negocio)
+> *"Buenas tardes. En la **diapositiva 3** presentamos la vista externa organizacional a través del **Mapa de Procesos**.*  
+> *Clasificamos los procesos en tres niveles:*  
+> *- **Estratégicos:** Planificar la programación de exposiciones, Planificar visitas guiadas, Definir precios de guía y Definir precios de entrada.*  
+> *- **Esencial:** **Exponer obras de arte**, que representa la razón de ser del museo y el cliente directo de nuestro proceso de estudio.*  
+> *- **Soporte:** Gestionar ingreso de obras artísticas, Administrar RRHH y **Gestionar incidentes y restauración de obras**, que es el proceso crítico que hemos analizado a fondo.*  
+> *Queremos resaltar una decisión de diseño metodológica: mantuvimos 'Definir precios de guía' y 'Definir precios de entrada' como procesos separados respetando la literalidad del enunciado; sin embargo, reconocemos que en un modelo optimizado de granularidad pueden unificarse en un único proceso estratégico de 'Definir tarifas y servicios', complementado con la diagramación de horarios de guías."*
 
 ---
 
-### 5. Tobias Molina (Slide 07 y 08 · Requerimientos Funcionales y No Funcionales)
-> *"En la diapositiva 7 especificamos formalmente el catálogo de **Requerimientos Funcionales** (Sección 2.4 del TPI). Para una visualización clara y cómoda, los organizamos en dos columnas independientes con comportamiento de acordeón exclusivo: al desplegar cualquiera de los 15 paquetes globales en negrita del TPI —como administración de obras, materiales, salas, guías, estilos o rondas— se abre únicamente el requerimiento seleccionado, manteniendo la columna contigua ordenada y sin espacios vacíos.*  
-> *Pasando a la diapositiva 8, exponemos los **Requerimientos No Funcionales**. En la Sección 2.4 de nuestro TPI se definen taxativamente dos condiciones técnicas determinantes:*  
-> *- **RNF 1 – Módulo Web de Soporte:** El sistema deberá implementarse bajo una arquitectura web cliente-servidor accesible desde navegadores web modernos sin requerir instalación de software en los puestos de trabajo.*  
-> *- **RNF 2 – Interfaz móvil para rondas:** La aplicación deberá contar con una interfaz responsiva y táctil adaptada para tablets, permitiendo la visualización del plano interactivo de salas y el reporte inmediato durante las rondas de vigilancia."*
+### 3. Tobias Molina (Slide 04 · Plantilla de Proceso de Soporte)
+> *"Continuando en la **diapositiva 4**, formalizamos la **Plantilla de Descripción del Proceso de Soporte: Gestionar incidentes y restauración de obras**.*  
+> *El objetivo del proceso es gestionar los incidentes y la restauración mediante rondas de vigilancia, registrando en el Módulo Web para que los supervisores resuelvan el destino de las piezas. Su cliente es el proceso esencial 'Exponer obras de arte' y su producto es el informe de salas recorridas y las obras derivadas a reparación.*  
+> *En este proceso operan dos **Reglas de Negocio fundamentales**:*  
+> *- **Regla 1 (Reingreso obligatorio a depósito):** Toda obra enviada a restauración, se haya podido reparar o no, debe ingresar obligatoriamente al depósito antes de definir su destino final o baja.*  
+> *- **Regla 2 (Registro inmediato de incidente):** El guardia debe registrar el incidente en caliente durante la ronda, documentando fecha, hora y sala de forma inmediata."*
+
+---
+
+### 4. Tomas Marcuzzi (Slides 05 y 06 · BPMN Nivel Descriptivo y Operativo)
+> *"En las **diapositivas 5 y 6** modelamos la vista interna del proceso con el estándar BPMN.*  
+> *La **diapositiva 5** muestra el nivel macro descriptivo, mientras que en la **diapositiva 6** apreciamos el **BPMN a Nivel Operativo**, estructurado rigurosamente en **4 carriles funcionales**:*  
+> *1. **Guardia del museo:** Inicia el turno, consulta la planificación, marca la sala con 'observación pendiente' y, si hay daño, dispara **Registrar incidente** consumiendo datos de los almacenes **Salas** y **Obras**.*  
+> *2. **Admin de sistema / Encargado Web:** En este carril administrativo se realiza la tipificación del incidente (deterioro provocado, caída accidental o deterioro natural) y el sistema consulta el material de la obra para **generar la respuesta de última acción sugerida**, transicionando la obra al estado explícito **'Inactivo'**.*  
+> *3. **Encargado de Supervisión:** Evalúa el informe de daño y decide si la obra requiere intervención técnica o si puede volver al estado **'Activo'**.*  
+> *4. **Encargado de Restauración:** Si requiere arreglo, el flujo deriva a la actividad explícita **Restaurar obra**, asegurando el posterior reingreso a depósito bajo la Regla de Negocio 1.*  
+> *Todos los cambios de estado están explícitamente rotulados hacia qué estado pasan: 'observación pendiente', 'sin novedades', 'Incidente activo', 'Inactivo' y 'Activo'."*
+
+---
+
+### 5. Lucas Moyano (Slides 07 y 08 · Requerimientos Funcionales y No Funcionales)
+> *"En las **diapositivas 7 y 8** detallamos la especificación de requerimientos del sistema.*  
+> *En la **diapositiva 7** presentamos los **45 Requerimientos Funcionales**, organizados en paquetes cohesivos: administración de obras, materiales, salas, guías, venta de entradas, programación de exposiciones, planificación de rondas y el módulo de incidentes y restauración, donde destaca el **RF-35 (Registrar incidente)**.*  
+> *En la **diapositiva 8** establecemos los **dos Requerimientos No Funcionales** rectores especificados en el TPI:*  
+> *- **RNF 1 – Módulo Web de Soporte:** Arquitectura cliente-servidor accesible desde navegadores web modernos sin instalación en puestos locales, garantizando bajo costo de mantenimiento y despliegue centralizado.*  
+> *- **RNF 2 – Interfaz móvil para rondas:** Interfaz responsiva y táctil para tablets, con plano interactivo de salas y botones de alta visibilidad para que el guardia registre incidentes in situ sin demoras."*
 
 ---
 
 ### 6. Francisco Thomas Rapp (Slide 09 · Diagrama de Casos de Uso)
-> *"En la diapositiva 9 analizamos el **Diagrama de Casos de Uso (DCU)** completo, que modela la frontera del software a través de 42 casos de uso continuos y numerados de forma unívoca.*  
-> *El diagrama se encuentra ampliado en pantalla sin márgenes residuales, y dispone de una barra superior de **sectorización por actor**: al hacer clic en 'Guardia', el visor enfoca automáticamente en CU-14 (revisión de sala) y CU-15 (registro de incidente); al seleccionar 'Supervisor', enfoca la generación de informes y seguimiento; al pulsar 'Ingreso y Obras', navega al ciclo de obras y depósito; y con 'Administrador', enfoca los catálogos y maestros.*  
-> *El cuadro explicativo de la derecha sintetiza cómo se concibió el diagrama: una separación estricta entre la operación física en sala y las decisiones gerenciales, asegurando que el CU-15 funcione como nexo central de integración."*
+> *"En la **diapositiva 9** presentamos el **Diagrama de Casos de Uso General**, que modela el límite del sistema y la interacción con los actores externos.*  
+> *Identificamos **8 actores de negocio**: Responsable de ingreso, Administrador del museo, Responsable de atención al cliente, Administrador web (como actor temporal), Encargado de vigilancia, Encargado de supervisión, Admin de sistema y Usuario genérico para autenticación.*  
+> *En el sector de vigilancia, el Encargado de vigilancia ejecuta el caso de uso base **CU-14 (Registrar revisión de la sala)**. Cuando detecta un daño material, este caso de uso se extiende mediante la relación `<<extend>>` hacia nuestro caso de estudio principal: el **CU-15 (Registrar incidente)**, cumpliendo con la regla de registro inmediato."*
 
 ---
 
-### 7. Lucas Uriel Moyano (Slide 10 y 11 · Plantilla CU-15 y Prototipo UI)
-> *"En la diapositiva 10 presentamos la **Plantilla Formal del Caso de Uso: Registrar Incidente (CU-15)**, estructurada idénticamente a la plantilla oficial de la sección 2.8 del TPI: con actor principal 'Encargado de vigilancia', tipo concreto, su objetivo y precondición de sesión activa y sala seleccionada.*  
-> *Exponemos los 14 pasos secuenciales del Curso Normal —desde el ingreso del código del objeto, la confirmación de la pieza y la tipificación del daño, hasta el guardado con hora del servidor y el paso de la obra a estado 'Inactivo'—. También detallamos los cursos alternativos A1, A2 y A3 ante no confirmaciones o piezas no encontradas.*  
-> *En la diapositiva 11 contrastamos este flujo con nuestro **Prototipo de Interfaz en Tablet**: cada paso del caso de uso se traduce fielmente en un componente visual: selector de sala prefiltrado, selector tipológico con validación instantánea y botón de confirmación de alto contraste diseñado ergonómicamente para su uso durante la ronda."*
+### 7. Francisco Abad (Slides 10 y 11 · Plantilla CU-15 y Prototipo UI)
+> *"En las **diapositivas 10 y 11** profundizamos en el caso de uso central: **CU-15 Registrar Incidente**.*  
+> *En la **diapositiva 10** observamos la plantilla formal. Destacamos especialmente el cumplimiento estricto del **principio de integridad de datos**: en el **Paso 4 del Curso Normal**, no decimos 'mostrar datos' genéricos, sino que el sistema busca por código y muestra taxativamente: **título/nombre de la obra, sala asignada y ubicación física dentro de la sala**.*  
+> *Esto se refleja con absoluta fidelidad en el **Prototipo de Interfaz de la diapositiva 11**: el guardia ingresa el código OBJ-408, el sistema valida la pieza en pantalla, permite seleccionar el tipo de incidente, toma la hora automática de la tablet y muestra el resumen de confirmación que transiciona la obra al estado 'Inactivo'."*
 
 ---
 
 ### 8. Juan Sebastián Tarditti (Slide 12 · Diagrama de Clases del Dominio)
-> *"En la diapositiva 12 presentamos el **Diagrama de Clases del Dominio** correspondiente al caso de uso Registrar Incidente y soporte museológico (Sección 2.10 del TPI). Destacamos especialmente la consistencia de multiplicidades:*  
-> *- **Gestión de Incidentes:** La entidad `Incidente` documenta fecha, hora y descripción, con multiplicidad exacta **1 a 1** hacia `TipoIncidente` y **1** hacia `Obra`.*  
-> *- **Vigilancia y Rondas:** La relación entre `Sala` y `Guardia` se modela mediante la clase asociativa `SalaXGuardia`, con multiplicidad **1 a muchos (1..*)** desde Sala y **1** hacia Guardia para auditar el historial de revisiones.*  
-> *- **Patrimonio y Estados:** `Obra` encapsula autor, estilo, dimensiones y material, actualizando su puntero hacia el objeto de estado `'Inactivo'` ante un reporte de daño.*  
-> *- **Regla de Negocio 1:** Toda pieza derivada a restauración ingresa obligatoriamente a depósito antes de definir su destino final.*  
-> *El diagrama está maximizado en alta definición y con zoom interactivo para auditar cada atributo y método."*
+> *"En la **diapositiva 12** exponemos el **Diagrama de Clases del Dominio (DCD)** correspondiente al caso de uso Registrar Incidente y soporte del museo.*  
+> *Queremos resaltar la consistencia estructural y la corrección de las **multiplicidades formales solicitadas por la cátedra**:*  
+> *- **Gestión de Incidentes:** La clase `Incidente` registra fecha, hora y descripción, con multiplicidad exacta **1 a 1 hacia `TipoIncidente`**, y asociación **1 a 1 con `Obra`**.*  
+> *- **Vigilancia y Rondas:** La relación entre `Sala` y `Guardia` se modela a través de la clase asociativa **`SalaXGuardia`**, con multiplicidad **1 a muchos (1..*) desde Sala** y **1 hacia Guardia**, auditando fecha y hora de cada inspección.*  
+> *- **Patrimonio y Estados:** La clase `Obra` encapsula autor, estilo, dimensiones y material, actualizando su relación con la clase `Estado` al valor 'Inactivo' ante el registro del daño.*  
+> *El diagrama se encuentra en ultra alta resolución y cuenta con zoom interactivo para auditar cada atributo y método."*
 
 ---
 
-### 9. Kevin Pereyra (Slide 13 y 14 · Matriz de Trazabilidad y Cierre)
-> *"En la diapositiva 13 presentamos la **Trazabilidad de Requerimientos**. El objetivo es mostrar de manera directa cómo cada requerimiento funcional solicitado en el TPI se materializa en uno o más casos de uso del DCU —según el alcance y los flujos operativos— y cómo ese caso de uso impacta en las clases del modelo de dominio.*  
-> *En la consola podemos filtrar por módulo y seleccionar cualquier requerimiento. Por ejemplo, al elegir el **RF 35 (Registrar incidente)**, vemos su vinculación directa con el **CU-15 (Registrar incidente)** y su persistencia en las clases `Incidente`, `TipoIncidente`, `Obra` y `Estado`.*  
-> *Y finalmente, en la diapositiva 14 cerramos nuestra presentación formal: agradecemos a los profesores y al ayudante de cátedra por las devoluciones y el cursado en ASI 2K10, y quedamos a total disposición de la mesa evaluadora para responder sus preguntas."*
+### 9. Agustín Cufre (Slides 13 y 14 · Trazabilidad Integral y Cierre)
+> *"Para concluir nuestra defensa, en la **diapositiva 13** presentamos la **Matriz de Trazabilidad Integral**.*  
+> *Aquí demostramos cómo cada requerimiento se concreta técnicamente en una tubería de 3 niveles:*  
+> *Por ejemplo, el **RF-35 (Registrar incidente)** se materializa en la interacción del **CU-15**, y se persiste en las entidades **`Incidente`**, **`TipoIncidente`** y **`Obra`** del modelo de clases, cambiando el puntero a estado 'Inactivo'. Pueden explorar en la consola interactiva cómo cada uno de los 45 requerimientos tiene su correlato en casos de uso y clases.*  
+> *Pasando a la **diapositiva 14**, cerramos destacando que este sistema no solo cumple con las consignas académicas de la cátedra, sino que aporta una solución realista para preservar el patrimonio cultural mediante automatización y trazabilidad estricta.*  
+> *Agradecemos a los profesores Cattaneo, Turanzas, Sánchez y Padilla por sus devoluciones formativas. Quedamos a su entera disposición para responder preguntas. ¡Muchas gracias!"*
 
 ---
 
-## 🛠️ Atajos de Teclado y Controles de la Presentación
-- `→` o `Espacio`: Avanzar a la siguiente diapositiva.
-- `←`: Retroceder a la diapositiva anterior.
-- `O` o Botón de Rejilla: Abrir la **Vista General de las 14 Slides** para salto directo.
-- `F`: Alternar modo **Pantalla Completa**.
-- `A`: Revelar instantáneamente todos los bloques de contenido de la diapositiva actual.
-- `Click en Diagrama` o `Ampliar diagrama`: Abrir el visor en alta resolución con **Zoom por Rueda del Mouse**, **Arrastre Panorámico** y **Presets de Enfoque**.
-- `?`: Abrir modal de ayuda y atajos rápidos.
+## ⌨️ Atajos de Teclado y Controles de la Presentación Web
+
+* `→` / `Espacio` / `Clic`: Avanzar a la siguiente diapositiva.
+* `←`: Retroceder a la diapositiva anterior.
+* `G`: Abrir el visualizador general de los 14 slides (Grid Overview).
+* `F`: Alternar modo Pantalla Completa.
+* `Clic en diagrama` o `Botón Ampliar`: Abrir visor de zoom en alta resolución con controles `+`, `-`, `Ajustar` y arrastre libre con mouse/touch.
+* `Swipe táctil`: Deslizar horizontalmente en tablets y smartphones para navegar fluidamente.
