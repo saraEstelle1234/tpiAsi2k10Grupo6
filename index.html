@@ -4717,7 +4717,7 @@ main {
       if (!container) return;
       container.innerHTML = '';
 
-      const query = document.getElementById('trace-search-input')?.value.toLowerCase() || '';
+      const query = (document.getElementById('trace-search-input')?.value || '').toLowerCase();
 
       const filtered = fullTraceData.filter(item => {
         const matchesCat = (currentTraceFilter === 'ALL' || item.cat === currentTraceFilter);
@@ -4824,7 +4824,8 @@ main {
     }
 
     function filterRequirements() {
-      const query = document.getElementById('rf-search-input').value.toLowerCase().trim();
+      const rfInput = document.getElementById('rf-search-input');
+      const query = (rfInput ? rfInput.value : '').toLowerCase().trim();
       const groups = document.querySelectorAll('.rf-group');
       if (!query) {
         groups.forEach(g => {
@@ -5150,6 +5151,7 @@ main {
             prevSlideAction();
           }
         }
+      }
     }, { passive: true });
   </script>
 
