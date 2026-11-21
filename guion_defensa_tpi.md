@@ -49,7 +49,8 @@
 > *El objetivo del proceso es gestionar los incidentes y la restauración mediante rondas de vigilancia, registrando en el Módulo Web para que los supervisores resuelvan el destino de las piezas. Su cliente es el proceso esencial 'Exponer obras de arte' y su producto es el informe de salas recorridas y las obras derivadas a reparación.*  
 > *En este proceso operan dos **Reglas de Negocio fundamentales**:*  
 > *- **Regla 1 (Reingreso obligatorio a depósito):** Toda obra enviada a restauración, se haya podido reparar o no, debe ingresar obligatoriamente al depósito antes de definir su destino final o baja.*  
-> *- **Regla 2 (Registro inmediato de incidente):** El guardia debe registrar el incidente en caliente durante la ronda, documentando fecha, hora y sala de forma inmediata."*
+> *- **Regla 2 (Registro inmediato de incidente):** El guardia debe registrar el incidente en caliente durante la ronda, documentando fecha, hora y sala de forma inmediata.*  
+> *Asimismo, formalizamos el **Listado de actividades del proceso**: 1) Consultar planificación de rondas de vigilancia, 2) Registrar sala con 'observación pendiente', 3) Compuerta Incidente (Camino del "No"), 4) Registrar estado de sala 'sin novedades', 5) Generar informe con salas recorridas y 6) Fin del proceso, junto con las restricciones y excepciones asociadas."*
 
 ---
 
