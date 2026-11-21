@@ -84,7 +84,7 @@
 ### 7. Francisco Abad (Slides 10 y 11 · Plantilla CU-15 y Prototipo UI)
 > *"En las **diapositivas 10 y 11** profundizamos en el caso de uso central: **CU-15 Registrar Incidente**.*  
 > *En la **diapositiva 10** observamos la plantilla formal. Destacamos especialmente el cumplimiento estricto del **principio de integridad de datos**: en el **Paso 4 del Curso Normal**, no decimos 'mostrar datos' genéricos, sino que el sistema busca por código y muestra taxativamente: **título/nombre de la obra, sala asignada y ubicación física dentro de la sala**.*  
-> *Esto se refleja con absoluta fidelidad en el **Prototipo de Interfaz de la diapositiva 11**: el guardia ingresa el código OBJ-408, el sistema valida la pieza en pantalla, permite seleccionar el tipo de incidente, toma la hora automática de la tablet y muestra el resumen de confirmación que transiciona la obra al estado 'Inactivo'."*
+> *Esto se refleja con absoluta fidelidad en el **Prototipo de Interfaz de la diapositiva 11**. A la izquierda presentamos la pantalla táctil del CU-15 Registrar Incidente y a la derecha la vista del **Recorrido Nocturno en Mapa**: es precisamente a partir de esta pantalla de navegación donde el guardia selecciona la sala al iniciar su inspección, deduciéndose y justificándose la precondición formal de **'Sala seleccionada'** especificada en la plantilla. Al pulsar 'Reportar incidente', el sistema abre la interfaz con la sala ya fijada en el contexto, garantizando la integridad de la auditoría."*
 
 ---
 
