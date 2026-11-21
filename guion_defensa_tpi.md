@@ -67,7 +67,7 @@
 
 ### 5. Lucas Moyano (Slides 07 y 08 · Requerimientos Funcionales y No Funcionales)
 > *"En las **diapositivas 7 y 8** detallamos la especificación de requerimientos del sistema.*  
-> *En la **diapositiva 7** presentamos los **45 Requerimientos Funcionales**, organizados en paquetes cohesivos: administración de obras, materiales, salas, guías, venta de entradas, programación de exposiciones, planificación de rondas y el módulo de incidentes y restauración, donde destaca el **RF-35 (Registrar incidente)**.*  
+> *En la **diapositiva 7** presentamos los **45 Requerimientos Funcionales**, estructurados en dos grandes bloques: por un lado, los **Requerimientos Esenciales del Negocio** (19 RFs transaccionales que gestionan incidentes, rondas, restauración, informes y venta de entradas); y por el otro, los **Requerimientos de Soporte y ABMs** (26 RFs de administración de obras, salas, materiales y parámetros maestros). Destacamos especialmente el **RF-35 (Registrar incidente)**.*  
 > *En la **diapositiva 8** establecemos los **dos Requerimientos No Funcionales** rectores especificados en el TPI:*  
 > *- **RNF 1 – Módulo Web de Soporte:** Arquitectura cliente-servidor accesible desde navegadores web modernos sin instalación en puestos locales, garantizando bajo costo de mantenimiento y despliegue centralizado.*  
 > *- **RNF 2 – Interfaz móvil para rondas:** Interfaz responsiva y táctil para tablets, con plano interactivo de salas y botones de alta visibilidad para que el guardia registre incidentes in situ sin demoras."*
